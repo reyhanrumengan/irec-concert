@@ -1,0 +1,41 @@
+.containerWidth {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90vw;
+
+  font-family: "Carlito", sans-serif;
+  color: #fffeff;
+  line-height: 1.7rem;
+  margin: 20px 0;
+}
+
+.programContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.program {
+  max-width: 70%;
+}
+
+.pageTitle {
+  font-size: 46px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.pieceTitle {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 50px 0 25px 0;
+  color: #f96401;
+}
+
+/* .artistDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 16px;
+  font-weight: 700;
+} */
