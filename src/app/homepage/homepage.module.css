@@ -1,0 +1,53 @@
+.containerWidth {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90vw;
+
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.rsvp {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  /* transform: translateX(-50%); */
+  /* transform: translateX(-50%) translateY(30px); */
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  /* opacity: 0; */
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.buttonLabel {
+  font-size: 22px;
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+}
+
+.poster {
+  max-width: 760px;
+}
+
+@media (max-width: 1025px) {
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(30px); /* Start 30px below */
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0); /* End at the original position */
+  }
+}
