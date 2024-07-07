@@ -28,14 +28,17 @@
 .pieceTitle {
   font-size: 30px;
   font-weight: 700;
-  margin: 50px 0 25px 0;
+  margin: 40px 0 15px 0;
   color: #f96401;
 }
 
-/* .artistDescription {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
+.composer {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 10px 0 5px 0;
+}
+
+.description {
   font-size: 16px;
   font-weight: 700;
-} */
+}
