@@ -28,6 +28,7 @@ export default function Homepage() {
           alt="Concert Poster"
           className={styles.poster}
           layout="responsive"
+          priority
         />
       </div>
     </div>
