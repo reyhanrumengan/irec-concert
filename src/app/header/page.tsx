@@ -7,8 +7,8 @@ export default function Header() {
     <div className={styles.containerWidth}>
       <div className={styles.navigation}>
         <Image
-          width={72}
-          height={72}
+          width={60}
+          height={60}
           src="/logo.svg"
           alt="Logo"
           className={styles.logo}

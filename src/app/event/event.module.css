@@ -5,7 +5,7 @@
 
   font-family: "Carlito", sans-serif;
   color: #fffeff;
-  line-height: 2rem;
+  line-height: 1.7rem;
   margin: 20px 0;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .pageTitle {
-  font-size: 50px;
+  font-size: 46px;
   font-weight: 700;
   margin: 20px 0;
 }
@@ -25,6 +25,7 @@
   font-size: 36px;
   font-weight: 700;
   margin: 35px 0 35px 0;
+  line-height: 2rem;
 }
 
 .textSmall {
