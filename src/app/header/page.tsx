@@ -24,7 +24,9 @@ export default function Header() {
         <Link className={styles.navigationItem} href="/artist">
           Artist
         </Link>
-        <div className={styles.navigationItem}>Program</div>
+        <Link className={styles.navigationItem} href="/program">
+          Program
+        </Link>
       </div>
     </div>
   );
