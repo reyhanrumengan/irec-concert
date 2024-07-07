@@ -165,12 +165,12 @@ export default function Artist() {
             studying her instrument since 2008. She has participated in numerous
             master classes and has received prestigious awards, including first
             place at the 2014 violin competition in Semarang. She was the
-            soloist in the "Simfoni Pemuda" concert in 2016 at the Aula Simfonia
-            Jakarta and gave solo concerts in 2015 and 2023. Tamariska is also
-            active in various musical ensembles, including orchestras and
-            chamber music groups in different formations such as quartets,
-            trios, duos, and quintets. She is currently continuing her studies
-            at the University of Music, Drama, and Media Hanover (HMTM
+            soloist in the &rdquo;Simfoni Pemuda&rdquo; concert in 2016 at the
+            Aula Simfonia Jakarta and gave solo concerts in 2015 and 2023.
+            Tamariska is also active in various musical ensembles, including
+            orchestras and chamber music groups in different formations such as
+            quartets, trios, duos, and quintets. She is currently continuing her
+            studies at the University of Music, Drama, and Media Hanover (HMTM
             Hannover).
             <Image
               width={1080}

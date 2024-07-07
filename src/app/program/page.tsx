@@ -15,8 +15,8 @@ export default function Program() {
             <p>Clara Schumann (1853)</p>
             <p>
               A set of three lyrical and expressive pieces that showcase Clara
-              Schumann's emotional depth and technical skill, blending Romantic
-              sensibilities with her unique musical voice.
+              Schumann&rsquo;s emotional depth and technical skill, blending
+              Romantic sensibilities with her unique musical voice.
             </p>
           </div>
 
@@ -26,9 +26,10 @@ export default function Program() {
             </p>
             <p>Jean-Philippe Rameau (1741)</p>
             <p>
-              A vibrant and intricate work that reflects Rameau's innovative
-              harmonic language and the elegance of the French Baroque style,
-              designed for harpsichord accompanied by violin and cello.
+              A vibrant and intricate work that reflects Rameau&rsquo;s
+              innovative harmonic language and the elegance of the French
+              Baroque style, designed for harpsichord accompanied by violin and
+              cello.
             </p>
           </div>
 
@@ -37,8 +38,8 @@ export default function Program() {
             <p>Jean-Philippe Rameau (Early 18th Century)</p>
             <p>
               A collection of ornate and expressive harpsichord pieces,
-              highlighting Rameau's mastery of keyboard composition and the
-              intricate ornamentation typical of the Baroque period.
+              highlighting Rameau&rsquo;s mastery of keyboard composition and
+              the intricate ornamentation typical of the Baroque period.
             </p>
           </div>
 
