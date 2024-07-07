@@ -1,0 +1,26 @@
+.containerWidth {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90vw;
+
+  font-family: "Carlito", sans-serif;
+  color: #fffeff;
+  line-height: 2rem;
+  margin: 20px 0;
+}
+
+.artistContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artist {
+  max-width: 75%;
+}
+
+.pageTitle {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 20px 0;
+}
