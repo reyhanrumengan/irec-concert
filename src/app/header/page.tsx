@@ -21,7 +21,9 @@ export default function Header() {
         <Link className={styles.navigationItem} href="/event">
           Event
         </Link>
-        <div className={styles.navigationItem}>Artist</div>
+        <Link className={styles.navigationItem} href="/artist">
+          Artist
+        </Link>
         <div className={styles.navigationItem}>Program</div>
       </div>
     </div>
