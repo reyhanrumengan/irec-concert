@@ -38,9 +38,6 @@
   max-width: 760px;
 }
 
-@media (max-width: 1025px) {
-}
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -49,5 +46,28 @@
   to {
     opacity: 1;
     transform: translateX(-50%) translateY(0); /* End at the original position */
+  }
+}
+
+@media (max-width: 850px) {
+  .containerWidth {
+    max-width: 1025px;
+
+    margin: 10px 0;
+  }
+
+  .imageContainer {
+    position: relative;
+  }
+
+  .rsvp {
+    position: absolute;
+    top: 7.5%;
+  }
+
+  .buttonLabel {
+    font-size: 18px;
+    font-family: "Carlito", sans-serif;
+    font-weight: 700;
   }
 }

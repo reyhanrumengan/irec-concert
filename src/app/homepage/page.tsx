@@ -1,9 +1,15 @@
+"use client";
+
 import Image from "next/image";
 import styles from "./homepage.module.css";
 import Link from "next/link";
 import { Button } from "@mantine/core";
+import { useMediaQuery } from "@mantine/hooks";
 
 export default function Homepage() {
+  const isMobile = useMediaQuery("(max-width: 850px)");
+
+  console.log("isMobile", isMobile);
   return (
     <div className={styles.containerWidth}>
       <div className={styles.imageContainer}>
@@ -13,7 +19,8 @@ export default function Homepage() {
             variant="filled"
             color="rgba(249, 100, 1, 1)"
             radius="xl"
-            size="xl"
+            size={isMobile ? "xs" : "xl"}
+            // size="xl"
             classNames={{
               label: styles.buttonLabel,
             }}
