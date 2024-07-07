@@ -51,8 +51,8 @@
 
 @media (max-width: 850px) {
   .containerWidth {
-    max-width: 1025px;
-
+    max-width: 850px;
+    min-height: 100vw;
     margin: 10px 0;
   }
 
