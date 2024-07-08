@@ -1,17 +1,19 @@
 import Image from "next/image";
 import styles from "./header.module.css";
 import Link from "next/link";
+import MenuBurger from "../menuBurger/page";
 
 export default function Header() {
   return (
     <div className={styles.containerWidth}>
       <div className={styles.navigation}>
         <Image
-          width={60}
-          height={60}
+          width={1080}
+          height={720}
           src="/logo.svg"
           alt="Logo"
           className={styles.logo}
+          layout="responsive"
         />
         <div style={{ flex: "1 1 0px" }}></div>
 
@@ -27,6 +29,8 @@ export default function Header() {
         <Link className={styles.navigationItem} href="/program">
           Program
         </Link>
+
+        <MenuBurger />
       </div>
     </div>
   );

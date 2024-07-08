@@ -1,0 +1,109 @@
+.menuBurger {
+  display: none;
+}
+
+/* Mobile & Smaller screen */
+@media screen and (max-width: 850px) {
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.7
+    ); /* Semi-transparent black background */
+    z-index: 999; /* Place it above other content */
+  }
+
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    height: fit-content;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #040a0a;
+    border: none;
+    padding: 0;
+    padding-bottom: 70px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .dropdownContainer {
+    width: 100vw;
+    max-width: 450px;
+    left: 0;
+  }
+
+  .rsvp {
+    /* margin: 7px 20px; */
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background: none;
+    border: none;
+  }
+
+  .buttonLabel {
+    font-size: 16px;
+    font-family: "Carlito", sans-serif;
+    /* font-weight: 700; */
+
+    letter-spacing: 0.18em;
+    line-height: 20px;
+  }
+
+  .item {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .burger,
+  .burger::before,
+  .burger::after {
+    background-color: #fffeff;
+  }
+
+  /* .button {
+    border: 2px solid var(--color-mediumblue);
+    box-sizing: border-box;
+    font-size: 16px;
+    letter-spacing: 0.18em;
+    line-height: 20px;
+    font-family: "Carlito", sans-serif;
+    color: var(--color-mediumblue);
+    padding: 7px 20px;
+    font-weight: 600;
+    text-decoration: none;
+  } */
+
+  .menuText {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0.18em;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: "Carlito", sans-serif;
+    color: #fffeff;
+    text-align: left;
+    margin: 0;
+    text-decoration: none;
+    width: 100%;
+    padding: 12px 40px;
+    font-weight: 700;
+    /* margin: 12px 0; */
+  }
+
+  /* .menuText:hover {
+    color: #1b03a3;
+  } */
+
+  .activeMenu {
+    font-weight: bold;
+  }
+}

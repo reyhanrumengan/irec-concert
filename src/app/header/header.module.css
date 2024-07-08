@@ -10,7 +10,9 @@
 }
 
 .logo {
-  margin: 16px 20px;
+  margin: 20px 20px;
+  width: 100%;
+  max-width: 40px;
 }
 
 .navigationItem {
@@ -23,4 +25,15 @@
 
 .navigationItem:hover {
   color: #f0f0f0;
+}
+
+@media screen and (max-width: 850px) {
+  .logo {
+    margin: 20px 0;
+    max-width: 30px;
+  }
+
+  .navigationItem {
+    display: none;
+  }
 }
