@@ -19,8 +19,8 @@ export default function Homepage() {
             variant="filled"
             color="rgba(249, 100, 1, 1)"
             radius="xl"
-            size={isMobile ? "xs" : "xl"}
-            // size="xl"
+            // size={isMobile ? "xs" : "xl"}
+            size="md"
             classNames={{
               label: styles.buttonLabel,
             }}
