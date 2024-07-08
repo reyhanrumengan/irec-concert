@@ -52,8 +52,7 @@
 @media screen and (max-width: 850px) {
   .containerWidth {
     max-width: 850px;
-    height: 100vw;
-    margin: 10px 0;
+    margin: auto 0;
   }
 
   .rsvp {
