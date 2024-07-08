@@ -49,3 +49,26 @@
 .leitung {
   margin-top: 20px;
 }
+/* 
+@media (max-width: 850px) {
+  .containerWidth {
+    max-width: 850px;
+
+    margin: 10px 0;
+  }
+
+  .imageContainer {
+    position: relative;
+  }
+
+  .rsvp {
+    position: absolute;
+    top: 7.5%;
+  }
+
+  .buttonLabel {
+    font-size: 18px;
+    font-family: "Carlito", sans-serif;
+    font-weight: 700;
+  }
+} */
