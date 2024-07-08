@@ -100,7 +100,7 @@ export default function MenuBurger() {
                   href={route.path}
                   className={`${styles.menuText} ${isActive(route.path)}`}
                   style={{
-                    paddingTop: route.path === "/" ? "20px" : undefined,
+                    paddingTop: route.path === "/" ? "0" : undefined,
                     paddingBottom: route.path === "/program" ? "0" : undefined,
                   }}
                 >
