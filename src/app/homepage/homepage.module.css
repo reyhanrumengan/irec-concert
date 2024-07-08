@@ -52,7 +52,7 @@
 @media screen and (max-width: 850px) {
   .containerWidth {
     max-width: 850px;
-    margin: 50px 0 0 0;
+    margin: 50px 0 0 0; /* need to check on mobile there is excess space at the bottom when scrolling down*/
   }
 
   .rsvp {
