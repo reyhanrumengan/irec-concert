@@ -41,18 +41,18 @@ export default function Event() {
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
           <div className={styles.textContainer}>
-            <p className={styles.textMedium}>IREC Europe Chor</p>
-            <p className={styles.textMedium}>Calvin Abdiel Tambunan, Klavier</p>
-            <p className={styles.textMedium}>Tamariska Kristianto, Violine</p>
-            <p className={styles.textMedium}>Hannah Jonina Ivy, Violine</p>
+            <p className={styles.textSmall}>IREC Europe Chor</p>
+            <p className={styles.textSmall}>Calvin Abdiel Tambunan, Klavier</p>
+            <p className={styles.textSmall}>Tamariska Kristianto, Violine</p>
+            <p className={styles.textSmall}>Hannah Jonina Ivy, Violine</p>
             <div className={styles.leitung}>
               <p
-                className={styles.textMedium}
+                className={styles.textSmall}
                 style={{ fontStyle: "italic", fontWeight: "400" }}
               >
                 Leitung:
               </p>
-              <p className={styles.textMedium}>Billy Kristanto</p>
+              <p className={styles.textSmall}>Billy Kristanto</p>
             </div>
           </div>
           <div style={{ color: "#F96401" }}>

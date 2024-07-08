@@ -24,12 +24,13 @@
 .concertTitle {
   font-size: 36px;
   font-weight: 700;
-  margin: 35px 0 35px 0;
+  margin: 35px 0;
   line-height: 2rem;
 }
 
 .textSmall {
   font-size: 18px;
+  font-weight: 700;
 }
 
 .textMedium {
@@ -49,26 +50,44 @@
 .leitung {
   margin-top: 20px;
 }
-/* 
+
 @media screen and (max-width: 850px) {
   .containerWidth {
     max-width: 850px;
-
     margin: 10px 0;
   }
 
-  .imageContainer {
-    position: relative;
+  .information {
+    align-items: unset;
   }
 
-  .rsvp {
-    position: absolute;
-    top: 7.5%;
+  .pageTitle {
+    font-size: 40px;
+    margin: 10px 0;
   }
 
-  .buttonLabel {
+  .concertTitle {
+    font-size: 32px;
+    margin: 25px 0;
+  }
+
+  .textSmall {
+    font-size: 16px;
+  }
+
+  .textMedium {
     font-size: 18px;
-    font-family: "Carlito", sans-serif;
-    font-weight: 700;
   }
-} */
+
+  .textBig {
+    font-size: 23px;
+  }
+
+  .textContainer {
+    margin: 3px 0;
+  }
+
+  .leitung {
+    margin-top: 15px;
+  }
+}
