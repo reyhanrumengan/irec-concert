@@ -18,9 +18,9 @@ export default function MenuBurger() {
 
   const routes: Route[] = [
     { path: "/", label: "Home" },
-    { path: "/event", label: "Event" },
-    { path: "/artist", label: "Artist" },
+    { path: "/musicians", label: "Musicians" },
     { path: "/program", label: "Program" },
+    { path: "/about", label: "About" },
   ];
 
   const menuRef = useClickOutside(() => {
@@ -101,7 +101,7 @@ export default function MenuBurger() {
                   className={`${styles.menuText} ${isActive(route.path)}`}
                   style={{
                     paddingTop: route.path === "/" ? "0" : undefined,
-                    paddingBottom: route.path === "/program" ? "0" : undefined,
+                    paddingBottom: route.path === "/about" ? "0" : undefined,
                   }}
                 >
                   {route.label}

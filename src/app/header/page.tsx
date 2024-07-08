@@ -22,14 +22,14 @@ export default function Header() {
         <Link className={styles.navigationItem} href="/">
           Home
         </Link>
-        <Link className={styles.navigationItem} href="/event">
-          Event
-        </Link>
-        <Link className={styles.navigationItem} href="/artist">
-          Artist
+        <Link className={styles.navigationItem} href="/musicians">
+          Musicians
         </Link>
         <Link className={styles.navigationItem} href="/program">
           Program
+        </Link>
+        <Link className={styles.navigationItem} href="/about">
+          About
         </Link>
 
         <MenuBurger />

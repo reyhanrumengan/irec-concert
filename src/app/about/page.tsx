@@ -1,7 +1,7 @@
-import styles from "./event.module.css";
+import styles from "./about.module.css";
 import Image from "next/image";
 
-export default function Event() {
+export default function About() {
   return (
     <div className={styles.containerWidth}>
       <div className={styles.information}>

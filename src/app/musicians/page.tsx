@@ -1,7 +1,7 @@
-import styles from "./artist.module.css";
+import styles from "./musicians.module.css";
 import Image from "next/image";
 
-export default function Artist() {
+export default function Musicians() {
   return (
     <div className={styles.containerWidth}>
       <div className={styles.artistContainer}>
