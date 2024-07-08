@@ -106,10 +106,10 @@ export default function Musicians() {
               in Switzerland in 2018 and the 1stprize in the “Ananda Sukarlan
               Award International Piano Competition” in Jakarta in 2020. As the
               winner of the 2021 “SCM Piano Concerto Competition”, Calvin
-              performed Prokofiev’s Piano Concerto No. 3 in May 2022 with the
-              Sydney Conservatorium Symphony Orchestra. In the same year, he was
-              the recipient of the “Frank Albert Prize for Music” at the Sydney
-              Conservatorium.
+              performed Prokofiev&rsquo;s Piano Concerto No. 3 in May 2022 with
+              the Sydney Conservatorium Symphony Orchestra. In the same year, he
+              was the recipient of the “Frank Albert Prize for Music” at the
+              Sydney Conservatorium.
             </div>
             <div>
               Calvin made his orchestral debut in 2017 with the St Petersburg
