@@ -42,7 +42,7 @@ export default function Footer() {
                   height={22.5}
                   className={styles.youtubeIcon}
                   alt="Youtube"
-                  src="/logo.svg"
+                  src="/youtube.svg"
                   style={{
                     maxWidth: "100%",
                     height: "auto",
