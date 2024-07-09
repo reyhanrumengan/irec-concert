@@ -31,14 +31,14 @@ const Form = () => {
     e.preventDefault();
 
     const formUrl =
-      "https://docs.google.com/forms/d/e/1FAIpQLSdac20gOdAuHErkH6Waj2vS2SCjK0ubcS-JMttCSbQ48h442g/formResponse";
+      "https://docs.google.com/forms/d/e/1FAIpQLScDUyZ-Qp4Z_Rs_pPe1UwbTzGDDFSWaUPHH_ijVdBiBdcyYkA/formResponse";
     const formBody = new URLSearchParams({
-      "entry.279040597": formData.email,
-      "entry.1140108557": formData.fullName,
-      "entry.460987298": formData.numberOfPeople,
+      "entry.1780199336": formData.email,
+      "entry.1378719052": formData.fullName,
+      "entry.1634956136": formData.numberOfPeople,
     });
 
-    https: try {
+    try {
       await fetch(formUrl, {
         method: "POST",
         mode: "no-cors",
