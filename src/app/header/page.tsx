@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import styles from "./header.module.css";
 import Link from "next/link";
 import MenuBurger from "../menuBurger/page";
@@ -15,8 +15,11 @@ export default function Header() {
               src="/logo.svg"
               alt="Logo"
               className={styles.logo}
-              layout="responsive"
-            />
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto"
+              }} />
           </Link>
           <div style={{ flex: "1 1 0px" }}></div>
 

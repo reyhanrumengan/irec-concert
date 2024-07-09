@@ -1,5 +1,5 @@
 import styles from "./musicians.module.css";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 export default function Musicians() {
   return (
@@ -56,11 +56,14 @@ export default function Musicians() {
             <Image
               width={1080}
               height={720}
-              layout="responsive"
               className={styles.artistImage}
               src="/artist-billy.png"
               alt="Billy's Photo"
-            />
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto"
+              }} />
           </div>
 
           <p className={styles.artistName}>Calvin Abdiel</p>
@@ -152,11 +155,14 @@ export default function Musicians() {
             <Image
               width={1080}
               height={720}
-              layout="responsive"
               className={styles.artistImage}
               src="/artist-calvin.jpg"
               alt="Calvin's Photo"
-            />
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto"
+              }} />
           </div>
 
           <p className={styles.artistName}>Tamariska Kristianto</p>
@@ -175,11 +181,14 @@ export default function Musicians() {
             <Image
               width={1080}
               height={720}
-              layout="responsive"
               className={styles.artistImage}
               src="/artist-tamariska.jpg"
               alt="Tamariska's Photo"
-            />
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto"
+              }} />
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/legacy/image";
+import Image from "next/image";
 import styles from "./homepage.module.css";
 import Link from "next/link";
 import { Button } from "@mantine/core";
@@ -30,9 +30,12 @@ export default function Homepage() {
           src="/poster-2.png"
           alt="Concert Poster"
           className={styles.poster}
-          layout="responsive"
           priority
-        />
+          sizes="100vw"
+          style={{
+            width: "100%",
+            height: "auto"
+          }} />
       </div>
     </div>
   );
