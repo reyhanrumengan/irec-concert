@@ -3,6 +3,7 @@
 import { useState, ChangeEvent, FormEvent } from "react";
 import styles from "./form.module.css";
 import Link from "next/link";
+import { Button } from "@mantine/core";
 
 interface FormData {
   email: string;
@@ -11,6 +12,7 @@ interface FormData {
 }
 
 const Form = () => {
+  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   const [formData, setFormData] = useState<FormData>({
     email: "",
     fullName: "",
@@ -45,13 +47,11 @@ const Form = () => {
         },
         body: formBody.toString(),
       });
+
+      window.location.href = "/rsvp-response";
     } catch (error) {
       console.error("Error submitting form", error);
     }
-  };
-
-  const handleClick = () => {
-    alert("Thank you for submitting the form!");
   };
 
   return (
@@ -102,9 +102,7 @@ const Form = () => {
         />
       </div>
       <button type="submit" className={styles.button}>
-        <Link href="/rsvp-response" className={styles.redirect}>
-          Submit
-        </Link>
+        Submit
       </button>
     </form>
   );
