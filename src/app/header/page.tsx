@@ -32,7 +32,9 @@ export default function Header() {
           About
         </Link>
 
-        <MenuBurger />
+        <div className={styles.menuBurger}>
+          <MenuBurger />
+        </div>
       </div>
     </div>
   );

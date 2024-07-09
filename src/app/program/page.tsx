@@ -1,7 +1,4 @@
-import Image from "next/image";
 import styles from "./program.module.css";
-import Link from "next/link";
-import { Public_Sans } from "next/font/google";
 
 export default function Program() {
   return (
