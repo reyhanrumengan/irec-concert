@@ -32,6 +32,14 @@
 }
 
 @media screen and (max-width: 850px) {
+  .headerMobileContainer {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #040a0a;
+  }
+
   .logo {
     margin: 20px 0;
     max-width: 30px;

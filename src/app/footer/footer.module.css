@@ -1,0 +1,97 @@
+/* Footer */
+.containerWidth {
+  max-width: 1200px;
+  margin: 40px auto;
+  width: 90vw;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.instagram,
+.youtube {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.instagramLink,
+.youtubeLink {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fffeff;
+  font-family: "Carlito", sans-serif;
+}
+
+.learnAboutIRECLink {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+  color: #fffeff;
+  font-family: "Carlito", sans-serif;
+}
+
+.instagramLink:hover,
+.youtubeLink:hover,
+.learnAboutIRECLink:hover {
+  color: #e6e6e6;
+}
+
+@media screen and (max-width: 850px) {
+  .socialMedia {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .instagram,
+  .youtube {
+    display: flex;
+    align-items: center;
+    gap: unset;
+    text-decoration: none;
+  }
+
+  .instagramIcon,
+  .youtubeIcon {
+    width: 24px;
+    height: auto;
+  }
+
+  .instagramLink,
+  .youtubeLink {
+    font-size: unset;
+    font-weight: unset;
+    color: unset;
+    font-family: unset;
+    display: none;
+  }
+
+  .learnAboutIRECLink {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #fffeff;
+    font-family: "Carlito", sans-serif;
+  }
+
+  /* needs to be fix */
+  /* we want hover only on desktop even if the screen is small */
+  /* then need to add another adjustment for mobile */
+  /* now: mobile/smaller screen, there is no hover */
+  .instagramLink:hover,
+  .youtubeLink:hover,
+  .learnAboutIRECLink:hover {
+    color: none;
+  }
+}
