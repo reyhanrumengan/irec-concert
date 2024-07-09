@@ -1,6 +1,4 @@
-import Image from "next/image";
 import styles from "./rsvp.module.css";
-import Link from "next/link";
 import Form from "./form";
 
 export default function RSVP() {

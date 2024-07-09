@@ -2,6 +2,7 @@
 
 import { useState, ChangeEvent, FormEvent } from "react";
 import styles from "./form.module.css";
+import Link from "next/link";
 
 interface FormData {
   email: string;
@@ -47,6 +48,10 @@ const Form = () => {
     } catch (error) {
       console.error("Error submitting form", error);
     }
+  };
+
+  const handleClick = () => {
+    alert("Thank you for submitting the form!");
   };
 
   return (
@@ -97,7 +102,9 @@ const Form = () => {
         />
       </div>
       <button type="submit" className={styles.button}>
-        Submit
+        <Link href="/rsvp-response" className={styles.redirect}>
+          Submit
+        </Link>
       </button>
     </form>
   );

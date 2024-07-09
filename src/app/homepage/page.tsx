@@ -7,9 +7,6 @@ import { Button } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 
 export default function Homepage() {
-  const isMobile = useMediaQuery("(max-width: 850px)");
-
-  console.log("isMobile", isMobile);
   return (
     <div className={styles.containerWidth}>
       <div className={styles.imageContainer}>
@@ -19,7 +16,6 @@ export default function Homepage() {
             variant="filled"
             color="rgba(249, 100, 1, 1)"
             radius="xl"
-            // size={isMobile ? "xs" : "xl"}
             size="md"
             classNames={{
               label: styles.buttonLabel,
