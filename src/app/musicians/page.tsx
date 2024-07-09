@@ -1,5 +1,5 @@
 import styles from "./musicians.module.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export default function Musicians() {
   return (

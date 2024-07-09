@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "./homepage.module.css";
 import Link from "next/link";
 import { Button } from "@mantine/core";
