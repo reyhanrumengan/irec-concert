@@ -18,8 +18,9 @@ export default function Header() {
               sizes="100vw"
               style={{
                 width: "100%",
-                height: "auto"
-              }} />
+                height: "auto",
+              }}
+            />
           </Link>
           <div style={{ flex: "1 1 0px" }}></div>
 

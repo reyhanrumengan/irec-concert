@@ -62,8 +62,9 @@ export default function Musicians() {
               sizes="100vw"
               style={{
                 width: "100%",
-                height: "auto"
-              }} />
+                height: "auto",
+              }}
+            />
           </div>
 
           <p className={styles.artistName}>Calvin Abdiel</p>
@@ -161,8 +162,9 @@ export default function Musicians() {
               sizes="100vw"
               style={{
                 width: "100%",
-                height: "auto"
-              }} />
+                height: "auto",
+              }}
+            />
           </div>
 
           <p className={styles.artistName}>Tamariska Kristianto</p>
@@ -187,8 +189,9 @@ export default function Musicians() {
               sizes="100vw"
               style={{
                 width: "100%",
-                height: "auto"
-              }} />
+                height: "auto",
+              }}
+            />
           </div>
         </div>
       </div>

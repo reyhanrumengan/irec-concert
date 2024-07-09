@@ -24,6 +24,7 @@ export default function Homepage() {
             RSVP HERE
           </Button>
         </Link>
+
         <Image
           width={760}
           height={760}
@@ -34,8 +35,9 @@ export default function Homepage() {
           sizes="100vw"
           style={{
             width: "100%",
-            height: "auto"
-          }} />
+            height: "auto",
+          }}
+        />
       </div>
     </div>
   );
