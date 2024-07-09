@@ -69,23 +69,10 @@
     background-color: #fffeff;
   }
 
-  /* .button {
-    border: 2px solid var(--color-mediumblue);
-    box-sizing: border-box;
-    font-size: 16px;
-    letter-spacing: 0.18em;
-    line-height: 20px;
-    font-family: "Carlito", sans-serif;
-    color: var(--color-mediumblue);
-    padding: 7px 20px;
-    font-weight: 600;
-    text-decoration: none;
-  } */
-
   .menuText {
     display: block;
     font-size: 18px;
-    letter-spacing: 0.18em;
+    letter-spacing: 0.05em;
     line-height: 24px;
     font-weight: 500;
     font-family: "Carlito", sans-serif;
@@ -96,12 +83,11 @@
     width: 100%;
     padding: 12px 40px;
     font-weight: 700;
-    /* margin: 12px 0; */
   }
 
-  /* .menuText:hover {
-    color: #1b03a3;
-  } */
+  .menuText:hover {
+    color: #f96401;
+  }
 
   .activeMenu {
     font-weight: bold;

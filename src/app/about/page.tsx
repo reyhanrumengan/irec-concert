@@ -1,5 +1,4 @@
 import styles from "./about.module.css";
-import Image from "next/image";
 
 export default function About() {
   return (

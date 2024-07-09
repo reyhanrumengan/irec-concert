@@ -28,7 +28,7 @@
 .pieceTitle {
   font-size: 30px;
   font-weight: 700;
-  margin: 40px 0 15px 0;
+  margin: 40px 0 10px 0;
   color: #f96401;
 }
 
@@ -39,6 +39,34 @@
 }
 
 .description {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 850px) {
+  .containerWidth {
+    max-width: 850px;
+    margin: 10px 0;
+  }
+
+  .program {
+    max-width: unset;
+  }
+
+  .pageTitle {
+    font-size: 40px;
+    margin: 10px 0;
+  }
+
+  .pieceTitle {
+    font-size: 27px;
+  }
+
+  .composer {
+    font-size: 22px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
 }

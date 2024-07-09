@@ -99,10 +99,10 @@ export default function MenuBurger() {
                 <Link
                   href={route.path}
                   className={`${styles.menuText} ${isActive(route.path)}`}
-                  style={{
-                    paddingTop: route.path === "/" ? "0" : undefined,
-                    paddingBottom: route.path === "/about" ? "0" : undefined,
-                  }}
+                  // style={{
+                  //   paddingTop: route.path === "/" ? "0" : undefined,
+                  //   paddingBottom: route.path === "/about" ? "0" : undefined,
+                  // }}
                 >
                   {route.label}
                 </Link>
