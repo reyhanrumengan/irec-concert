@@ -1,0 +1,82 @@
+.containerWidth {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90vw;
+
+  font-family: "Carlito", sans-serif;
+  color: #fffeff;
+  line-height: 1.7rem;
+  margin: 20px 0;
+}
+
+.rsvpContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rsvp {
+  max-width: 80%;
+}
+
+.pageTitle {
+  font-size: 46px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.informationContainer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.textTitle {
+  font-size: 20px;
+  color: #f96401;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.intructionText {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 35px 0 15px 0;
+}
+
+@media screen and (max-width: 850px) {
+  .containerWidth {
+    max-width: 850px;
+    margin: 10px 0;
+  }
+
+  .rsvp {
+    max-width: unset;
+  }
+
+  .pageTitle {
+    font-size: 40px;
+    margin: 10px 0;
+  }
+
+  .informationContainer {
+    gap: 10px;
+  }
+
+  .textTitle {
+    font-size: 18px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .intructionText {
+    font-size: 16px;
+    margin: 25px 0 10px 0;
+  }
+}
