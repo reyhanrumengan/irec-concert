@@ -1,3 +1,5 @@
+"use client";
+
 import styles from "./rsvp-response.module.css";
 import Link from "next/link";
 
@@ -29,9 +31,7 @@ export default function RSVPResponse() {
           </div>
           <div>
             <button className={styles.button} onClick={handleClick}>
-              {/* <Link className={styles.redirect} href="/rsvp"> */}
               Click here to make another RSVP
-              {/* </Link> */}
             </button>
           </div>
         </div>

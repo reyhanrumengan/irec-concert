@@ -39,6 +39,8 @@
   cursor: pointer;
   font-weight: 700;
   width: 100%;
+  text-decoration: none;
+  color: #fffeff;
 }
 
 .redirect {
