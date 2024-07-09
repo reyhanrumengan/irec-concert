@@ -4,7 +4,6 @@ import Image from "next/image";
 import styles from "./homepage.module.css";
 import Link from "next/link";
 import { Button } from "@mantine/core";
-import { useMediaQuery } from "@mantine/hooks";
 
 export default function Homepage() {
   return (
