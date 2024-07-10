@@ -8,7 +8,7 @@ export default function Header() {
     <div className={styles.headerMobileContainer}>
       <div className={styles.containerWidth}>
         <div className={styles.navigation}>
-          <Link href="/">
+          <Link href="/" className={styles.logoContainer}>
             <Image
               width={1080}
               height={720}
@@ -21,7 +21,18 @@ export default function Header() {
                 height: "auto",
               }}
             />
+
+            <div className={styles.logoTextContainer}>
+              <p className={styles.logoText1}>Kühlender klang</p>
+              <p
+                className={styles.logoText2}
+                style={{ color: "#f96401;", fontFamily: "Pacifico" }}
+              >
+                vor dem Herbst
+              </p>
+            </div>
           </Link>
+
           <div style={{ flex: "1 1 0px" }}></div>
 
           <Link className={styles.navigationItem} href="/">

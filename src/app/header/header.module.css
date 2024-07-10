@@ -9,10 +9,31 @@
   align-items: center;
 }
 
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
 .logo {
-  margin: 20px 20px;
+  margin: 20px 10px 20px 20px;
   width: 100%;
   max-width: 40px;
+}
+
+.logoTextContainer {
+  font-family: "Carlito", sans-serif;
+  line-height: 1em;
+}
+
+.logoText1 {
+  font-size: 20px;
+  color: #fffeff;
+}
+
+.logoText2 {
+  font-size: 18px;
 }
 
 .navigationItem {
@@ -41,8 +62,21 @@
   }
 
   .logo {
-    margin: 20px 0;
+    margin: 20px 8px 20px 0;
     max-width: 30px;
+  }
+
+  .logoTextContainer {
+    font-family: "Carlito", sans-serif;
+    line-height: 0.8em;
+  }
+
+  .logoText1 {
+    font-size: 18px;
+  }
+
+  .logoText2 {
+    font-size: 16px;
   }
 
   .navigationItem {
