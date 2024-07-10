@@ -6,6 +6,8 @@ import { ColorSchemeScript, MantineProvider } from "@mantine/core";
 import Header from "./header/page";
 import styles from "./page.module.css";
 import Footer from "./footer/page";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -45,6 +47,8 @@ export default function RootLayout({
             <Footer />
           </main>
         </MantineProvider>
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
