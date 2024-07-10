@@ -39,7 +39,7 @@
 }
 
 .button:hover {
-  background-color: none;
+  background-color: #d75201;
 }
 
 .redirect {
@@ -56,7 +56,7 @@
     font-size: 14px;
   }
 
-  /* .button:hover {
-    background-color: none;
-  } */
+  .button:hover {
+    background-color: #f96401;
+  }
 }

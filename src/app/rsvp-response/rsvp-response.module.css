@@ -43,10 +43,9 @@
   color: #fffeff;
 }
 
-/* .redirect {
-  text-decoration: none;
-  color: #fffeff;
-} */
+.button:hover {
+  background-color: #d75201;
+}
 
 @media screen and (max-width: 850px) {
   .containerWidth {
@@ -65,5 +64,9 @@
 
   .text {
     font-size: 16px;
+  }
+
+  .button:hover {
+    background-color: #f96401;
   }
 }
