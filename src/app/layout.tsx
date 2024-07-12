@@ -17,16 +17,15 @@ export const metadata: Metadata = {
   keywords: [
     "International Reformed Evangelical Church",
     "Concert",
-    "Classical Music",
+    "Classical",
+    "Music",
     "IREC Europe",
     "Clara Schumann",
     "Jean-Phillipe Rameau",
-    "Buxtehude",
+    "Dietrich Buxtehude",
     "MRII Berlin",
+    "Billy Kristanto",
   ],
-  // formatDetection: {
-  //   telephone: false,
-  // },
 };
 
 export default function RootLayout({
