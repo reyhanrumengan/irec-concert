@@ -184,7 +184,7 @@ export default function Musicians() {
               width={1080}
               height={720}
               className={styles.artistImage}
-              src="/artist-tamariska.jpg"
+              src="/artist-tamariska.png"
               alt="Tamariska's Photo"
               sizes="100vw"
               style={{
