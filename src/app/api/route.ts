@@ -23,11 +23,25 @@ export async function POST(req: NextRequest) {
     const data = {
       sender: {
         name: "Kühlender Klang vor dem Herbst",
-        email: "reyhanrumengan98@gmail.com",
+        email: "irec.concert@gmail.com",
       },
       to: [{ email: email }],
       subject: "Kühlender Klang vor dem Herbst",
-      htmlContent: "<strong>Thank you for signing up!</strong>.",
+      htmlContent: `
+      <p>Dear Attendee,</p>
+      
+      <p>You have been successfully registered to the IREC Berlin concert: <strong>Kühlender Klang vor dem Herbst</strong>.</p>
+
+      <p>For more information, you can send an email to: 
+      <a href="mailto:info@irec-berlin.org">info@irec-berlin.org</a>
+      </p>
+
+      <p>See you there!</p>
+
+      <p>Kind regards,
+      <br/>
+      IREC Berlin</p>
+  `,
     };
 
     await axios.post(url, data, { headers });
