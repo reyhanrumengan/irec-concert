@@ -2,8 +2,6 @@
 
 import { useState, ChangeEvent, FormEvent } from "react";
 import styles from "./form.module.css";
-import Link from "next/link";
-import { Button } from "@mantine/core";
 
 interface FormData {
   email: string;
@@ -18,6 +16,8 @@ const Form = () => {
     fullName: "",
     numberOfPeople: "",
   });
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [successMessage, setSuccessMessage] = useState<string | null>(null);
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -30,12 +30,22 @@ const Form = () => {
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
 
+    // Correct Google Forms
+    // const formUrl =
+    //   "https://docs.google.com/forms/d/e/1FAIpQLScDUyZ-Qp4Z_Rs_pPe1UwbTzGDDFSWaUPHH_ijVdBiBdcyYkA/formResponse";
+    // const formBody = new URLSearchParams({
+    //   "entry.1780199336": formData.email,
+    //   "entry.1378719052": formData.fullName,
+    //   "entry.1634956136": formData.numberOfPeople,
+    // });
+
+    // Test Google Forms
     const formUrl =
-      "https://docs.google.com/forms/d/e/1FAIpQLScDUyZ-Qp4Z_Rs_pPe1UwbTzGDDFSWaUPHH_ijVdBiBdcyYkA/formResponse";
+      "https://docs.google.com/forms/d/e/1FAIpQLSdac20gOdAuHErkH6Waj2vS2SCjK0ubcS-JMttCSbQ48h442g/formResponse";
     const formBody = new URLSearchParams({
-      "entry.1780199336": formData.email,
-      "entry.1378719052": formData.fullName,
-      "entry.1634956136": formData.numberOfPeople,
+      "entry.279040597": formData.email,
+      "entry.1140108557": formData.fullName,
+      "entry.460987298": formData.numberOfPeople,
     });
 
     try {
@@ -48,9 +58,30 @@ const Form = () => {
         body: formBody.toString(),
       });
 
-      window.location.href = "/rsvp-response";
+      // Call API route for sending confirmation email
+      const emailResponse = await fetch("/api", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email: formData.email }),
+      });
+
+      if (emailResponse.ok) {
+        setSuccessMessage(
+          "Thank you for your submission! A confirmation email has been sent."
+        );
+        setIsFormSubmitted(true);
+      } else {
+        const errorData = await emailResponse.json();
+        setErrorMessage(
+          errorData.message || "Failed to send confirmation email."
+        );
+      }
+      // window.location.href = "/rsvp-response";
     } catch (error) {
       console.error("Error submitting form", error);
+      setErrorMessage("An unexpected error occurred.");
     }
   };
 
@@ -104,6 +135,11 @@ const Form = () => {
       <button type="submit" className={styles.button}>
         Submit
       </button>
+
+      {isFormSubmitted && (
+        <p className={styles.successMessage}>{successMessage}</p>
+      )}
+      {errorMessage && <p className={styles.errorMessage}>{errorMessage}</p>}
     </form>
   );
 };
