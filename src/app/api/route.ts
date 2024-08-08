@@ -6,13 +6,6 @@ export async function POST(req: NextRequest) {
     const { email } = await req.json();
     const apiKey = process.env.BREVO_API_KEY;
 
-    // if (!email) {
-    //   return NextResponse.json(
-    //     { message: "Email is required" },
-    //     { status: 400 }
-    //   );
-    // }
-
     const url = "https://api.brevo.com/v3/smtp/email";
     const headers = {
       accept: "application/json",
@@ -29,7 +22,7 @@ export async function POST(req: NextRequest) {
       subject: "Kühlender Klang vor dem Herbst",
       htmlContent: `
       <p>Dear Attendee,</p>
-      
+
       <p>You have been successfully registered to the IREC Berlin concert: <strong>Kühlender Klang vor dem Herbst</strong>.</p>
 
       <p>For more information, you can send an email to: 
@@ -41,6 +34,26 @@ export async function POST(req: NextRequest) {
       <p>Kind regards,
       <br/>
       IREC Berlin</p>
+
+      <p>P.S.: This is an automated email. Please do not reply to this email.</p>
+
+      <p>-----</p>
+
+      <p>Liebe Teilnehmer,</p>
+
+      <p>Sie haben sich erfolgreich für das Konzert des IREC Berlin angemeldet: <strong>Kühlender Klang vor dem Herbst</strong>.</p>
+
+      <p>Für weitere Informationen können Sie eine E-Mail senden an:
+      <a href="mailto:info@irec-berlin.org">info@irec-berlin.org</a>
+      </p>
+
+      <p>Wir sehen uns dort!</p>
+
+      <p>Mit freundlichen Grüßen,
+      <br/>
+      IREC Berlin</p>
+
+      <p>P.S.: Dies ist eine automatisierte E-Mail. Bitte antworten Sie nicht auf diese E-Mail.</p>
   `,
     };
 
@@ -49,7 +62,7 @@ export async function POST(req: NextRequest) {
   } catch (error) {
     console.error("Error sending email:", error);
     return NextResponse.json(
-      { message: "Failed to send email" },
+      { message: "Failed to send email. Please check your data" },
       { status: 500 }
     );
   }

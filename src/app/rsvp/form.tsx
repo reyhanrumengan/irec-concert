@@ -10,14 +10,14 @@ interface FormData {
 }
 
 const Form = () => {
-  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+  // const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   const [formData, setFormData] = useState<FormData>({
     email: "",
     fullName: "",
     numberOfPeople: "",
   });
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
-  const [successMessage, setSuccessMessage] = useState<string | null>(null);
+  // const [successMessage, setSuccessMessage] = useState<string | null>(null);
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -68,20 +68,21 @@ const Form = () => {
       });
 
       if (emailResponse.ok) {
-        setSuccessMessage(
-          "Thank you for your submission! A confirmation email has been sent."
-        );
-        setIsFormSubmitted(true);
+        // setSuccessMessage(
+        //   "Thank you for your submission! A confirmation email has been sent."
+        // );
+        // setIsFormSubmitted(true);
+        window.location.href = "/rsvp-response";
       } else {
         const errorData = await emailResponse.json();
         setErrorMessage(
-          errorData.message || "Failed to send confirmation email."
+          errorData.message || "Failed to submit form. Please check your data."
         );
       }
       // window.location.href = "/rsvp-response";
     } catch (error) {
       console.error("Error submitting form", error);
-      setErrorMessage("An unexpected error occurred.");
+      setErrorMessage("An unexpected error occurred. Please check your data.");
     }
   };
 
@@ -136,9 +137,9 @@ const Form = () => {
         Submit
       </button>
 
-      {isFormSubmitted && (
+      {/* {isFormSubmitted && (
         <p className={styles.successMessage}>{successMessage}</p>
-      )}
+      )} */}
       {errorMessage && <p className={styles.errorMessage}>{errorMessage}</p>}
     </form>
   );
