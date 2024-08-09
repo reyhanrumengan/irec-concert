@@ -24,6 +24,12 @@ export async function POST(req: NextRequest) {
       <p>Dear Attendee,</p>
 
       <p>You have been successfully registered to the IREC Berlin concert: <strong>Kühlender Klang vor dem Herbst</strong>.</p>
+      <p>
+        <strong>Event Date:</strong> 
+        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=IREC+Berlin+Concert+2024&details=IREC+Berlin+Concert+2024%0A%0AK%C3%BChlender+Klang+vor+dem+Herbst%0A%0ASaturday%2C+31st+August+2024%2C+03%3A00+PM+%28CEST%29%0A%0A&location=St.+Matth%C3%A4us+Church%2C+Matth%C3%A4ikirchplatz%2C+10785+Berlin&dates=20240831T130000Z/20240831T150000Z" target="_blank">
+        Saturday, 31st August 2024, 03:00 PM (CEST) to 05:00 PM (CEST)
+        </a>
+      </p>
 
       <p>For more information, you can send an email to: 
       <a href="mailto:info@irec-berlin.org">info@irec-berlin.org</a>
