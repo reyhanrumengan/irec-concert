@@ -72,7 +72,7 @@ const Form = () => {
         //   "Thank you for your submission! A confirmation email has been sent."
         // );
         // setIsFormSubmitted(true);
-        window.location.href = "/rsvp-response";
+        // window.location.href = "/rsvp-response";
       } else {
         const errorData = await emailResponse.json();
         setErrorMessage(
