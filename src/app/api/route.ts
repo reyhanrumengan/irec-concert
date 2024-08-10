@@ -27,6 +27,7 @@ export async function POST(req: NextRequest) {
       <strong>Kühlender Klang vor dem Herbst</strong>
       <p>
         <strong>Date: Saturday, 31st August 2024, 03:00 PM (CEST)</strong>
+        <strong>Location: St. Matthäus-Kirche, Matthäikirchplatz, 10785 Berlin</strong>
       </p>
 
       <p>For more information, you can send an email to: 
@@ -49,6 +50,7 @@ export async function POST(req: NextRequest) {
       <strong>Kühlender Klang vor dem Herbst</strong>
       <p>
         <strong>Datum: Samstag, 31. August 2024, 03:00 PM (CEST)</strong>
+        <strong>Ort: St. Matthäus-Kirche, Matthäikirchplatz, 10785 Berlin</strong>
       </p>
 
       <p>Für weitere Informationen können Sie eine E-Mail senden an:
