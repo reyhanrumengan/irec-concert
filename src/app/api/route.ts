@@ -26,15 +26,9 @@ export async function POST(req: NextRequest) {
       <p>You have been successfully registered to the IREC Berlin concert: </p>
       <strong>Kühlender Klang vor dem Herbst</strong>
       <p>
-        <strong>Date:</strong> 
-        <p>#Add with google calender</p>
-        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=IREC+Berlin+Concert+2024&details=IREC+Berlin+Concert+2024%0A%0AK%C3%BChlender+Klang+vor+dem+Herbst%0A%0ASaturday%2C+31st+August+2024%2C+03%3A00+PM+%28CEST%29%0A%0A&location=St.+Matth%C3%A4us+Church%2C+Matth%C3%A4ikirchplatz%2C+10785+Berlin&dates=20240831T130000Z/20240831T150000Z" target="_blank">
-        Saturday, 31st August 2024, 03:00 PM (CEST)
-        </a>
-
-        <p>#Add with ics file:</p>
-        <a href="https://irec-concert-2024-bucket.s3.eu-central-1.amazonaws.com/concert-calender.ics">
-        Saturday, 31st August 2024, 03:00 PM (CEST)</a>
+        <p>
+        <strong>Date: </strong>Saturday, 31st August 2024, 03:00 PM (CEST)
+        </p>
       </p>
 
       <p>For more information, you can send an email to: 
@@ -56,10 +50,9 @@ export async function POST(req: NextRequest) {
       <p>Sie haben sich erfolgreich für das Konzert des IREC Berlin angemeldet: </p>
       <strong>Kühlender Klang vor dem Herbst</strong>
       <p>
-        <strong>Datum:</strong> 
-        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=IREC+Berlin+Concert+2024&details=IREC+Berlin+Concert+2024%0A%0AK%C3%BChlender+Klang+vor+dem+Herbst%0A%0ASaturday%2C+31st+August+2024%2C+03%3A00+PM+%28CEST%29%0A%0A&location=St.+Matth%C3%A4us+Church%2C+Matth%C3%A4ikirchplatz%2C+10785+Berlin&dates=20240831T130000Z/20240831T150000Z" target="_blank">
-        Samstag, 31. August 2024, 03:00 PM (CEST)
-        </a>
+        <p>
+        <strong>Datum: </strong>Samstag, 31. August 2024, 03:00 PM (CEST)
+        </p>
       </p>
 
       <p>Für weitere Informationen können Sie eine E-Mail senden an:
