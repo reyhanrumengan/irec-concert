@@ -26,9 +26,7 @@ export async function POST(req: NextRequest) {
       <p>You have been successfully registered to the IREC Berlin concert: </p>
       <strong>Kühlender Klang vor dem Herbst</strong>
       <p>
-        <p>
-        <strong>Date: </strong>Saturday, 31st August 2024, 03:00 PM (CEST)
-        </p>
+        <strong>Date: Saturday, 31st August 2024, 03:00 PM (CEST)</strong>
       </p>
 
       <p>For more information, you can send an email to: 
@@ -50,9 +48,7 @@ export async function POST(req: NextRequest) {
       <p>Sie haben sich erfolgreich für das Konzert des IREC Berlin angemeldet: </p>
       <strong>Kühlender Klang vor dem Herbst</strong>
       <p>
-        <p>
-        <strong>Datum: </strong>Samstag, 31. August 2024, 03:00 PM (CEST)
-        </p>
+        <strong>Datum: Samstag, 31. August 2024, 03:00 PM (CEST)</strong>
       </p>
 
       <p>Für weitere Informationen können Sie eine E-Mail senden an:
