@@ -74,6 +74,15 @@ export async function POST(req: NextRequest) {
 
       <p>P.S.: Dies ist eine automatisierte E-Mail. Bitte antworten Sie nicht auf diese E-Mail.</p>
   `,
+
+      attachment: [
+        // {
+        //   url: "https://irec-concert-2024-bucket.s3.eu-central-1.amazonaws.com/concert-calender.ics",
+        // },
+        {
+          url: "https://irec-concert-2024-bucket.s3.eu-central-1.amazonaws.com/concert-calender-test.ics",
+        },
+      ],
     };
 
     await axios.post(url, data, { headers });
