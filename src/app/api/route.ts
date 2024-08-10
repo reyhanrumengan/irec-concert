@@ -27,6 +27,7 @@ export async function POST(req: NextRequest) {
       <strong>Kühlender Klang vor dem Herbst</strong>
       <p>
         <strong>Date: Saturday, 31st August 2024, 03:00 PM (CEST)</strong>
+        </br>
         <strong>Location: St. Matthäus-Kirche, Matthäikirchplatz, 10785 Berlin</strong>
       </p>
 
@@ -50,6 +51,7 @@ export async function POST(req: NextRequest) {
       <strong>Kühlender Klang vor dem Herbst</strong>
       <p>
         <strong>Datum: Samstag, 31. August 2024, 03:00 PM (CEST)</strong>
+        </br>
         <strong>Ort: St. Matthäus-Kirche, Matthäikirchplatz, 10785 Berlin</strong>
       </p>
 
@@ -67,11 +69,8 @@ export async function POST(req: NextRequest) {
   `,
 
       attachment: [
-        // {
-        //   url: "https://irec-concert-2024-bucket.s3.eu-central-1.amazonaws.com/concert-calender.ics",
-        // },
         {
-          url: "https://irec-concert-2024-bucket.s3.eu-central-1.amazonaws.com/concert-calender-test.ics",
+          url: "https://irec-concert-2024-bucket.s3.eu-central-1.amazonaws.com/concert-calender.ics",
         },
       ],
     };
