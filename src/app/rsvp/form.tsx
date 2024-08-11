@@ -7,6 +7,7 @@ interface FormData {
   email: string;
   fullName: string;
   numberOfPeople: string;
+  invitedBy: string;
 }
 
 const Form = () => {
@@ -15,11 +16,14 @@ const Form = () => {
     email: "",
     fullName: "",
     numberOfPeople: "",
+    invitedBy: "",
   });
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   // const [successMessage, setSuccessMessage] = useState<string | null>(null);
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (
+    e: ChangeEvent<HTMLInputElement | HTMLSelectElement>
+  ) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -37,15 +41,17 @@ const Form = () => {
       "entry.1780199336": formData.email,
       "entry.1378719052": formData.fullName,
       "entry.1634956136": formData.numberOfPeople,
+      "entry.1928734284": formData.invitedBy,
     });
 
     // Test Google Forms
     // const formUrl =
-    //   "https://docs.google.com/forms/d/e/1FAIpQLSdac20gOdAuHErkH6Waj2vS2SCjK0ubcS-JMttCSbQ48h442g/formResponse";
+    //   "https://docs.google.com/forms/d/e/1FAIpQLSeqEZYTJC5R9LMZcfhRFjSjLb1jCelNK6MkWwQd5Gknifu7Ew/formResponse";
     // const formBody = new URLSearchParams({
-    //   "entry.279040597": formData.email,
-    //   "entry.1140108557": formData.fullName,
-    //   "entry.460987298": formData.numberOfPeople,
+    //   "entry.1780199336": formData.email,
+    //   "entry.1378719052": formData.fullName,
+    //   "entry.1634956136": formData.numberOfPeople,
+    //   "entry.1928734284": formData.invitedBy,
     // });
 
     try {
@@ -133,13 +139,33 @@ const Form = () => {
           required
         />
       </div>
+      <div className={styles.formContainer}>
+        <label htmlFor="invitedBy" className={styles.label}>
+          How did you know about this event??:
+        </label>
+        <select
+          id="invitedBy"
+          name="invitedBy"
+          value={formData.invitedBy}
+          onChange={handleChange}
+          className={styles.input}
+          required
+        >
+          <option value="" disabled>
+            Select an option
+          </option>
+          <option value="Friend's invitation">Friend&rsquo;s Invitation</option>
+          <option value="Instagram">Instagram</option>
+          <option value="Facebook">Facebook</option>
+          <option value="Poster">Poster</option>
+          <option value="Google">Google</option>
+          <option value="Others">Others</option>
+        </select>
+      </div>
       <button type="submit" className={styles.button}>
         Submit
       </button>
 
-      {/* {isFormSubmitted && (
-        <p className={styles.successMessage}>{successMessage}</p>
-      )} */}
       {errorMessage && <p className={styles.errorMessage}>{errorMessage}</p>}
     </form>
   );
