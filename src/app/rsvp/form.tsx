@@ -154,7 +154,7 @@ const Form = () => {
           <option value="" disabled>
             Select an option
           </option>
-          <option value="Friend's invitation">Friend's Invitation</option>
+          <option value="Friend's invitation">Friend&rsquo;s Invitation</option>
           <option value="Instagram">Instagram</option>
           <option value="Facebook">Facebook</option>
           <option value="Poster">Poster</option>
