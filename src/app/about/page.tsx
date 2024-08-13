@@ -57,6 +57,10 @@ export default function About() {
           <div style={{ color: "#F96401" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
+
+          <div className={styles.textContainer}>
+            <p className={styles.textSmall}>FREE ENTRY</p>
+          </div>
         </div>
       </div>
     </div>
