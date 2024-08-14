@@ -232,13 +232,13 @@ export default function Musicians() {
             </div> */}
             <div>
               IREC Europe Choir was founded at the same time as the church in
-              1999 as part of the church's ministry to praise God and share
-              God's blessings through worship. The works performed contain both
-              textual and musical content to bring people closer to God. The
-              church choir performs church music ranging from compositions by
-              old masters such as Heinrich Schütz, J.S. Bach and G.F. Händel to
-              the Romantic period with Mendelssohn to classical modernism with
-              Paul Hindemith.
+              1999 as part of the church&apos;s ministry to praise God and share
+              God&apos;s blessings through worship. The works performed contain
+              both textual and musical content to bring people closer to God.
+              The church choir performs church music ranging from compositions
+              by old masters such as Heinrich Schütz, J.S. Bach and G.F. Händel
+              to the Romantic period with Mendelssohn to classical modernism
+              with Paul Hindemith.
             </div>
             {/* <div>
               Pfr. Dr. phil., Dr. theol. Bily Kristanto, leitet zusammen mit
@@ -278,9 +278,9 @@ export default function Musicians() {
             <div>
               In July 2010, the IREC Berlin church choir, together with the
               choir of the Reformed Oratorio Society Singapore, organised a
-              "Music Evening &Angklung Ensemble in Praise of God", presenting
-              works by J.S. Bach, Mendelssohn, J. Brahms, J.H. Schein, H.
-              Schütz, A. Hammerschmidt and Mozart.
+              &quot;Music Evening &Angklung Ensemble in Praise of God&quot;,
+              presenting works by J.S. Bach, Mendelssohn, J. Brahms, J.H.
+              Schein, H. Schütz, A. Hammerschmidt and Mozart.
             </div>
             {/* <div>
               Im Jahr 2012 sang der Chor auch in einem Erweckungsgottesdienst
@@ -288,9 +288,9 @@ export default function Musicians() {
               die Auferstehung", H. Schütz SWV 324.
             </div> */}
             <div>
-              In 2012, the choir also sang in a revival service with "Vater
-              unser im Himmelreich", J.S. Bach BWV 416 and "Ich bin die
-              Auferstehung", H. Schütz SWV 324.
+              In 2012, the choir also sang in a revival service with &quot;Vater
+              unser im Himmelreich&quot;, J.S. Bach BWV 416 and &quot;Ich bin
+              die Auferstehung&quot;, H. Schütz SWV 324.
             </div>
             {/* <div>
               Im Laufe der Jahre hat der IREC Europe Choir viel erreicht. Der
@@ -312,8 +312,8 @@ export default function Musicians() {
             </div> */}
             <div>
               In 2023, the IREC Europe Choir had the opportunity to perform
-              Schubert's Psalm 23 during Stephen Tong's Gospel Rally, sharing
-              the message of God's Word through the power of music.
+              Schubert&apos;s Psalm 23 during Stephen Tong&apos;s Gospel Rally,
+              sharing the message of God&apos;s Word through the power of music.
             </div>
             <Image
               width={1080}
