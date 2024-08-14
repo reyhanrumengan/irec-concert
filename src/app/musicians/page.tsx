@@ -278,7 +278,7 @@ export default function Musicians() {
             <div>
               In July 2010, the IREC Berlin church choir, together with the
               choir of the Reformed Oratorio Society Singapore, organised a
-              ‘Music Evening &Angklung Ensemble in Praise of God’, presenting
+              "Music Evening &Angklung Ensemble in Praise of God", presenting
               works by J.S. Bach, Mendelssohn, J. Brahms, J.H. Schein, H.
               Schütz, A. Hammerschmidt and Mozart.
             </div>
@@ -288,9 +288,9 @@ export default function Musicians() {
               die Auferstehung", H. Schütz SWV 324.
             </div> */}
             <div>
-              In 2012, the choir also sang in a revival service with ‘Vater
-              unser im Himmelreich’, J.S. Bach BWV 416 and ‘Ich bin die
-              Auferstehung’, H. Schütz SWV 324.
+              In 2012, the choir also sang in a revival service with "Vater
+              unser im Himmelreich", J.S. Bach BWV 416 and "Ich bin die
+              Auferstehung", H. Schütz SWV 324.
             </div>
             {/* <div>
               Im Laufe der Jahre hat der IREC Europe Choir viel erreicht. Der
