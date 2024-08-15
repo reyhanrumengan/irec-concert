@@ -12,24 +12,25 @@ export default function Musicians() {
           <div className={styles.artistDescription}>
             <div>
               Billy Kristanto graduated from Hochschule der Künste in Berlin,
-              Germany, majoring in harpsichord under Mitzi Meyerson. Furthering
-              his study on harpsichord and fortepiano, under Ton Koopman and
-              Stanley Hoogland, he received his post-graduate certificate from
-              The Royal Conservatory in The Hague, the Netherlands. In 2009,
-              with success, he defended his doctoral thesis on “Musical Settings
-              of Psalm 51 in Germany ca. 1600-1750 in the Perspective of
-              Reformational Music Aesthetics” under the guidance of an early
-              music specialist, Prof. Dr. Silke Leopold at the University of
-              Heidelberg in Germany. His second doctoral degree in systematic
-              theology was conferred on him in 2011 after completing his
-              dissertation on “The Glory of God in the Thought of John Calvin”.
+              Germany, where he majored in harpsichord under Mitzi Meyerson. He
+              furthered his studies in harpsichord and fortepiano under Ton
+              Koopman and Stanley Hoogland, and received his postgraduate
+              certificate from The Royal Conservatory in The Hague, Netherlands.
+              In 2009, he successfully defended his doctoral thesis titled
+              “Musical Settings of Psalm 51 in Germany ca. 1600-1750 in the
+              Perspective of Reformational Music Aesthetics” under the guidance
+              of early music specialist Prof. Dr. Silke Leopold at the
+              University of Heidelberg, Germany. His second doctoral degree in
+              systematic theology was conferred in 2011 following the completion
+              of his dissertation on “The Glory of God in the Thought of John
+              Calvin".
             </div>
             <div>
               Particularly interested in historically-informed practice, Billy
               has given musical direction to several oratorio societies and
               performances in major cities in Indonesia, Singapore, Hamburg, and
-              Berlin. He also lectures at Sekolah Tinggi Teologi Reformed Injili
-              Internasional in Kemayoran.
+              Berlin. He also lectures at The International Reformed Evangelical
+              Seminary.
             </div>
             <div>
               Billy also writes articles on music for international journal,
@@ -231,13 +232,13 @@ export default function Musicians() {
               bis hin zur klassischen Moderne mit Paul Hindemith reicht.
             </div> */}
             <div>
-              IREC Europe Choir was founded at the same time as the church in
-              1999 as part of the church&apos;s ministry to praise God and share
-              God&apos;s blessings through worship. The works performed contain
-              both textual and musical content to bring people closer to God.
-              The church choir performs church music ranging from compositions
-              by old masters such as Heinrich Schütz, J.S. Bach and G.F. Händel
-              to the Romantic period with Mendelssohn to classical modernism
+              The IREC Europe Choir was founded alongside the church in 1999 as
+              part of the church's ministry to praise God and share His
+              blessings through worship. The works performed contain both
+              textual and musical content to bring people closer to God. The
+              choir performs a diverse range of church music; from Baroque
+              composers such as Heinrich Schütz, J.S. Bach and G.F. Händel, to
+              the Romantic period with Mendelssohn, and to classical modernism
               with Paul Hindemith.
             </div>
             {/* <div>
