@@ -22,8 +22,8 @@ export default function Musicians() {
               of early music specialist Prof. Dr. Silke Leopold at the
               University of Heidelberg, Germany. His second doctoral degree in
               systematic theology was conferred in 2011 following the completion
-              of his dissertation on “The Glory of God in the Thought of John
-              Calvin".
+              of his dissertation on &quot;The Glory of God in the Thought of
+              John Calvin&quot;.
             </div>
             <div>
               Particularly interested in historically-informed practice, Billy
@@ -233,7 +233,7 @@ export default function Musicians() {
             </div> */}
             <div>
               The IREC Europe Choir was founded alongside the church in 1999 as
-              part of the church's ministry to praise God and share His
+              part of the church&apos;s ministry to praise God and share His
               blessings through worship. The works performed contain both
               textual and musical content to bring people closer to God. The
               choir performs a diverse range of church music; from Baroque
