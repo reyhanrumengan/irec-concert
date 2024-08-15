@@ -8,7 +8,11 @@ export default function Musicians() {
         <div className={styles.artist}>
           <p className={styles.pageTitle}>Artist Biography</p>
 
-          <p className={styles.artistName}>Billy Kristanto</p>
+          <div className={styles.artistName}>
+            <p>Billy Kristanto</p>
+            <p className={styles.artistIntrument}>Cembalo & Leitung</p>
+          </div>
+
           <div className={styles.artistDescription}>
             <div>
               Billy Kristanto graduated from Hochschule der Künste in Berlin,
@@ -68,7 +72,11 @@ export default function Musicians() {
             />
           </div>
 
-          <p className={styles.artistName}>Calvin Abdiel</p>
+          <div className={styles.artistName}>
+            <p>Calvin Abdiel</p>
+            <p className={styles.artistIntrument}>Piano</p>
+          </div>
+
           <div className={styles.artistDescription}>
             <div>
               The Indonesian/Australian pianist Calvin Abdiel was born in 2001
@@ -168,7 +176,10 @@ export default function Musicians() {
             />
           </div>
 
-          <p className={styles.artistName}>Tamariska Kristianto</p>
+          <div className={styles.artistName}>
+            <p>Tamariska Kristianto</p>
+            <p className={styles.artistIntrument}>Violin</p>
+          </div>
           <div className={styles.artistDescription}>
             Tamariska Kristianto is an Indonesian violinist who has been
             studying her instrument since 2008. She has participated in numerous
@@ -195,7 +206,10 @@ export default function Musicians() {
             />
           </div>
 
-          <p className={styles.artistName}>Hannah Jonina Ivy</p>
+          <div className={styles.artistName}>
+            <p>Hannah Jonina Ivy</p>
+            <p className={styles.artistIntrument}>Violin</p>
+          </div>
           <div className={styles.artistDescription}>
             Hannah Jonina Ivy was born in Indonesia, began her violin studies at
             the age of twelve. She is currently pursuing her musical degree at

@@ -32,6 +32,11 @@
   color: #f96401;
 }
 
+.artistIntrument {
+  font-size: 20px;
+  color: #fffeff;
+}
+
 .artistDescription {
   display: flex;
   flex-direction: column;
@@ -64,6 +69,10 @@
   .artistName {
     font-size: 27px;
     margin: 45px 0 25px 0;
+  }
+
+  .artistIntrument {
+    font-size: 18px;
   }
 
   .artistDescription {
