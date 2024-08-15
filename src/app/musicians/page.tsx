@@ -12,24 +12,25 @@ export default function Musicians() {
           <div className={styles.artistDescription}>
             <div>
               Billy Kristanto graduated from Hochschule der Künste in Berlin,
-              Germany, majoring in harpsichord under Mitzi Meyerson. Furthering
-              his study on harpsichord and fortepiano, under Ton Koopman and
-              Stanley Hoogland, he received his post-graduate certificate from
-              The Royal Conservatory in The Hague, the Netherlands. In 2009,
-              with success, he defended his doctoral thesis on “Musical Settings
-              of Psalm 51 in Germany ca. 1600-1750 in the Perspective of
-              Reformational Music Aesthetics” under the guidance of an early
-              music specialist, Prof. Dr. Silke Leopold at the University of
-              Heidelberg in Germany. His second doctoral degree in systematic
-              theology was conferred on him in 2011 after completing his
-              dissertation on “The Glory of God in the Thought of John Calvin”.
+              Germany, where he majored in harpsichord under Mitzi Meyerson. He
+              furthered his studies in harpsichord and fortepiano under Ton
+              Koopman and Stanley Hoogland, and received his postgraduate
+              certificate from The Royal Conservatory in The Hague, Netherlands.
+              In 2009, he successfully defended his doctoral thesis titled
+              “Musical Settings of Psalm 51 in Germany ca. 1600-1750 in the
+              Perspective of Reformational Music Aesthetics” under the guidance
+              of early music specialist Prof. Dr. Silke Leopold at the
+              University of Heidelberg, Germany. His second doctoral degree in
+              systematic theology was conferred in 2011 following the completion
+              of his dissertation on &quot;The Glory of God in the Thought of
+              John Calvin&quot;.
             </div>
             <div>
               Particularly interested in historically-informed practice, Billy
               has given musical direction to several oratorio societies and
               performances in major cities in Indonesia, Singapore, Hamburg, and
-              Berlin. He also lectures at Sekolah Tinggi Teologi Reformed Injili
-              Internasional in Kemayoran.
+              Berlin. He also lectures at The International Reformed Evangelical
+              Seminary.
             </div>
             <div>
               Billy also writes articles on music for international journal,
@@ -210,6 +211,117 @@ export default function Musicians() {
               className={styles.artistImage}
               src="/artist-hannah3.png"
               alt="Hannah's Photo"
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
+          </div>
+
+          <p className={styles.artistName}>IREC Europe Choir</p>
+          <div className={styles.artistDescription}>
+            {/* <div>
+              IREC Europe Chor wurde zeitgleich mit der Kirche im Jahr 1999 als
+              Teil des kirchlichen Dienstes gegründet, um Gott zu loben und
+              durch den Lobpreis Gottes Segen zu teilen. Die aufgeführten Werke
+              enthalten sowohl textlichen als auch musikalischen Gehalt, um den
+              Menschen Gott näher zu bringen. Der Kirchenchor befasst sich mit
+              Kirchenmusik, die von Kompositionen alter Meister wie Heinrich
+              Schütz, J.S. Bach, G.F. Händel über die Romantik mit Mendelssohn
+              bis hin zur klassischen Moderne mit Paul Hindemith reicht.
+            </div> */}
+            <div>
+              The IREC Europe Choir was founded alongside the church in 1999 as
+              part of the church&apos;s ministry to praise God and share His
+              blessings through worship. The works performed contain both
+              textual and musical content to bring people closer to God. The
+              choir performs a diverse range of church music; from Baroque
+              composers such as Heinrich Schütz, J.S. Bach and G.F. Händel, to
+              the Romantic period with Mendelssohn, and to classical modernism
+              with Paul Hindemith.
+            </div>
+            {/* <div>
+              Pfr. Dr. phil., Dr. theol. Bily Kristanto, leitet zusammen mit
+              einem aus dem Chor geschulten Musiker die Proben. Die Chorproben
+              finden sowohl einmal wöchentlich gemeinsam am Sonntag vor dem
+              Gottesdienst in der Kirche als auch individuell für die einzelnen
+              Stimmen mithilfe digitaler Medien zu Hause statt. Im Chor singen
+              ca. 10 bis 20 Sängerinnen und Sänger, die sowohl Kirchenmitglieder
+              als auch aktive Gemeindemitglieder sind.
+            </div> */}
+            <div>
+              Rev. Dr phil., Dr theol. Bily Kristanto, leads the rehearsals
+              together with a musician trained from the choir. The choir
+              rehearsals take place both once a week together on the Sunday
+              before the service in the church and individually for each voice
+              using digital media at home. Around 10 to 20 singers sing in the
+              choir, who are both church members and active parishioners.
+            </div>
+            {/* <div>
+              Der Chor singt meist dienstlich, begleitet von Klavier oder Orgel,
+              in den Sonntagsgottesdiensten, Weihnachtsgottesdiensten und
+              anderen festlichen Gottesdiensten wie Karfreitag, Ostern und
+              Pfingsten.
+            </div> */}
+            <div>
+              The choir usually sings during services, accompanied by piano or
+              organ, at Sunday services, Christmas services and other festive
+              services such as Good Friday, Easter and Whitsun.
+            </div>
+            {/* <div>
+              Im Juli 2010, veranstaltete der Kirchenchor IREC Berlin zusammen
+              mit dem Chor der Reformed Oratorio Society Singapore einen
+              „Musikabend &Angklung Ensemble zum Lob Gottes", bei dem Werke von
+              J.S. Bach, Mendelssohn, J. Brahms, J.H. Schein, H. Schütz, A.
+              Hammerschmidt und Mozart präsentiert wurden.
+            </div> */}
+            <div>
+              In July 2010, the IREC Berlin church choir, together with the
+              choir of the Reformed Oratorio Society Singapore, organised a
+              &quot;Music Evening &Angklung Ensemble in Praise of God&quot;,
+              presenting works by J.S. Bach, Mendelssohn, J. Brahms, J.H.
+              Schein, H. Schütz, A. Hammerschmidt and Mozart.
+            </div>
+            {/* <div>
+              Im Jahr 2012 sang der Chor auch in einem Erweckungsgottesdienst
+              mit "Vater unser im Himmelreich", J.S. Bach BWV 416 und "Ich bin
+              die Auferstehung", H. Schütz SWV 324.
+            </div> */}
+            <div>
+              In 2012, the choir also sang in a revival service with &quot;Vater
+              unser im Himmelreich&quot;, J.S. Bach BWV 416 and &quot;Ich bin
+              die Auferstehung&quot;, H. Schütz SWV 324.
+            </div>
+            {/* <div>
+              Im Laufe der Jahre hat der IREC Europe Choir viel erreicht. Der
+              Chor hat stets aktiv an unseren jährlichen Gemeindefreizeiten
+              teilgenommen und war auch in der Gefängnispastoral sowie in
+              Seniorenheimen engagiert.
+            </div> */}
+            <div>
+              Over the years, the IREC Europe Choir has achieved a great deal.
+              The choir has always actively participated in our annual church
+              camps and has also been involved in pastoral work in prisons and
+              retirement homes.
+            </div>
+            {/* <div>
+              Im Jahr 2023 hatte der Chor des IREC Europe die Gelegenheit,
+              während Stephen Tongs Gospel-Rally Schuberts Psalm 23 aufzuführen
+              und so die Botschaft des Wortes Gottes durch die Kraft der Musik
+              zu vermitteln.
+            </div> */}
+            <div>
+              In 2023, the IREC Europe Choir had the opportunity to perform
+              Schubert&apos;s Psalm 23 during Stephen Tong&apos;s Gospel Rally,
+              sharing the message of God&apos;s Word through the power of music.
+            </div>
+            <Image
+              width={1080}
+              height={720}
+              className={styles.artistImage}
+              src="/artist-choir.jpeg"
+              alt="Choir's Photo"
               sizes="100vw"
               style={{
                 width: "100%",
