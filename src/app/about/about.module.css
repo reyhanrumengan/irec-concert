@@ -51,6 +51,14 @@
   margin-top: 20px;
 }
 
+.link {
+  color: #fffeff;
+}
+
+.link:hover {
+  color: #e6e6e6;
+}
+
 @media screen and (max-width: 850px) {
   .containerWidth {
     max-width: 850px;

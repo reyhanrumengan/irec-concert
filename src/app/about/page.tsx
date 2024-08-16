@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./about.module.css";
 
 export default function About() {
@@ -60,6 +61,16 @@ export default function About() {
 
           <div className={styles.textContainer}>
             <p className={styles.textSmall}>FREE ENTRY</p>
+
+            <Link
+              href="/donation"
+              className={`${styles.textSmall} ${styles.link}`}
+            >
+              Donations welcome
+            </Link>
+          </div>
+          <div style={{ color: "#F96401" }}>
+            • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
         </div>
       </div>
