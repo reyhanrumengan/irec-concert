@@ -20,6 +20,7 @@ export default function MenuBurger() {
     { path: "/", label: "Home" },
     { path: "/musicians", label: "Musicians" },
     { path: "/program", label: "Program" },
+    { path: "/donation", label: "Donation" },
     { path: "/about", label: "About" },
   ];
 
