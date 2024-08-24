@@ -1,0 +1,110 @@
+.containerWidth {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90vw;
+
+  font-family: "Carlito", sans-serif;
+  color: #fffeff;
+  line-height: 1.7rem;
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pageTitle {
+  font-size: 46px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.container2 {
+  margin: 35px 0;
+  line-height: 2rem;
+}
+
+.textSmall {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.textMedium {
+  font-size: 20px;
+  /* font-weight: 700; */
+}
+
+.textBig {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.textContainer {
+  margin: 40px 0;
+}
+
+.leitung {
+  margin-top: 20px;
+}
+
+.link {
+  color: #fffeff;
+}
+
+.link:hover {
+  color: #e6e6e6;
+}
+
+.image {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 850px) {
+  .containerWidth {
+    max-width: 850px;
+    margin: 10px 0;
+  }
+
+  .container {
+    align-items: unset;
+  }
+
+  .pageTitle {
+    font-size: 40px;
+    margin: 10px 0;
+  }
+
+  .concertTitle {
+    font-size: 32px;
+    margin: 25px 0;
+  }
+
+  .textSmall {
+    font-size: 16px;
+  }
+
+  .textMedium {
+    font-size: 18px;
+  }
+
+  .textBig {
+    font-size: 23px;
+  }
+
+  .textContainer {
+    margin: 20px 0;
+  }
+
+  .leitung {
+    margin-top: 15px;
+  }
+
+  .image {
+    max-width: 450px;
+  }
+}

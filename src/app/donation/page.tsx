@@ -1,62 +1,48 @@
 import Link from "next/link";
 import styles from "./donation.module.css";
+import Image from "next/image";
 
 export default function Donation() {
   return (
     <div className={styles.containerWidth}>
-      <div className={styles.information}>
+      <div className={styles.container}>
         <div>
-          <h1 className={styles.pageTitle}>Event Information</h1>
+          <h1 className={styles.pageTitle}>Donation</h1>
 
-          <div className={styles.concertTitle}>
-            <p className={styles.textSmall}>Music Concert</p>
-            <p>Kühlender Klang</p>
-            <p style={{ color: "#F96401" }}>vor dem Herbst</p>
-          </div>
-
-          <div className={styles.textContainer}>
-            <p className={styles.textBig}>31 August 2024</p>
-            <p className={styles.textSmall}>Saturday, 15:00 CEST</p>
-          </div>
-          <div style={{ color: "#F96401" }}>
-            • • • • • • • • • • • • • • • • • • • • • • • • •
+          <div className={styles.container2}>
+            <p className={styles.textMedium}>
+              You can support us through the following methods:
+            </p>
           </div>
 
           <div className={styles.textContainer}>
-            <p className={styles.textBig}>St. Matthäus-Kirche </p>
-            <p className={styles.textSmall}>Matthäikirchplatz, 10785 Berlin</p>
-          </div>
-
-          <div style={{ color: "#F96401" }}>
-            • • • • • • • • • • • • • • • • • • • • • • • • •
+            <p className={styles.textBig}>Bank Transfer</p>
+            <p className={styles.textMedium} style={{ marginBottom: "20px" }}>
+              IBAN IREC Europe
+            </p>
+            <p className={styles.textMedium}>
+              <strong>Recipient:</strong> MRII Berlin e.V.
+            </p>
+            <p className={styles.textMedium}>
+              <strong>IBAN:</strong> DE92 1007 0024 0025 7576 00
+            </p>
           </div>
 
           <div className={styles.textContainer}>
-            <p className={styles.textMedium}>CLARA SCHUMANN</p>
-            <p className={styles.textMedium}>JEAN-PHILLIPE RAMEAU</p>
-            <p className={styles.textMedium}>DIETRICH BUXTEHUDE</p>
-          </div>
+            <p className={styles.textBig}>Paypal</p>
 
-          <div style={{ color: "#F96401" }}>
-            • • • • • • • • • • • • • • • • • • • • • • • • •
-          </div>
-          <div className={styles.textContainer}>
-            <p className={styles.textSmall}>IREC Europe Chor</p>
-            <p className={styles.textSmall}>Calvin Abdiel Tambunan, Klavier</p>
-            <p className={styles.textSmall}>Tamariska Kristianto, Violine</p>
-            <p className={styles.textSmall}>Hannah Jonina Ivy, Violine</p>
-            <div className={styles.leitung}>
-              <p
-                className={styles.textSmall}
-                style={{ fontStyle: "italic", fontWeight: "400" }}
-              >
-                Directed by:
-              </p>
-              <p className={styles.textSmall}>Billy Kristanto</p>
-            </div>
-          </div>
-          <div style={{ color: "#F96401" }}>
-            • • • • • • • • • • • • • • • • • • • • • • • • •
+            <Image
+              width={720}
+              height={720}
+              className={styles.image}
+              src="/qr-code-paypal.jpeg"
+              alt="Paypal"
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
           </div>
         </div>
       </div>
