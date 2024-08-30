@@ -23,10 +23,11 @@ export default function Program() {
             <p className={styles.pieceTitle}>Allegro in B minor Op. 8</p>
             <p className={styles.composer}>Robert Schumann (1831)</p>
             <p className={styles.description}>
-              Robert Schumann's Allegro in B minor, Op. 8 is stands out as one
-              of Schumann's earlier compositions, showcasing his burgeoning
-              Romantic style, which is characterized by emotional depth, complex
-              harmonies, and an exploration of dramatic contrasts.
+              Robert Schumann&rsquo;s Allegro in B minor, Op. 8 is stands out as
+              one of Schumann&rsquo;s earlier compositions, showcasing his
+              burgeoning Romantic style, which is characterized by emotional
+              depth, complex harmonies, and an exploration of dramatic
+              contrasts.
             </p>
           </div>
 
