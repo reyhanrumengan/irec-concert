@@ -55,12 +55,12 @@ export default function Footer() {
           <div style={{ flex: "1 1 0px" }}></div>
           <div>
             <Link
-              href="https://irec-berlin.org/"
+              href="https://www.grii-hamburg.org/de"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.learnAboutIRECLink}
             >
-              Learn more about IREC Berlin
+              Learn more about IREC Hamburg
             </Link>
           </div>
         </div>
