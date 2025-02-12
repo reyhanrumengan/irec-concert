@@ -15,20 +15,20 @@ export async function POST(req: NextRequest) {
 
     const data = {
       sender: {
-        name: "Kühlender Klang vor dem Herbst",
+        name: "Wärmender Klang zum Frühlingsbeginn",
         email: "irec.concert@gmail.com",
       },
       to: [{ email: email }],
-      subject: "Kühlender Klang vor dem Herbst",
+      subject: "Wärmender Klang zum Frühlingsbeginn",
       htmlContent: `
       <p>Dear Attendee,</p>
 
-      <p>You have been successfully registered to the IREC Berlin concert: </p>
-      <strong>Kühlender Klang vor dem Herbst</strong>
+      <p>You have been successfully registered to the IREC Hamburg concert: </p>
+      <strong>Wärmender Klang zum Frühlingsbeginn</strong>
       <p>
-        <strong>Date: Saturday, 31st August 2024, 03:00 PM (CEST)</strong>
+        <strong>Date: Saturday, 29th March 2025, 03:00 PM (CEST)</strong>
         </br>
-        <strong>Location: St. Matthäus-Kirche, Matthäikirchplatz, 10785 Berlin</strong>
+        <strong>Location: Martin-Luther-Kirche - Martin-Luther-Gemeinde zu Hamburg-Alsterdorf, Bebelallee 156, 22297 Hamburg</strong>
       </p>
 
       <p>For more information, you can send an email to: 
@@ -47,12 +47,12 @@ export async function POST(req: NextRequest) {
 
       <p>Liebe Teilnehmer,</p>
 
-      <p>Sie haben sich erfolgreich für das Konzert des IREC Berlin angemeldet: </p>
+      <p>Sie haben sich erfolgreich für das Konzert des IREC Hamburg angemeldet: </p>
       <strong>Kühlender Klang vor dem Herbst</strong>
       <p>
-        <strong>Datum: Samstag, 31. August 2024, 03:00 PM (CEST)</strong>
+        <strong>Datum: Samstag, 29. März 2025, 03:00 PM (CEST)</strong>
         </br>
-        <strong>Ort: St. Matthäus-Kirche, Matthäikirchplatz, 10785 Berlin</strong>
+        <strong>Ort: Martin-Luther-Kirche - Martin-Luther-Gemeinde zu Hamburg-Alsterdorf, Bebelallee 156, 22297 Hamburg</strong>
       </p>
 
       <p>Für weitere Informationen können Sie eine E-Mail senden an:

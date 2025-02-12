@@ -24,7 +24,8 @@ export default function About() {
 
           <div className={styles.textContainer}>
             <p className={styles.textBig}>
-              Martin Luther community of Hamburg-Alsterdorf{" "}
+              Martin-Luther-Kirche - Martin-Luther-Gemeinde zu
+              Hamburg-Alsterdorf
             </p>
             <p className={styles.textSmall}>Bebelallee 156, 22297 Hamburg</p>
           </div>
