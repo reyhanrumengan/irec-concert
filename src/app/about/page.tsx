@@ -16,7 +16,7 @@ export default function About() {
 
           <div className={styles.textContainer}>
             <p className={styles.textBig}>29 March 2025</p>
-            <p className={styles.textSmall}>Saturday, 15:00 CEST</p>
+            <p className={styles.textSmall}>Saturday, 15:00 CET</p>
           </div>
           <div style={{ color: "#F96401" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
