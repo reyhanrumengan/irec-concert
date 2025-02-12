@@ -10,12 +10,12 @@ export default function About() {
 
           <div className={styles.concertTitle}>
             <p className={styles.textSmall}>Music Concert</p>
-            <p>Kühlender Klang</p>
-            <p style={{ color: "#F96401" }}>vor dem Herbst</p>
+            <p>Wärmender Klang </p>
+            <p style={{ color: "#F96401" }}>zum Frühlingsbeginn</p>
           </div>
 
           <div className={styles.textContainer}>
-            <p className={styles.textBig}>31 August 2024</p>
+            <p className={styles.textBig}>29 March 2025</p>
             <p className={styles.textSmall}>Saturday, 15:00 CEST</p>
           </div>
           <div style={{ color: "#F96401" }}>
@@ -23,8 +23,10 @@ export default function About() {
           </div>
 
           <div className={styles.textContainer}>
-            <p className={styles.textBig}>St. Matthäus-Kirche </p>
-            <p className={styles.textSmall}>Matthäikirchplatz, 10785 Berlin</p>
+            <p className={styles.textBig}>
+              Martin Luther community of Hamburg-Alsterdorf{" "}
+            </p>
+            <p className={styles.textSmall}>Bebelallee 156, 22297 Hamburg</p>
           </div>
 
           <div style={{ color: "#F96401" }}>
