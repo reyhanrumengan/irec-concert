@@ -23,8 +23,8 @@ export default function Header() {
             />
 
             <div className={styles.logoTextContainer}>
-              <p className={styles.logoText1}>Kühlender klang</p>
-              <p className={styles.logoText2}>vor dem Herbst</p>
+              <p className={styles.logoText1}>Wärmender Klang</p>
+              <p className={styles.logoText2}>zum Frühlingsbeginn</p>
             </div>
           </Link>
 
