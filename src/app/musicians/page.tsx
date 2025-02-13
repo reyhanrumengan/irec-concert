@@ -72,7 +72,7 @@ export default function Musicians() {
             />
           </div>
 
-          <div className={styles.artistName}>
+          {/* <div className={styles.artistName}>
             <p>Calvin Abdiel</p>
             <p className={styles.artistIntrument}>Piano</p>
           </div>
@@ -174,7 +174,7 @@ export default function Musicians() {
                 height: "auto",
               }}
             />
-          </div>
+          </div> */}
 
           <div className={styles.artistName}>
             <p>Tamariska Kristianto</p>
