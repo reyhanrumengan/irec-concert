@@ -34,7 +34,7 @@
 
 .textTitle {
   font-size: 20px;
-  color: #f96401;
+  color: var(--color-orange);
   font-weight: 700;
 }
 

@@ -34,7 +34,7 @@
 
 .logoText2 {
   font-size: 18px;
-  color: #f96401;
+  color: var(--color-orange);
   font-family: "Pacifico";
 }
 

@@ -33,7 +33,7 @@
 .button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  background-color: #f96401;
+  background-color: var(--color-orange);
   border: none;
   border-radius: 20px;
   cursor: pointer;
@@ -48,7 +48,7 @@
 }
 
 .link {
-  color: #f96401;
+  color: var(--color-orange);
   text-decoration: none;
 }
 
@@ -76,6 +76,6 @@
   }
 
   .button:hover {
-    background-color: #f96401;
+    background-color: var(--color-orange);
   }
 }

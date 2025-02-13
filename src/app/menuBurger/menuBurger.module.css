@@ -67,7 +67,7 @@
   }
 
   .menuText:hover {
-    color: #f96401;
+    color: var(--color-orange);
   }
 
   .activeMenu {
