@@ -6,6 +6,7 @@
   color: #fffeff;
   line-height: 1.7rem;
   margin: 20px 0 auto 0;
+  flex: 1;
 }
 
 .rsvpContainer {
