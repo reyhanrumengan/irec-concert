@@ -11,29 +11,26 @@ export default function About() {
           <div className={styles.concertTitle}>
             <p className={styles.textSmall}>Music Concert</p>
             <p>Wärmender Klang </p>
-            <p style={{ color: "var(--color-orange)" }}>zum Frühlingsbeginn</p>
+            <p style={{ color: "var(--color-green)" }}>zum Frühlingsbeginn</p>
           </div>
 
           <div className={styles.textContainer}>
             <p className={styles.textBig}>29 March 2025</p>
             <p className={styles.textSmall}>Saturday, 15:00 CET</p>
           </div>
-          <div style={{ color: "var(--color-orange)" }}>
+          <div style={{ color: "var(--color-green)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
 
           <div className={styles.textContainer}>
+            <p className={styles.textBig}>Martin-Luther-Kirche -</p>
             <p className={styles.textBig}>
-              Martin-Luther-Kirche - 
-            </p>
-            <p className={styles.textBig}>
-              Martin-Luther-Gemeinde zu
-              Hamburg-Alsterdorf
+              Martin-Luther-Gemeinde zu Hamburg-Alsterdorf
             </p>
             <p className={styles.textSmall}>Bebelallee 156, 22297 Hamburg</p>
           </div>
 
-          <div style={{ color: "var(--color-orange)" }}>
+          <div style={{ color: "var(--color-green)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
 
@@ -43,7 +40,7 @@ export default function About() {
             <p className={styles.textMedium}>DIETRICH BUXTEHUDE</p>
           </div>
 
-          <div style={{ color: "var(--color-orange)" }}>
+          <div style={{ color: "var(--color-green)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
           <div className={styles.textContainer}>
@@ -61,7 +58,7 @@ export default function About() {
               <p className={styles.textSmall}>Billy Kristanto</p>
             </div>
           </div>
-          <div style={{ color: "var(--color-orange)" }}>
+          <div style={{ color: "var(--color-green)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
 
@@ -75,7 +72,7 @@ export default function About() {
               Donations welcome
             </Link>
           </div>
-          <div style={{ color: "var(--color-orange)" }}>
+          <div style={{ color: "var(--color-green)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
         </div>
