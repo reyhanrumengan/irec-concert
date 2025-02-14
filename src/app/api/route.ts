@@ -28,7 +28,7 @@ export async function POST(req: NextRequest) {
       <p>
         <strong>Date: Saturday, 29th March 2025, 03:00 PM (CET)</strong>
         </br>
-        <strong>Location: Martin-Luther-Kirche - Martin-Luther-Gemeinde zu Hamburg-Alsterdorf, Bebelallee 156, 22297 Hamburg</strong>
+        <strong>Location: Martin-Luther-Kirche, Bebelallee 156, 22297 Hamburg</strong>
       </p>
 
       <p>For more information, you can send an email to: 
@@ -53,7 +53,7 @@ export async function POST(req: NextRequest) {
       <p>
         <strong>Datum: Samstag, 29. März 2025, 03:00 PM (CET)</strong>
         </br>
-        <strong>Ort: Martin-Luther-Kirche - Martin-Luther-Gemeinde zu Hamburg-Alsterdorf, Bebelallee 156, 22297 Hamburg</strong>
+        <strong>Ort: Martin-Luther-Kirche, Bebelallee 156, 22297 Hamburg</strong>
       </p>
 
       <p>Für weitere Informationen können Sie eine E-Mail senden an:
