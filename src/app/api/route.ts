@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
       </p>
 
       <p>For more information, you can send an email to: 
-      <a href="mailto:sekretaris.hamburg@gmx.de">sekretaris.hamburg@gmx.de
+      <a href="mailto:info@grii-hamburg.org">info@grii-hamburg.org
       </a>
       </p>
 
@@ -57,7 +57,7 @@ export async function POST(req: NextRequest) {
       </p>
 
       <p>Für weitere Informationen können Sie eine E-Mail senden an:
-      <a href="mailto:sekretaris.hamburg@gmx.de">sekretaris.hamburg@gmx.de
+      <a href="mailto:info@grii-hamburg.org">info@grii-hamburg.org
       </a>
       </p>
 
