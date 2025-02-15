@@ -32,7 +32,6 @@ export default function About() {
           </div>
 
           <div className={styles.textContainer}>
-            <p className={styles.textMedium}>CLARA SCHUMANN</p>
             <p className={styles.textMedium}>JEAN-PHILLIPE RAMEAU</p>
             <p className={styles.textMedium}>DIETRICH BUXTEHUDE</p>
           </div>
@@ -41,10 +40,11 @@ export default function About() {
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
           <div className={styles.textContainer}>
-            <p className={styles.textSmall}>IREC Europe Chor</p>
-            <p className={styles.textSmall}>Calvin Abdiel Tambunan, Klavier</p>
-            <p className={styles.textSmall}>Tamariska Kristianto, Violine</p>
-            <p className={styles.textSmall}>Hannah Jonina Ivy, Violine</p>
+            <p className={styles.textSmall}>IREC Europe Choir</p>
+            <p className={styles.textSmall}>Petra Priscilla Tjandra, Soprano</p>
+            <p className={styles.textSmall}>Tamariska Kristianto, Violin</p>
+            <p className={styles.textSmall}>Hannah Jonina Ivy, Violin</p>
+            <p className={styles.textSmall}>Jakob Solle, Baroque Cello</p>
             <div className={styles.leitung}>
               <p
                 className={styles.textSmall}
