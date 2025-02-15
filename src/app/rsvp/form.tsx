@@ -35,24 +35,24 @@ const Form = () => {
     e.preventDefault();
 
     // Correct Google Forms
-    // const formUrl =
-    //   "https://docs.google.com/forms/d/e/1FAIpQLScDUyZ-Qp4Z_Rs_pPe1UwbTzGDDFSWaUPHH_ijVdBiBdcyYkA/formResponse";
-    // const formBody = new URLSearchParams({
-    //   "entry.1780199336": formData.email,
-    //   "entry.1378719052": formData.fullName,
-    //   "entry.1634956136": formData.numberOfPeople,
-    //   "entry.1928734284": formData.invitedBy,
-    // });
-
-    // Test Google Forms
     const formUrl =
-      "https://docs.google.com/forms/d/e/1FAIpQLSeqEZYTJC5R9LMZcfhRFjSjLb1jCelNK6MkWwQd5Gknifu7Ew/formResponse";
+      "https://docs.google.com/forms/d/e/1FAIpQLSdKc3RfWgQgnEwXxtkxhVqf74q1oa7d06jaYhEeP2o-ID_BEA/formResponse";
     const formBody = new URLSearchParams({
       "entry.1780199336": formData.email,
       "entry.1378719052": formData.fullName,
       "entry.1634956136": formData.numberOfPeople,
       "entry.1928734284": formData.invitedBy,
     });
+
+    // Test Google Forms
+    // https: const formUrl =
+    //   "https://docs.google.com/forms/d/e/1FAIpQLSeqEZYTJC5R9LMZcfhRFjSjLb1jCelNK6MkWwQd5Gknifu7Ew/formResponse";
+    // const formBody = new URLSearchParams({
+    //   "entry.1780199336": formData.email,
+    //   "entry.1378719052": formData.fullName,
+    //   "entry.1634956136": formData.numberOfPeople,
+    //   "entry.1928734284": formData.invitedBy,
+    // });
 
     try {
       await fetch(formUrl, {

@@ -23,7 +23,7 @@ export default function About() {
           </div>
 
           <div className={styles.textContainer}>
-            <p className={styles.textBig}>Martin-Luther-Kirche -</p>
+            <p className={styles.textBig}>Martin-Luther-Kirche</p>
             <p className={styles.textSmall}>Bebelallee 156, 22297 Hamburg</p>
           </div>
 
