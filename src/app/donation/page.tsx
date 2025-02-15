@@ -21,14 +21,18 @@ export default function Donation() {
               IBAN IREC Europe
             </p>
             <p className={styles.textMedium}>
-              <strong>Recipient:</strong> MRII Berlin e.V.
+              <strong>Recipient:</strong> Mimbar Ref.Ind. di Hamburg e.V.
             </p>
             <p className={styles.textMedium}>
-              <strong>IBAN:</strong> DE92 1007 0024 0025 7576 00
+              <strong>IBAN:</strong> DE81201900030051254409
             </p>
+            <p className={styles.textMedium}>
+              <strong>BIC:</strong> GENODEF1HH2
+            </p>
+            <p className={styles.textMedium}>Hamburger Volksbank e.G</p>
           </div>
 
-          <div className={styles.textContainer}>
+          {/* <div className={styles.textContainer}>
             <p className={styles.textBig}>Paypal</p>
 
             <Image
@@ -43,7 +47,7 @@ export default function Donation() {
                 height: "auto",
               }}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
