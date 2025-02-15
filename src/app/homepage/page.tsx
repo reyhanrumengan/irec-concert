@@ -9,34 +9,41 @@ export default function Homepage() {
   return (
     <div className={styles.containerWidth}>
       <div className={styles.imageContainer}>
-        {/* RSVP Button */}
-        <Link href="/rsvp" className={styles.rsvp}>
-          <Button
-            variant="filled"
-            color="rgba(249, 100, 1, 1)"
-            radius="xl"
-            size="md"
-            classNames={{
-              label: styles.buttonLabel,
-            }}
-          >
-            RSVP HERE
-          </Button>
-        </Link>
+        <div className={styles.posterWrapper}>
+          {/* RSVP Button */}
+          <div className={styles.rsvp}>
+            <Link href="/rsvp">
+              <Button
+                variant="filled"
+                color="var(--color-green)"
+                radius="xl"
+                size="md"
+                classNames={{
+                  label: styles.buttonLabel,
+                }}
+              >
+                RSVP HERE
+              </Button>
+            </Link>
+            <Link href="/about" className={styles.moreInfo}>
+              <div>more info</div>
+            </Link>
+          </div>
 
-        <Image
-          width={760}
-          height={760}
-          src="/poster-2.png"
-          alt="Concert Poster"
-          className={styles.poster}
-          priority
-          sizes="100vw"
-          style={{
-            width: "100%",
-            height: "auto",
-          }}
-        />
+          <Image
+            width={760}
+            height={760}
+            src="/logo2.svg"
+            alt="Concert Poster"
+            className={styles.poster}
+            priority
+            sizes="100vw"
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
+          />
+        </div>
       </div>
     </div>
   );

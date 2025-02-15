@@ -9,9 +9,17 @@
 }
 
 .imageContainer {
-  position: relative;
   width: 100%;
   max-width: 760px;
+  margin: 0 auto;
+}
+
+.posterWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%; /* Matches image width */
   margin: 0 auto;
 }
 
@@ -26,6 +34,18 @@
   /* padding: 10px 0px; */
   /* opacity: 0; */
   animation: fadeInUp 1s ease-out forwards;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moreInfo {
+  text-decoration: underline;
+  color: #cccccc;
+}
+
+.moreInfo:hover {
+  color: #f0f0f0;
 }
 
 .buttonLabel {
@@ -35,7 +55,8 @@
 }
 
 .poster {
-  max-width: 760px;
+  max-width: 100%; /* Responsive */
+  height: auto;
 }
 
 @keyframes fadeInUp {
@@ -52,7 +73,12 @@
 @media screen and (max-width: 850px) {
   .containerWidth {
     max-width: 850px;
-    margin: 50px 0 60px 0; /* need to check on mobile there is excess space at the bottom when scrolling down*/ /* need to find out how to fix this */
+    margin: 40px 0; /* need to check on mobile there is excess space at the bottom when scrolling down*/ /* need to find out how to fix this */
+    width: 100vw;
+  }
+
+  .posterWrapper {
+    width: 100%; /* Matches image width */
   }
 
   .rsvp {
