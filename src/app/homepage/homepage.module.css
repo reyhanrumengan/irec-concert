@@ -40,6 +40,7 @@
 }
 
 .moreInfo {
+  display: none;
   text-decoration: underline;
   color: #cccccc;
 }
@@ -73,12 +74,16 @@
 @media screen and (max-width: 850px) {
   .containerWidth {
     max-width: 850px;
-    margin: 40px 0; /* need to check on mobile there is excess space at the bottom when scrolling down*/ /* need to find out how to fix this */
+    margin: 40px 0;
     width: 100vw;
   }
 
   .posterWrapper {
     width: 100%; /* Matches image width */
+  }
+
+  .moreInfo {
+    display: unset;
   }
 
   .rsvp {
