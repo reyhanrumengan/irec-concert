@@ -27,7 +27,7 @@ DTSTAMP:20250301T000000Z
 DTSTART;TZID=Europe/Berlin:20250329T150000
 DTEND;TZID=Europe/Berlin:20250329T170000
 SUMMARY:IREC Berlin Concert 2025
-DESCRIPTION:IREC Europe Concert 2025\n\nWärmender Klang zum Frühlingsbeginn\n\nSaturday, 29th March 2025, 03:00 PM (CET)
+DESCRIPTION:IREC Europe Concert 2025\n\nKonzert zum Frühlingsbeginn\n\nSaturday, 29th March 2025, 03:00 PM (CET)
 LOCATION:Martin-Luther-Kirche, Bebelallee 156, 22297 Hamburg, Deutschland
 ORGANIZER;CN="IREC Hamburg":MAILTO:irec.concert@gmail.com
 CREATED:20250301T000000Z

@@ -15,16 +15,16 @@ export async function POST(req: NextRequest) {
 
     const data = {
       sender: {
-        name: "Wärmender Klang zum Frühlingsbeginn",
+        name: "Konzert zum Frühlingsbeginn",
         email: "irec.concert@gmail.com",
       },
       to: [{ email: email }],
-      subject: "Wärmender Klang zum Frühlingsbeginn",
+      subject: "Konzert zum Frühlingsbeginn",
       htmlContent: `
       <p>Dear Attendee,</p>
 
       <p>You have been successfully registered to the IREC Hamburg concert: </p>
-      <strong>Wärmender Klang zum Frühlingsbeginn</strong>
+      <strong>Konzert zum Frühlingsbeginn</strong>
       <p>
         <strong>Date: Saturday, 29th March 2025, 03:00 PM (CET)</strong>
         </br>

@@ -10,7 +10,7 @@ export default function About() {
 
           <div className={styles.concertTitle}>
             <p className={styles.textSmall}>Music Concert</p>
-            <p>Wärmender Klang </p>
+            <p>Konzert </p>
             <p style={{ color: "var(--color-green)" }}>zum Frühlingsbeginn</p>
           </div>
 

@@ -12,7 +12,7 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Wärmender Klang zum Frühlingsbeginn",
+  title: "Konzert zum Frühlingsbeginn",
   description: "IREC Europe Concert 2025",
   keywords: [
     "International Reformed Evangelical Church",
