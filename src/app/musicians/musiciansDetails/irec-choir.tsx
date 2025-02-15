@@ -26,7 +26,7 @@ export default function IrecChoir() {
           and to classical modernism with Paul Hindemith.
         </div>
         {/* <div>
-            Pfr. Dr. phil., Dr. theol. Bily Kristanto, leitet zusammen mit
+            Pfr. Dr. phil., Dr. theol. Billy Kristanto, leitet zusammen mit
             einem aus dem Chor geschulten Musiker die Proben. Die Chorproben
             finden sowohl einmal wöchentlich gemeinsam am Sonntag vor dem
             Gottesdienst in der Kirche als auch individuell für die einzelnen
@@ -35,10 +35,10 @@ export default function IrecChoir() {
             als auch aktive Gemeindemitglieder sind.
           </div> */}
         <div>
-          Rev. Dr phil., Dr theol. Bily Kristanto, leads the rehearsals together
-          with a musician trained from the choir. The choir rehearsals take
-          place both once a week together on the Sunday before the service in
-          the church and individually for each voice using digital media at
+          Rev. Dr phil., Dr theol. Billy Kristanto, leads the rehearsals
+          together with a musician trained from the choir. The choir rehearsals
+          take place both once a week together on the Sunday before the service
+          in the church and individually for each voice using digital media at
           home. Around 10 to 20 singers sing in the choir, who are both church
           members and active parishioners.
         </div>
