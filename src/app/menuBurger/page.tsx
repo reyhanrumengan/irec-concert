@@ -83,7 +83,7 @@ export default function MenuBurger() {
               <Link href="/rsvp" className={styles.rsvp}>
                 <Button
                   variant="filled"
-                  color="rgba(249, 100, 1, 1)"
+                  color="var(--color-green)"
                   radius="xl"
                   size="md"
                   classNames={{

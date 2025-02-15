@@ -39,7 +39,7 @@
 }
 
 .button:hover {
-  background-color: #009653;
+  background-color: var(--button-hover-green);
 }
 
 .redirect {
