@@ -8,7 +8,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #040a0a;
+    background-color: var(--bg-color-dark2);
     border: none;
     padding: 0;
     padding-bottom: 70px;

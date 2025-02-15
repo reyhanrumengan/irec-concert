@@ -60,7 +60,7 @@
     top: 0;
     width: 100%;
     z-index: 2;
-    background-color: #040a0a;
+    background-color: var(--bg-color-dark2);
   }
 
   .logo {
