@@ -24,17 +24,17 @@
 
 .logoTextContainer {
   font-family: "Carlito", sans-serif;
-  line-height: 1em;
+  line-height: 1.2em;
 }
 
 .logoText1 {
-  font-size: 20px;
+  font-size: 26px;
   color: #fffeff;
 }
 
 .logoText2 {
-  font-size: 18px;
-  color: #f96401;
+  font-size: 22px;
+  color: var(--color-green);
   font-family: "Pacifico";
 }
 
@@ -60,7 +60,7 @@
     top: 0;
     width: 100%;
     z-index: 2;
-    background-color: #040a0a;
+    background-color: var(--bg-color-dark2);
   }
 
   .logo {
@@ -70,15 +70,15 @@
 
   .logoTextContainer {
     font-family: "Carlito", sans-serif;
-    line-height: 0.8em;
+    line-height: 1em;
   }
 
   .logoText1 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .logoText2 {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .navigationItem {

@@ -10,41 +10,41 @@ export default function About() {
 
           <div className={styles.concertTitle}>
             <p className={styles.textSmall}>Music Concert</p>
-            <p>Kühlender Klang</p>
-            <p style={{ color: "#F96401" }}>vor dem Herbst</p>
+            <p>Konzert </p>
+            <p style={{ color: "var(--color-green)" }}>zum Frühlingsbeginn</p>
           </div>
 
           <div className={styles.textContainer}>
-            <p className={styles.textBig}>31 August 2024</p>
-            <p className={styles.textSmall}>Saturday, 15:00 CEST</p>
+            <p className={styles.textBig}>29 March 2025</p>
+            <p className={styles.textSmall}>Saturday, 18:00 CET</p>
           </div>
-          <div style={{ color: "#F96401" }}>
+          <div style={{ color: "var(--color-green)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
 
           <div className={styles.textContainer}>
-            <p className={styles.textBig}>St. Matthäus-Kirche </p>
-            <p className={styles.textSmall}>Matthäikirchplatz, 10785 Berlin</p>
+            <p className={styles.textBig}>Martin-Luther-Kirche</p>
+            <p className={styles.textSmall}>Bebelallee 156, 22297 Hamburg</p>
           </div>
 
-          <div style={{ color: "#F96401" }}>
+          <div style={{ color: "var(--color-green)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
 
           <div className={styles.textContainer}>
-            <p className={styles.textMedium}>CLARA SCHUMANN</p>
             <p className={styles.textMedium}>JEAN-PHILLIPE RAMEAU</p>
             <p className={styles.textMedium}>DIETRICH BUXTEHUDE</p>
           </div>
 
-          <div style={{ color: "#F96401" }}>
+          <div style={{ color: "var(--color-green)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
           <div className={styles.textContainer}>
-            <p className={styles.textSmall}>IREC Europe Chor</p>
-            <p className={styles.textSmall}>Calvin Abdiel Tambunan, Klavier</p>
-            <p className={styles.textSmall}>Tamariska Kristianto, Violine</p>
-            <p className={styles.textSmall}>Hannah Jonina Ivy, Violine</p>
+            <p className={styles.textSmall}>IREC Europe Choir</p>
+            <p className={styles.textSmall}>Petra Priscilla Tjandra, Soprano</p>
+            <p className={styles.textSmall}>Tamariska Kristianto, Violin</p>
+            <p className={styles.textSmall}>Hannah Jonina Ivy, Violin</p>
+            <p className={styles.textSmall}>Jakob Solle, Baroque Cello</p>
             <div className={styles.leitung}>
               <p
                 className={styles.textSmall}
@@ -55,7 +55,7 @@ export default function About() {
               <p className={styles.textSmall}>Billy Kristanto</p>
             </div>
           </div>
-          <div style={{ color: "#F96401" }}>
+          <div style={{ color: "var(--color-green)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
 
@@ -69,7 +69,7 @@ export default function About() {
               Donations welcome
             </Link>
           </div>
-          <div style={{ color: "#F96401" }}>
+          <div style={{ color: "var(--color-green)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
         </div>

@@ -12,3 +12,16 @@ body {
   max-width: 100vw;
   /* font-family: "Carlito", sans-serif; */
 }
+
+:root {
+  /* Main Color */
+  --color-orange: #f96401;
+  --color-green: #00bf63;
+
+  /* Button */
+  --button-hover-green: #009653;
+
+  /* Background */
+  --bg-color-dark1: #040a0a;
+  --bg-color-dark2: #010812;
+}

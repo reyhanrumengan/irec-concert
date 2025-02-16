@@ -7,6 +7,7 @@
   color: #fffeff;
   line-height: 1.7rem;
   margin: 20px 0;
+  flex: 1;
 }
 
 .programContainer {
@@ -29,7 +30,7 @@
   font-size: 30px;
   font-weight: 700;
   margin: 40px 0 10px 0;
-  color: #f96401;
+  color: var(--color-green);
 }
 
 .composer {

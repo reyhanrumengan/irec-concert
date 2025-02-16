@@ -12,19 +12,21 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kühlender Klang vor dem Herbst",
-  description: "IREC Berlin Concert 2024",
+  title: "Konzert zum Frühlingsbeginn",
+  description: "IREC Europe Concert 2025",
   keywords: [
     "International Reformed Evangelical Church",
     "Concert",
     "Classical",
     "Music",
     "IREC Europe",
-    "Clara Schumann",
     "Jean-Phillipe Rameau",
     "Dietrich Buxtehude",
     "MRII Berlin",
+    "IREC Hamburg",
+    "GRII Hamburg",
     "Billy Kristanto",
+    "Hamburg",
   ],
 };
 

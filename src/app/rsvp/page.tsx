@@ -12,14 +12,14 @@ export default function RSVP() {
             <div>
               <p className={styles.textTitle}>Schedule</p>
               <p className={styles.text}>
-                Saturday, August 31, 2024 - 3:00 p.m.
+                Saturday, March 29, 2025 - 18:00 CET
               </p>
             </div>
 
             <div>
               <p className={styles.textTitle}>Location</p>
-              <p className={styles.text}>St. Matthäus Church</p>
-              <p className={styles.text}>Matthäikirchplatz, 10785 Berlin</p>
+              <p className={styles.text}>Martin-Luther-Kirche</p>
+              <p className={styles.text}>Bebelallee 156, 22297 Hamburg</p>
             </div>
           </div>
 

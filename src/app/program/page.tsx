@@ -7,7 +7,7 @@ export default function Program() {
         <div className={styles.program}>
           <p className={styles.pageTitle}>Concert Program</p>
 
-          <div>
+          {/* <div>
             <p className={styles.pieceTitle}>
               3 Romances for Violin and Piano, Op. 22
             </p>
@@ -29,7 +29,7 @@ export default function Program() {
               depth, complex harmonies, and an exploration of dramatic
               contrasts.
             </p>
-          </div>
+          </div> */}
 
           <div>
             <p className={styles.pieceTitle}>Suite in E Minor</p>

@@ -23,8 +23,8 @@ export default function Header() {
             />
 
             <div className={styles.logoTextContainer}>
-              <p className={styles.logoText1}>Kühlender klang</p>
-              <p className={styles.logoText2}>vor dem Herbst</p>
+              <p className={styles.logoText1}>Konzert</p>
+              <p className={styles.logoText2}>zum Frühlingsbeginn</p>
             </div>
           </Link>
 
@@ -33,9 +33,9 @@ export default function Header() {
           <Link className={styles.navigationItem} href="/">
             Home
           </Link>
-          <Link className={styles.navigationItem} href="/musicians">
+          {/* <Link className={styles.navigationItem} href="/musicians">
             Musicians
-          </Link>
+          </Link> */}
           <Link className={styles.navigationItem} href="/program">
             Program
           </Link>

@@ -7,6 +7,7 @@
   color: #fffeff;
   line-height: 1.7rem;
   margin: 20px 0;
+  flex: 1;
 }
 
 .container {
@@ -46,23 +47,11 @@
   margin: 40px 0;
 }
 
-.leitung {
-  margin-top: 20px;
-}
-
-.link {
-  color: #fffeff;
-}
-
-.link:hover {
-  color: #e6e6e6;
-}
-
-.image {
+/* .image {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
-}
+} */
 
 @media screen and (max-width: 850px) {
   .containerWidth {
@@ -70,18 +59,12 @@
     margin: 10px 0;
   }
 
-  .container {
-    align-items: unset;
-  }
+  /* .container {
+  } */
 
   .pageTitle {
     font-size: 40px;
     margin: 10px 0;
-  }
-
-  .concertTitle {
-    font-size: 32px;
-    margin: 25px 0;
   }
 
   .textSmall {
@@ -100,11 +83,7 @@
     margin: 20px 0;
   }
 
-  .leitung {
-    margin-top: 15px;
-  }
-
-  .image {
+  /* .image {
     max-width: 450px;
-  }
+  } */
 }

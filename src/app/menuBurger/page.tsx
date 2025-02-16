@@ -18,7 +18,7 @@ export default function MenuBurger() {
 
   const routes: Route[] = [
     { path: "/", label: "Home" },
-    { path: "/musicians", label: "Musicians" },
+    // { path: "/musicians", label: "Musicians" },
     { path: "/program", label: "Program" },
     { path: "/donation", label: "Donation" },
     { path: "/about", label: "About" },
@@ -83,7 +83,7 @@ export default function MenuBurger() {
               <Link href="/rsvp" className={styles.rsvp}>
                 <Button
                   variant="filled"
-                  color="rgba(249, 100, 1, 1)"
+                  color="var(--color-green)"
                   radius="xl"
                   size="md"
                   classNames={{

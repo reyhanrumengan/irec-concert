@@ -6,6 +6,7 @@
   color: #fffeff;
   line-height: 1.7rem;
   margin: 20px 0 auto 0;
+  flex: 1;
 }
 
 .rsvpContainer {
@@ -33,7 +34,7 @@
 .button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  background-color: #f96401;
+  background-color: var(--color-green);
   border: none;
   border-radius: 20px;
   cursor: pointer;
@@ -44,11 +45,11 @@
 }
 
 .button:hover {
-  background-color: #d75201;
+  background-color: var(--button-hover-green);
 }
 
 .link {
-  color: #f96401;
+  color: var(--color-green);
   text-decoration: none;
 }
 
@@ -76,6 +77,6 @@
   }
 
   .button:hover {
-    background-color: #f96401;
+    background-color: var(--color-green);
   }
 }

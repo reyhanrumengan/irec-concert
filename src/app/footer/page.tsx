@@ -10,7 +10,7 @@ export default function Footer() {
           <div className={styles.socialMedia}>
             <div>
               <Link
-                href="https://www.instagram.com/irec.europe/"
+                href="https://www.instagram.com/mrii_hamburg//"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.instagram}
@@ -26,13 +26,13 @@ export default function Footer() {
                     height: "auto",
                   }}
                 />
-                <span className={styles.instagramLink}>IREC.EUROPE</span>
+                <span className={styles.instagramLink}>IREC in Hamburg</span>
               </Link>
             </div>
 
             <div>
               <Link
-                href="https://www.youtube.com/@irecineurope"
+                href="https://www.youtube.com/@kristantobilly"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.youtube}
@@ -55,12 +55,12 @@ export default function Footer() {
           <div style={{ flex: "1 1 0px" }}></div>
           <div>
             <Link
-              href="https://irec-berlin.org/"
+              href="https://www.grii-hamburg.org/de"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.learnAboutIRECLink}
             >
-              Learn more about IREC Berlin
+              Learn more about IREC Hamburg
             </Link>
           </div>
         </div>
