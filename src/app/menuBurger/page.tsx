@@ -18,7 +18,7 @@ export default function MenuBurger() {
 
   const routes: Route[] = [
     { path: "/", label: "Home" },
-    { path: "/musicians", label: "Musicians" },
+    // { path: "/musicians", label: "Musicians" },
     { path: "/program", label: "Program" },
     { path: "/donation", label: "Donation" },
     { path: "/about", label: "About" },

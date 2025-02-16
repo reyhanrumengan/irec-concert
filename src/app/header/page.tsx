@@ -33,9 +33,9 @@ export default function Header() {
           <Link className={styles.navigationItem} href="/">
             Home
           </Link>
-          <Link className={styles.navigationItem} href="/musicians">
+          {/* <Link className={styles.navigationItem} href="/musicians">
             Musicians
-          </Link>
+          </Link> */}
           <Link className={styles.navigationItem} href="/program">
             Program
           </Link>
