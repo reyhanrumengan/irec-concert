@@ -26,7 +26,7 @@ export default function Footer() {
                     height: "auto",
                   }}
                 />
-                <span className={styles.instagramLink}>IREC in Hamburg</span>
+                {/* <span className={styles.instagramLink}>IREC in Hamburg</span> */}
               </Link>
             </div>
 
@@ -48,7 +48,7 @@ export default function Footer() {
                     height: "auto",
                   }}
                 />
-                <span className={styles.youtubeLink}>IREC in Europe</span>
+                {/* <span className={styles.youtubeLink}>IREC in Europe</span> */}
               </Link>
             </div>
           </div>
