@@ -96,7 +96,7 @@ const Form = () => {
     <form onSubmit={handleSubmit} className={styles.form}>
       <div className={styles.formContainer}>
         <label htmlFor="email" className={styles.label}>
-          Email:
+          Email
         </label>
         <input
           type="email"
@@ -111,7 +111,7 @@ const Form = () => {
       </div>
       <div className={styles.formContainer}>
         <label htmlFor="fullName" className={styles.label}>
-          Your Full Name:
+          Your Full Name
         </label>
         <input
           type="text"
@@ -126,7 +126,7 @@ const Form = () => {
       </div>
       <div className={styles.formContainer}>
         <label htmlFor="numberOfPeople" className={styles.label}>
-          How many people are coming to the concert (including yourself)?:
+          How many people are coming to the concert (including yourself)?
         </label>
         <input
           type="number"
@@ -141,7 +141,7 @@ const Form = () => {
       </div>
       <div className={styles.formContainer}>
         <label htmlFor="invitedBy" className={styles.label}>
-          How did you know about this event??:
+          How did you know about this event?
         </label>
         <select
           id="invitedBy"
