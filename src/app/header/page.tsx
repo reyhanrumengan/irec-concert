@@ -33,17 +33,17 @@ export default function Header() {
           <Link className={styles.navigationItem} href="/">
             Home
           </Link>
-          {/* <Link className={styles.navigationItem} href="/musicians">
-            Musicians
-          </Link> */}
+          <Link className={styles.navigationItem} href="/about">
+            About
+          </Link>
           <Link className={styles.navigationItem} href="/program">
             Program
           </Link>
+          {/* <Link className={styles.navigationItem} href="/musicians">
+            Musicians
+          </Link> */}
           <Link className={styles.navigationItem} href="/donation">
             Donation
-          </Link>
-          <Link className={styles.navigationItem} href="/about">
-            About
           </Link>
 
           <div className={styles.menuBurger}>
