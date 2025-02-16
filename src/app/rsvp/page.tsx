@@ -12,7 +12,7 @@ export default function RSVP() {
             <div>
               <p className={styles.textTitle}>Schedule</p>
               <p className={styles.text}>
-                Saturday, March 29, 2025 - 3:00 p.m.
+                Saturday, March 29, 2025 - 18:00 CET
               </p>
             </div>
 
