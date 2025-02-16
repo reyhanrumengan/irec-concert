@@ -17,9 +17,7 @@ export default function Donation() {
 
           <div className={styles.textContainer}>
             <p className={styles.textBig}>Bank Transfer</p>
-            <p className={styles.textMedium} style={{ marginBottom: "20px" }}>
-              IBAN IREC Europe
-            </p>
+
             <p className={styles.textMedium}>
               <strong>Recipient:</strong> Mimbar Ref.Ind. di Hamburg e.V.
             </p>
