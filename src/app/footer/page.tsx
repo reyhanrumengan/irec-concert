@@ -32,7 +32,7 @@ export default function Footer() {
 
             <div>
               <Link
-                href="https://www.youtube.com/@irecberlin"
+                href="https://www.youtube.com/@kristantobilly"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.youtube}
