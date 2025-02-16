@@ -33,7 +33,7 @@ export default function Homepage() {
           <Image
             width={760}
             height={760}
-            src="/poster-hamburg.png"
+            src="/concert-hamburg.png"
             alt="Concert Poster"
             className={styles.poster}
             priority
