@@ -5,6 +5,8 @@ export async function POST(req: NextRequest) {
   try {
     const { email } = await req.json();
     const apiKey = process.env.BREVO_API_KEY;
+    const attachmentUrl =
+      process.env.NEXT_PUBLIC_SITE_URL + "/concert-calendar.ics";
 
     const url = "https://api.brevo.com/v3/smtp/email";
     const headers = {
@@ -71,8 +73,14 @@ export async function POST(req: NextRequest) {
   `,
 
       // attachment: [
+      // {
+      //   url: `${process.env.NEXT_PUBLIC_SITE_URL}/concert-calendar.ics`,
+      // },
+      // ],
+
+      // attachment: [
       //   {
-      //     url: "https://irec-concert-2024-bucket.s3.eu-central-1.amazonaws.com/concert-calender.ics",
+      //     url: "https://irec-concert-2024-bucket.s3.eu-central-1.amazonaws.com/concert-calendar.ics",
       //   },
       // ],
     };
