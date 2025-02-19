@@ -27,10 +27,10 @@ export default function PetraPriscilla() {
         <div>
           Petra works as a children&rsquo;s choir director at Martin-Luther
           Church Alsterdorf and as a music educator at the State Youth Music
-          School Hamburg, as well as a music educator for the "Singende
-          Kindergarten" project initiated by DM. Her heart lies in singing and
-          working with children, and she is passionate about providing them with
-          beautiful musical experiences during their childhood.
+          School Hamburg, as well as a music educator for the &quot;Singende
+          Kindergarten&quot; project initiated by DM. Her heart lies in singing
+          and working with children, and she is passionate about providing them
+          with beautiful musical experiences during their childhood.
         </div>
         <Image
           width={1080}
