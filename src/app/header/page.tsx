@@ -14,7 +14,7 @@ export default function Header() {
               height={720}
               src="/logo.svg"
               alt="Logo"
-              className={styles.logo}
+              className={styles.irecLogo}
               sizes="100vw"
               style={{
                 width: "100%",
@@ -22,10 +22,23 @@ export default function Header() {
               }}
             />
 
-            <div className={styles.logoTextContainer}>
+            <Image
+              width={1080}
+              height={720}
+              src="/hamburg-logo-concert-2.svg"
+              alt="Logo"
+              className={styles.themeLogo}
+              sizes="100vw"
+              // style={{
+              //   width: "80%",
+              //   height: "auto",
+              // }}
+            />
+
+            {/* <div className={styles.logoTextContainer}>
               <p className={styles.logoText1}>Baroque Blossoms</p>
               <p className={styles.logoText2}>Konzert zum Frühlingsbeginn</p>
-            </div>
+            </div> */}
           </Link>
 
           <div style={{ flex: "1 1 0px" }}></div>
