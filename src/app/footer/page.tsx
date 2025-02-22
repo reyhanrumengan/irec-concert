@@ -10,7 +10,7 @@ export default function Footer() {
           <div className={styles.socialMedia}>
             <div>
               <Link
-                href="https://www.instagram.com/mrii_hamburg//"
+                href="https://www.instagram.com/irec.hamburg/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.instagram}
