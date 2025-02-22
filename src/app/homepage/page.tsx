@@ -19,6 +19,7 @@ export default function Homepage() {
                 radius="xl"
                 size="md"
                 classNames={{
+                  root: styles.buttonRoot,
                   label: styles.buttonLabel,
                 }}
               >
@@ -33,7 +34,7 @@ export default function Homepage() {
           <Image
             width={760}
             height={760}
-            src="/concert-hamburg.png"
+            src="/concert-hamburg-2b.jpeg"
             alt="Concert Poster"
             className={styles.poster}
             priority
