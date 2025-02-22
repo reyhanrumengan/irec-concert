@@ -25,7 +25,7 @@
 
 .rsvp {
   position: absolute;
-  top: 9%;
+  top: 27%;
   left: 50%;
   transform: translateX(-50%);
   /* transform: translateX(-50%) translateY(30px); */
@@ -39,20 +39,14 @@
   align-items: center;
 }
 
-.moreInfo {
-  display: none;
-  text-decoration: underline;
-  color: #cccccc;
-}
-
-.moreInfo:hover {
-  color: #f0f0f0;
-}
-
 .buttonLabel {
   font-size: 24px;
   font-family: "Carlito", sans-serif;
   font-weight: 700;
+}
+
+.moreInfo {
+  display: none;
 }
 
 .poster {
@@ -82,18 +76,29 @@
     width: 100%; /* Matches image width */
   }
 
-  .moreInfo {
-    display: unset;
-  }
-
   .rsvp {
     position: absolute;
-    top: 7%;
+    top: 26.5%;
   }
+
+  /* .buttonRoot {
+    height: 30px;
+    padding: 0 14px;
+  } */
 
   .buttonLabel {
     font-size: 20px;
     font-family: "Carlito", sans-serif;
     font-weight: 700;
+  }
+
+  .moreInfo {
+    display: none;
+    text-decoration: underline;
+    color: var(--bg-color-dark2);
+  }
+
+  .moreInfo:hover {
+    color: #f0f0f0;
   }
 }
