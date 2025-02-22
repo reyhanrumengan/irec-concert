@@ -65,6 +65,7 @@ export default function MenuBurger() {
           dropdown: styles.dropdown,
           item: styles.item,
         }}
+        styles={{ dropdown: { left: 0 } }}
       >
         <Menu.Target>
           <Burger
