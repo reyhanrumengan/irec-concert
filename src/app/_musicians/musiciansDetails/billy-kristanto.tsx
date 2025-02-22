@@ -7,7 +7,7 @@ export default function BillyKristanto() {
       {" "}
       <div className={styles.artistName}>
         <p>Billy Kristanto</p>
-        <p className={styles.artistIntrument}>Cembalo & Leitung</p>
+        <p className={styles.artistIntrument}>Harpsichord & Conductor</p>
       </div>
       <div className={styles.artistDescription}>
         <div>
