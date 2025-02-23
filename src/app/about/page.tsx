@@ -44,7 +44,7 @@ export default function About() {
             <p className={styles.textSmall}>Petra Priscilla Tjandra, Soprano</p>
             <p className={styles.textSmall}>Tamariska Kristianto, Violin</p>
             <p className={styles.textSmall}>Hannah Jonina Ivy, Violin</p>
-            <p className={styles.textSmall}>Jakob Solle, Baroque Cello</p>
+            {/* <p className={styles.textSmall}>Jakob Solle, Baroque Cello</p> */}
             <div className={styles.leitung}>
               <p
                 className={styles.textSmall}
