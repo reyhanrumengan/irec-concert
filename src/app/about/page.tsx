@@ -10,8 +10,8 @@ export default function About() {
 
           <div className={styles.concertTitle}>
             <p className={styles.textSmall}>Music Concert</p>
-            <p>Konzert </p>
-            <p style={{ color: "var(--color-green)" }}>zum Frühlingsbeginn</p>
+            <p style={{ color: "var(--color-green)" }}>Baroque Blossoms</p>
+            <p>A Concert for Spring</p>
           </div>
 
           <div className={styles.textContainer}>
@@ -44,13 +44,13 @@ export default function About() {
             <p className={styles.textSmall}>Petra Priscilla Tjandra, Soprano</p>
             <p className={styles.textSmall}>Tamariska Kristianto, Violin</p>
             <p className={styles.textSmall}>Hannah Jonina Ivy, Violin</p>
-            <p className={styles.textSmall}>Jakob Solle, Baroque Cello</p>
+            {/* <p className={styles.textSmall}>Jakob Solle, Baroque Cello</p> */}
             <div className={styles.leitung}>
               <p
                 className={styles.textSmall}
                 style={{ fontStyle: "italic", fontWeight: "400" }}
               >
-                Leitung:
+                Harpsichord & Conductor:
               </p>
               <p className={styles.textSmall}>Billy Kristanto</p>
             </div>

@@ -14,12 +14,18 @@
   flex-direction: row;
   align-items: center;
   text-decoration: none;
+  margin: 20px 10px 20px 20px;
+  gap: 10px;
 }
 
-.logo {
-  margin: 20px 10px 20px 20px;
+.irecLogo {
   width: 100%;
   max-width: 40px;
+}
+
+.themeLogo {
+  width: 70%;
+  height: auto;
 }
 
 .logoTextContainer {
@@ -63,9 +69,17 @@
     background-color: var(--bg-color-dark2);
   }
 
-  .logo {
+  .logoContainer {
     margin: 20px 8px 20px 0;
+    gap: 8px;
+  }
+
+  .irecLogo {
     max-width: 30px;
+  }
+
+  .themeLogo {
+    width: 55%;
   }
 
   .logoTextContainer {

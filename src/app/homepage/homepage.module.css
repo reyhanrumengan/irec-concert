@@ -68,7 +68,7 @@
 @media screen and (max-width: 850px) {
   .containerWidth {
     max-width: 850px;
-    margin: 40px 0;
+    margin: 10px 0;
     width: 100vw;
   }
 

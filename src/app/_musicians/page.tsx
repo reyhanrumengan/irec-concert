@@ -18,7 +18,7 @@ export default function Musicians() {
           <PetraPriscilla />
           <TamariskaKristanto />
           <HannahJonina />
-          <JakobSolle />
+          {/* <JakobSolle /> */}
           <IrecChoir />
         </div>
       </div>
