@@ -28,7 +28,7 @@ export async function POST(req: NextRequest) {
       <p>You have been successfully registered to the IREC Hamburg concert: </p>
       <strong>Konzert zum Frühlingsbeginn</strong>
       <p>
-        <strong>Date: Saturday, 29th March 2025, 03:00 PM (CET)</strong>
+        <strong>Date: Saturday, 29th March 2025, 18:00 (CET)</strong>
         </br>
         <strong>Location: Martin-Luther-Kirche, Bebelallee 156, 22297 Hamburg</strong>
       </p>
@@ -53,7 +53,7 @@ export async function POST(req: NextRequest) {
       <p>Sie haben sich erfolgreich für das Konzert des IREC Hamburg angemeldet: </p>
       <strong>Kühlender Klang vor dem Herbst</strong>
       <p>
-        <strong>Datum: Samstag, 29. März 2025, 03:00 PM (CET)</strong>
+        <strong>Datum: Samstag, 29. März 2025, 18:00 (CET)</strong>
         </br>
         <strong>Ort: Martin-Luther-Kirche, Bebelallee 156, 22297 Hamburg</strong>
       </p>
