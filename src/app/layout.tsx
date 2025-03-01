@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     "IREC Europe",
     "Jean-Phillipe Rameau",
     "Dietrich Buxtehude",
+    "Georg Philipp Telemann",
     "MRII Berlin",
     "IREC Hamburg",
     "GRII Hamburg",

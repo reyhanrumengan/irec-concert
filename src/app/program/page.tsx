@@ -32,6 +32,22 @@ export default function Program() {
           </div> */}
 
           <div>
+            <p className={styles.pieceTitle}>
+              Fantasia No.7 in E flat Major TWV 40:20
+            </p>
+            <p className={styles.composer}>
+              Georg Philipp Telemann (1681-1767)
+            </p>
+            <p className={styles.description}>
+              A graceful and inventive solo piece from Telemann&rsquo;s
+              collection of twelve fantasias for various instruments. This work
+              showcases his melodic richness, harmonic creativity, and fluid
+              transitions between fugal and dance-like sections, reflecting his
+              mastery of Baroque musical forms.
+            </p>
+          </div>
+
+          <div>
             <p className={styles.pieceTitle}>Suite in E Minor</p>
             <p className={styles.composer}>
               Jean-Philippe Rameau (Early 18th Century)
@@ -45,7 +61,7 @@ export default function Program() {
 
           <div>
             <p className={styles.pieceTitle}>
-              Pièces de Clavecin en Concert No. 5
+              Pièces de clavecin en concerts: Concert No. 5 in D minor
             </p>
             <p className={styles.composer}>Jean-Philippe Rameau (1741)</p>
             <p className={styles.description}>
