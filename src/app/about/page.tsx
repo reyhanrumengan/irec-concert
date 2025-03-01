@@ -32,6 +32,7 @@ export default function About() {
           </div>
 
           <div className={styles.textContainer}>
+            <p className={styles.textMedium}>GEORG PHILIPP TELEMANN</p>
             <p className={styles.textMedium}>JEAN-PHILLIPE RAMEAU</p>
             <p className={styles.textMedium}>DIETRICH BUXTEHUDE</p>
           </div>
