@@ -17,16 +17,16 @@ export async function POST(req: NextRequest) {
 
     const data = {
       sender: {
-        name: "Konzert zum Frühlingsbeginn",
+        name: "Baroque Blossoms: A concert for Spring",
         email: "irec.concert@gmail.com",
       },
       to: [{ email: email }],
-      subject: "Konzert zum Frühlingsbeginn",
+      subject: "Baroque Blossoms: A concert for Spring",
       htmlContent: `
       <p>Dear Attendee,</p>
 
       <p>You have been successfully registered to the IREC Hamburg concert: </p>
-      <strong>Konzert zum Frühlingsbeginn</strong>
+      <strong>Baroque Blossoms: A concert for Spring</strong>
       <p>
         <strong>Date: Saturday, 29th March 2025, 18:00 (CET)</strong>
         </br>
@@ -51,7 +51,7 @@ export async function POST(req: NextRequest) {
       <p>Liebe Teilnehmer,</p>
 
       <p>Sie haben sich erfolgreich für das Konzert des IREC Hamburg angemeldet: </p>
-      <strong>Kühlender Klang vor dem Herbst</strong>
+      <strong>Baroque Blossoms: Konzert zum Frühlingsbeginn</strong>
       <p>
         <strong>Datum: Samstag, 29. März 2025, 18:00 (CET)</strong>
         </br>
