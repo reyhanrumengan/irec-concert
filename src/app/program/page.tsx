@@ -48,10 +48,21 @@ export default function Program() {
           </div>
 
           <div>
-            <p className={styles.pieceTitle}>Suite in E Minor</p>
-            <p className={styles.composer}>
-              Jean-Philippe Rameau (Early 18th Century)
+            <p className={styles.pieceTitle}>
+              Pièces de clavecin en concerts: Concert No. 5 in D minor
             </p>
+            <p className={styles.composer}>Jean-Philippe Rameau (1683-1764)</p>
+            <p className={styles.description}>
+              A vibrant and intricate work that reflects Rameau&rsquo;s
+              innovative harmonic language and the elegance of the French
+              Baroque style, designed for harpsichord accompanied by violin and
+              cello.
+            </p>
+          </div>
+
+          <div>
+            <p className={styles.pieceTitle}>Suite in E Minor</p>
+            <p className={styles.composer}>Jean-Philippe Rameau (1683-1764)</p>
             <p className={styles.description}>
               A collection of ornate and expressive harpsichord pieces,
               highlighting Rameau&rsquo;s mastery of keyboard composition and
@@ -61,14 +72,17 @@ export default function Program() {
 
           <div>
             <p className={styles.pieceTitle}>
-              Pièces de clavecin en concerts: Concert No. 5 in D minor
+              {" "}
+              Pièces de clavecin en concerts: Concert No. 4 in B-Flat Major
             </p>
-            <p className={styles.composer}>Jean-Philippe Rameau (1741)</p>
+            <p className={styles.composer}>Jean-Philippe Rameau (1683-1764)</p>
             <p className={styles.description}>
-              A vibrant and intricate work that reflects Rameau&rsquo;s
-              innovative harmonic language and the elegance of the French
-              Baroque style, designed for harpsichord accompanied by violin and
-              cello.
+              A refined and expressive chamber work, blending the
+              harpsichord&rsquo;s brilliance with the lyrical interplay of
+              accompanying instruments. This concert showcases Rameau&rsquo;s
+              signature harmonic boldness, elegant ornamentation, and masterful
+              dialogue between voices, embodying the richness of the French
+              Baroque style.
             </p>
           </div>
 
