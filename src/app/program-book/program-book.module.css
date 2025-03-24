@@ -50,6 +50,10 @@
     margin: 10px 0;
   }
 
+  .programContainer {
+    align-items: unset;
+  }
+
   .program {
     max-width: unset;
   }
