@@ -1,4 +1,3 @@
-// "use client";
 import styles from "./program-book.module.css";
 import Image from "next/image";
 
