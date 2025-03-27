@@ -52,6 +52,9 @@ export default function Header() {
           <Link className={styles.navigationItem} href="/program">
             Program
           </Link>
+          <Link className={styles.navigationItem} href="/program-book">
+            Program Book
+          </Link>
           {/* <Link className={styles.navigationItem} href="/musicians">
             Musicians
           </Link> */}
