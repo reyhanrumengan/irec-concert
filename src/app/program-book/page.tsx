@@ -2,10 +2,6 @@ import styles from "./program-book.module.css";
 import Image from "next/image";
 
 export default function ProgramBook() {
-  const pdfImages = () => {
-    return <div style={{ width: "100%", height: "100vh" }}></div>;
-  };
-
   const programBookImages = [];
 
   for (let i = 1; i <= 12; i++) {
