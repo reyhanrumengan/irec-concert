@@ -38,7 +38,6 @@ export default function ProgramBook() {
       <div className={styles.programContainer}>
         <div className={styles.program}>
           <p className={styles.pageTitle}>Program Book</p>
-
           {programBook}
         </div>
       </div>
