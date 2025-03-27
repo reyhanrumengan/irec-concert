@@ -19,7 +19,7 @@ export default function ProgramBook() {
         className={styles.programBookImage}
         alt={image.alt}
         src={image.src}
-        priority
+        priority={index === 0}
         sizes="100vw"
         style={{
           width: "100%",
