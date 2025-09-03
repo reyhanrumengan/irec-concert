@@ -8,7 +8,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--bg-color-dark2);
+    background-color: var(--bg-color-light);
     border: none;
     padding: 0;
     padding-bottom: 70px;
@@ -47,7 +47,7 @@
   .burger,
   .burger::before,
   .burger::after {
-    background-color: #fffeff;
+    background-color: var(--text-color-black);
   }
 
   .menuText {
@@ -57,7 +57,7 @@
     line-height: 24px;
     font-weight: 500;
     font-family: "Carlito", sans-serif;
-    color: #fffeff;
+    color: var(--text-color-black);
     text-align: left;
     margin: 0;
     text-decoration: none;
@@ -67,7 +67,7 @@
   }
 
   .menuText:hover {
-    color: var(--color-green);
+    color: var(--color-primary);
   }
 
   .activeMenu {

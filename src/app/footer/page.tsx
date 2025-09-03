@@ -1,6 +1,9 @@
-import Image from "next/image";
 import styles from "./footer.module.css";
 import Link from "next/link";
+import {
+  IconBrandInstagram,
+  IconBrandYoutubeFilled,
+} from "@tabler/icons-react";
 
 export default function Footer() {
   return (
@@ -10,21 +13,16 @@ export default function Footer() {
           <div className={styles.socialMedia}>
             <div>
               <Link
-                href="https://www.instagram.com/irec.hamburg/"
+                href="https://www.instagram.com/irec.berlin/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.instagram}
               >
-                <Image
-                  width={32}
-                  height={32}
-                  className={styles.instagramIcon}
-                  alt="Instagram"
-                  src="/instagram.svg"
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto",
-                  }}
+                <IconBrandInstagram
+                  stroke={1.5}
+                  width="48"
+                  height="48"
+                  color="var(--color-primary)"
                 />
                 {/* <span className={styles.instagramLink}>IREC in Hamburg</span> */}
               </Link>
@@ -37,16 +35,10 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className={styles.youtube}
               >
-                <Image
-                  width={32}
-                  height={22.5}
-                  className={styles.youtubeIcon}
-                  alt="Youtube"
-                  src="/youtube.svg"
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto",
-                  }}
+                <IconBrandYoutubeFilled
+                  width="48"
+                  height="48"
+                  color="var(--color-primary)"
                 />
                 {/* <span className={styles.youtubeLink}>IREC in Europe</span> */}
               </Link>
@@ -55,12 +47,12 @@ export default function Footer() {
           <div style={{ flex: "1 1 0px" }}></div>
           <div>
             <Link
-              href="https://www.grii-hamburg.org/de"
+              href="https://irec-berlin.org/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.learnAboutIRECLink}
             >
-              Learn more about IREC Hamburg
+              Learn more about IREC Berlin
             </Link>
           </div>
         </div>

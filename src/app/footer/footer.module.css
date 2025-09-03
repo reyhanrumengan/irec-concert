@@ -13,7 +13,7 @@
 
 .socialMedia {
   display: flex;
-  gap: 24px;
+  gap: 18px;
   align-items: center;
 }
 
@@ -29,7 +29,7 @@
 .youtubeLink {
   font-size: 14px;
   font-weight: 500;
-  color: #fffeff;
+  color: var(--text-color-black);
   font-family: "Carlito", sans-serif;
 }
 
@@ -37,7 +37,7 @@
   font-size: 14px;
   font-weight: 500;
   text-decoration: underline;
-  color: #fffeff;
+  color: var(--text-color-black);
   font-family: "Carlito", sans-serif;
 }
 
@@ -62,12 +62,6 @@
     text-decoration: none;
   }
 
-  .instagramIcon,
-  .youtubeIcon {
-    width: 24px;
-    height: auto;
-  }
-
   .instagramLink,
   .youtubeLink {
     font-size: unset;
@@ -81,7 +75,7 @@
     font-size: 12px;
     font-weight: 500;
     text-decoration: underline;
-    color: #fffeff;
+    color: var(--text-color-black);
     font-family: "Carlito", sans-serif;
   }
 

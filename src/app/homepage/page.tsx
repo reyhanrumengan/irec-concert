@@ -15,7 +15,7 @@ export default function Homepage() {
             <Link href="/rsvp">
               <Button
                 variant="filled"
-                color="var(--color-green)"
+                color="var(--color-primary)"
                 radius="xl"
                 size="md"
                 classNames={{
@@ -32,15 +32,14 @@ export default function Homepage() {
           </div>
 
           <Image
-            width={760}
-            height={760}
-            src="/concert-hamburg-3.png"
+            width={1920}
+            height={1080}
+            src="/poster-landscape.png"
             alt="Concert Poster"
             className={styles.poster}
             priority
             sizes="100vw"
             style={{
-              width: "100%",
               height: "auto",
             }}
           />

@@ -4,7 +4,7 @@
   width: 90vw;
 
   font-family: "Carlito", sans-serif;
-  color: #fffeff;
+  color: var(--text-color-black);
   line-height: 1.7rem;
   margin: 20px 0;
   flex: 1;
@@ -30,12 +30,12 @@
   font-size: 30px;
   font-weight: 700;
   margin: 45px 0 25px 0;
-  color: var(--color-green);
+  color: var(--color-primary);
 }
 
 .artistIntrument {
   font-size: 20px;
-  color: #fffeff;
+  color: var(--text-color-black);
 }
 
 .artistDescription {

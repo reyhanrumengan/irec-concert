@@ -12,7 +12,7 @@ export default function Header() {
             <Image
               width={1080}
               height={720}
-              src="/logo.svg"
+              src="/logo-black.png"
               alt="Logo"
               className={styles.irecLogo}
               sizes="100vw"
@@ -25,7 +25,7 @@ export default function Header() {
             <Image
               width={1080}
               height={720}
-              src="/hamburg-logo-concert-2.svg"
+              src="/berlin-concert-logo.png"
               alt="Logo"
               className={styles.themeLogo}
               sizes="100vw"
@@ -33,6 +33,7 @@ export default function Header() {
               //   width: "80%",
               //   height: "auto",
               // }}
+              style={{ display: "none" }}
             />
 
             {/* <div className={styles.logoTextContainer}>

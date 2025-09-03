@@ -10,7 +10,7 @@ export default function About() {
 
           <div className={styles.concertTitle}>
             <p className={styles.textSmall}>Music Concert</p>
-            <p style={{ color: "var(--color-green)" }}>Baroque Blossoms</p>
+            <p style={{ color: "var(--color-primary)" }}>Baroque Blossoms</p>
             <p>A Concert for Spring</p>
           </div>
 
@@ -18,7 +18,7 @@ export default function About() {
             <p className={styles.textBig}>29 March 2025</p>
             <p className={styles.textSmall}>Saturday, 18:00 CET</p>
           </div>
-          <div style={{ color: "var(--color-green)" }}>
+          <div style={{ color: "var(--color-primary)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
 
@@ -27,7 +27,7 @@ export default function About() {
             <p className={styles.textSmall}>Bebelallee 156, 22297 Hamburg</p>
           </div>
 
-          <div style={{ color: "var(--color-green)" }}>
+          <div style={{ color: "var(--color-primary)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
 
@@ -37,7 +37,7 @@ export default function About() {
             <p className={styles.textMedium}>DIETRICH BUXTEHUDE</p>
           </div>
 
-          <div style={{ color: "var(--color-green)" }}>
+          <div style={{ color: "var(--color-primary)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
           <div className={styles.textContainer}>
@@ -56,7 +56,7 @@ export default function About() {
               <p className={styles.textSmall}>Billy Kristanto</p>
             </div>
           </div>
-          <div style={{ color: "var(--color-green)" }}>
+          <div style={{ color: "var(--color-primary)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
 
@@ -70,7 +70,7 @@ export default function About() {
               Donations welcome
             </Link>
           </div>
-          <div style={{ color: "var(--color-green)" }}>
+          <div style={{ color: "var(--color-primary)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
         </div>

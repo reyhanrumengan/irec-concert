@@ -50,7 +50,6 @@
 }
 
 .poster {
-  max-width: 100%; /* Responsive */
   height: auto;
 }
 
@@ -95,10 +94,10 @@
   .moreInfo {
     display: none;
     text-decoration: underline;
-    color: var(--bg-color-dark2);
+    color: var(--bg-color-light);
   }
 
   .moreInfo:hover {
-    color: #f0f0f0;
+    color: var(--text-hover);
   }
 }

@@ -15,13 +15,17 @@ body {
 
 :root {
   /* Main Color */
-  --color-orange: #f96401;
-  --color-green: #00bf63;
+  --color-primary: #000000; /* was #00bf63 */
 
   /* Button */
-  --button-hover-green: #009653;
+  --button-hover: #333333; /* was #009653 */
 
   /* Background */
-  --bg-color-dark1: #040a0a;
-  --bg-color-dark2: #010812;
+  --bg-color-light: #ffffff; /* was #010812 */
+  --bg-color-light2: #f5f5f5; /* optional lighter background, was not defined before */
+
+  /* Text colors */
+  --text-color-gray: #333333; /* was #cccccc, now darker gray for readable secondary text */
+  --text-color-black: #000000; /* was #fffeff, now pure black for main text */
+  --text-hover: #555555; /* was  darker gray for hover on white background */
 }

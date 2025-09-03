@@ -4,7 +4,7 @@
   width: 90vw;
 
   font-family: "Carlito", sans-serif;
-  color: #fffeff;
+  color: var(--text-color-black);
   line-height: 1.7rem;
   margin: 20px 0;
   flex: 1;

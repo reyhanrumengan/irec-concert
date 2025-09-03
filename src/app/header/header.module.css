@@ -14,7 +14,7 @@
   flex-direction: row;
   align-items: center;
   text-decoration: none;
-  margin: 20px 10px 20px 20px;
+  margin: 20px 10px 20px 50px;
   gap: 10px;
 }
 
@@ -35,12 +35,12 @@
 
 .logoText1 {
   font-size: 26px;
-  color: #fffeff;
+  color: var(--text-color-black);
 }
 
 .logoText2 {
   font-size: 22px;
-  color: var(--color-green);
+  color: var(--color-primary);
   font-family: "Pacifico";
 }
 
@@ -48,12 +48,13 @@
   padding: 16px 20px;
   font-family: "Carlito", sans-serif;
   font-size: 16px;
-  color: #cccccc;
+  color: var(--text-color-gray);
   text-decoration: none;
 }
 
 .navigationItem:hover {
-  color: #f0f0f0;
+  color: var(--text-hover);
+  text-decoration: underline;
 }
 
 .menuBurger {
@@ -66,7 +67,7 @@
     top: 0;
     width: 100%;
     z-index: 2;
-    background-color: var(--bg-color-dark2);
+    background-color: var(--bg-color-light);
   }
 
   .logoContainer {
