@@ -17,24 +17,24 @@ export async function POST(req: NextRequest) {
 
     const data = {
       sender: {
-        name: "Baroque Blossoms: A concert for Spring",
+        name: "Musical Pilgrimage: From Europe to Asia",
         email: "irec.concert@gmail.com",
       },
       to: [{ email: email }],
-      subject: "Baroque Blossoms: A concert for Spring",
+      subject: "Musical Pilgrimage: From Europe to Asia",
       htmlContent: `
       <p>Dear Attendee,</p>
 
-      <p>You have been successfully registered to the IREC Hamburg concert: </p>
-      <strong>Baroque Blossoms: A concert for Spring</strong>
+      <p>You have been successfully registered to the IREC Berlin concert: </p>
+      <strong>Musical Pilgrimage: From Europe to Asia</strong>
       <p>
-        <strong>Date: Saturday, 29th March 2025, 18:00 (CET)</strong>
+        <strong>Date: Saturday, 18th October 2026, 16:00 (CEST)</strong>
         </br>
-        <strong>Location: Martin-Luther-Kirche, Bebelallee 156, 22297 Hamburg</strong>
+        <strong>Location: Kaiser-Friedrich-Gedächniskirche, Händelallee 20, 10557 Berlin</strong>
       </p>
 
       <p>For more information, you can send an email to: 
-      <a href="mailto:info@grii-hamburg.org">info@grii-hamburg.org
+      <a href="mailto:info@irec-berlin.org">info@irec-berlin.org
       </a>
       </p>
 
@@ -42,7 +42,7 @@ export async function POST(req: NextRequest) {
 
       <p>Kind regards,
       <br/>
-      IREC Hamburg</p>
+      IREC Berlin</p>
 
       <p>P.S.: This is an automated email. Please do not reply to this email.</p>
 
@@ -50,16 +50,16 @@ export async function POST(req: NextRequest) {
 
       <p>Liebe Teilnehmer,</p>
 
-      <p>Sie haben sich erfolgreich für das Konzert des IREC Hamburg angemeldet: </p>
-      <strong>Baroque Blossoms: Konzert zum Frühlingsbeginn</strong>
+      <p>Sie haben sich erfolgreich für das Konzert des IREC Berlin angemeldet: </p>
+      <strong>Musikalische Pilgerreise: Von Europa nach Asien</strong>
       <p>
-        <strong>Datum: Samstag, 29. März 2025, 18:00 (CET)</strong>
+        <strong>Datum: Samstag, 18. Oktober 2026, 16:00 (CEST)</strong>
         </br>
-        <strong>Ort: Martin-Luther-Kirche, Bebelallee 156, 22297 Hamburg</strong>
+        <strong>Ort: Kaiser-Friedrich-Gedächniskirche, Händelallee 20, 10557 Berlin</strong>
       </p>
 
       <p>Für weitere Informationen können Sie eine E-Mail senden an:
-      <a href="mailto:info@grii-hamburg.org">info@grii-hamburg.org
+      <a href="mailto:info@irec-berlin.org">info@irec-berlin.org
       </a>
       </p>
 
@@ -67,7 +67,7 @@ export async function POST(req: NextRequest) {
 
       <p>Mit freundlichen Grüßen,
       <br/>
-      IREC Hamburg</p>
+      IREC Berlin</p>
 
       <p>P.S.: Dies ist eine automatisierte E-Mail. Bitte antworten Sie nicht auf diese E-Mail.</p>
   `,
