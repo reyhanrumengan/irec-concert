@@ -12,22 +12,22 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Konzert zum Frühlingsbeginn",
-  description: "IREC Europe Concert 2025",
+  title: "Musical Pilgrimage From Europe to Asia",
+  description: "IREC Europe Concert 2026",
   keywords: [
     "International Reformed Evangelical Church",
     "Concert",
     "Classical",
     "Music",
     "IREC Europe",
-    "Jean-Phillipe Rameau",
-    "Dietrich Buxtehude",
-    "Georg Philipp Telemann",
+    "Johann Sebastian Bach",
+    "Wolfang Amadeus Mozart",
     "MRII Berlin",
-    "IREC Hamburg",
-    "GRII Hamburg",
+    "IREC Berlin",
+    "GRII Berlin",
     "Billy Kristanto",
-    "Hamburg",
+    "Berlin",
+    "Calvin Abdiel",
   ],
 };
 
