@@ -25,6 +25,7 @@ body {
   --bg-color-light2: #f5f5f5; /* optional lighter background, was not defined before */
 
   /* Text colors */
+  --text-color-light: #ffffff;
   --text-color-gray: #333333; /* was #cccccc, now darker gray for readable secondary text */
   --text-color-black: #000000; /* was #fffeff, now pure black for main text */
   --text-hover: #555555; /* was  darker gray for hover on white background */

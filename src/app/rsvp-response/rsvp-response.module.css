@@ -41,7 +41,7 @@
   font-weight: 700;
   width: 100%;
   text-decoration: none;
-  color: var(--text-color-black);
+  color: var(--text-color-light);
 }
 
 .button:hover {
@@ -50,7 +50,7 @@
 
 .link {
   color: var(--color-primary);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .link:hover {

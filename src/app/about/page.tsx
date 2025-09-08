@@ -43,6 +43,7 @@ export default function About() {
           </div>
           <div className={styles.textContainer}>
             <p className={styles.textSmall}>IREC Europe Choir</p>
+            <p className={styles.textSmall}>Calvin Abdiel, Piano</p>
             <p className={styles.textSmall}>Tamariska Kristianto, Violin</p>
             <p className={styles.textSmall}>Hannah Jonina Ivy, Violin</p>
 
