@@ -10,21 +10,23 @@ export default function About() {
 
           <div className={styles.concertTitle}>
             <p className={styles.textSmall}>Music Concert</p>
-            <p style={{ color: "var(--color-primary)" }}>Baroque Blossoms</p>
-            <p>A Concert for Spring</p>
+            <p style={{ color: "var(--color-primary)" }}>
+              A Musical Pilgrimage
+            </p>
+            <p>From Europe to Asia</p>
           </div>
 
           <div className={styles.textContainer}>
-            <p className={styles.textBig}>29 March 2025</p>
-            <p className={styles.textSmall}>Saturday, 18:00 CET</p>
+            <p className={styles.textBig}>18 October 2026</p>
+            <p className={styles.textSmall}>Saturday, 16:00 CEST</p>
           </div>
           <div style={{ color: "var(--color-primary)" }}>
             • • • • • • • • • • • • • • • • • • • • • • • • •
           </div>
 
           <div className={styles.textContainer}>
-            <p className={styles.textBig}>Martin-Luther-Kirche</p>
-            <p className={styles.textSmall}>Bebelallee 156, 22297 Hamburg</p>
+            <p className={styles.textBig}>Kaiser-Friedrich-Gedächniskirche</p>
+            <p className={styles.textSmall}>Händelallee 20, 10557 Berlin</p>
           </div>
 
           <div style={{ color: "var(--color-primary)" }}>
@@ -32,9 +34,8 @@ export default function About() {
           </div>
 
           <div className={styles.textContainer}>
-            <p className={styles.textMedium}>GEORG PHILIPP TELEMANN</p>
-            <p className={styles.textMedium}>JEAN-PHILLIPE RAMEAU</p>
-            <p className={styles.textMedium}>DIETRICH BUXTEHUDE</p>
+            <p className={styles.textMedium}>JOHANN SEBASTIAN BACH</p>
+            <p className={styles.textMedium}>WOLFGANG AMADEUS MOZART</p>
           </div>
 
           <div style={{ color: "var(--color-primary)" }}>
@@ -42,10 +43,9 @@ export default function About() {
           </div>
           <div className={styles.textContainer}>
             <p className={styles.textSmall}>IREC Europe Choir</p>
-            <p className={styles.textSmall}>Petra Priscilla Tjandra, Soprano</p>
             <p className={styles.textSmall}>Tamariska Kristianto, Violin</p>
             <p className={styles.textSmall}>Hannah Jonina Ivy, Violin</p>
-            {/* <p className={styles.textSmall}>Jakob Solle, Baroque Cello</p> */}
+
             <div className={styles.leitung}>
               <p
                 className={styles.textSmall}

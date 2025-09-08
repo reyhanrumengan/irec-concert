@@ -44,6 +44,26 @@
   font-family: "Pacifico";
 }
 
+.rsvp {
+  background: none;
+  border: none;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.buttonRoot {
+  transition: background-color 0.2s ease;
+}
+
+.buttonRoot:hover {
+  background-color: #444444;
+}
+
+.buttonLabel {
+  font-size: 24px;
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+}
+
 .navigationItem {
   padding: 16px 20px;
   font-family: "Carlito", sans-serif;
@@ -94,6 +114,14 @@
 
   .logoText2 {
     font-size: 18px;
+  }
+
+  .rsvp {
+    display: none;
+  }
+
+  .buttonLabel {
+    font-size: 20px;
   }
 
   .navigationItem {

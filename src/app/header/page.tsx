@@ -1,9 +1,15 @@
+"use client";
+
 import Image from "next/image";
 import styles from "./header.module.css";
 import Link from "next/link";
 import MenuBurger from "../menuBurger/page";
+import { Button } from "@mantine/core";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+  const pathname = usePathname();
+
   return (
     <div className={styles.headerMobileContainer}>
       <div className={styles.containerWidth}>
@@ -43,6 +49,25 @@ export default function Header() {
           </Link>
 
           <div style={{ flex: "1 1 0px" }}></div>
+          {pathname !== "/rsvp" && (
+            <div className={styles.rsvp}>
+              <Link href="/rsvp">
+                <Button
+                  variant="filled"
+                  color="var(--color-primary)"
+                  radius="xl"
+                  size="md"
+                  classNames={{
+                    root: styles.buttonRoot,
+                    label: styles.buttonLabel,
+                  }}
+                >
+                  RSVP HERE
+                </Button>
+              </Link>
+            </div>
+          )}
+          <div style={{ flex: "1 1 0px" }}></div>
 
           <Link className={styles.navigationItem} href="/">
             Home
@@ -50,12 +75,12 @@ export default function Header() {
           <Link className={styles.navigationItem} href="/about">
             About
           </Link>
-          <Link className={styles.navigationItem} href="/program">
+          {/* <Link className={styles.navigationItem} href="/program">
             Program
-          </Link>
-          <Link className={styles.navigationItem} href="/program-book">
+          </Link> */}
+          {/* <Link className={styles.navigationItem} href="/program-book">
             Program Book
-          </Link>
+          </Link> */}
           {/* <Link className={styles.navigationItem} href="/musicians">
             Musicians
           </Link> */}
