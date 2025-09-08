@@ -10,6 +10,8 @@ import { usePathname } from "next/navigation";
 export default function Header() {
   const pathname = usePathname();
 
+  const hideRSVPButton = pathname !== "/rsvp" && pathname !== "/rsvp-response";
+
   return (
     <div className={styles.headerMobileContainer}>
       <div className={styles.containerWidth}>
@@ -49,7 +51,7 @@ export default function Header() {
           </Link>
 
           <div style={{ flex: "1 1 0px" }}></div>
-          {pathname !== "/rsvp" && (
+          {hideRSVPButton && (
             <div className={styles.rsvp}>
               <Link href="/rsvp">
                 <Button
