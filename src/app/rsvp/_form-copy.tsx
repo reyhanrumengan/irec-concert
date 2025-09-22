@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, ChangeEvent, FormEvent } from "react";
+import { useState, ChangeEvent, FormEvent } from "react";
 import styles from "./form.module.css";
 
 interface FormData {
@@ -11,6 +11,7 @@ interface FormData {
 }
 
 const Form = () => {
+  // const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   const [formData, setFormData] = useState<FormData>({
     email: "",
     fullName: "",
@@ -18,38 +19,40 @@ const Form = () => {
     invitedBy: "",
   });
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const isSubmittingRef = useRef(false); // <-- prevents instant double click
+  // const [successMessage, setSuccessMessage] = useState<string | null>(null);
 
   const handleChange = (
     e: ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
     const { name, value } = e.target;
-    setFormData((prev) => ({
-      ...prev,
+    setFormData({
+      ...formData,
       [name]: value,
-    }));
+    });
   };
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
 
-    if (isSubmittingRef.current) return; // block instantly
-    isSubmittingRef.current = true; // mark immediately
-    setIsSubmitting(true); // trigger re-render for UI
-
-    setErrorMessage(null);
-
+    // Correct Google Forms
     const formUrl =
       "https://docs.google.com/forms/d/e/1FAIpQLSdazqu6LDLfv2PeEdXDXuU7i99Xb-TjQqSl4rb9Y0-zrbayPA/formResponse";
-
     const formBody = new URLSearchParams({
       "entry.1780199336": formData.email,
       "entry.1378719052": formData.fullName,
       "entry.1634956136": formData.numberOfPeople,
       "entry.1928734284": formData.invitedBy,
     });
+
+    // Test Google Forms
+    // const formUrl =
+    //   "https://docs.google.com/forms/d/e/1FAIpQLSeqEZYTJC5R9LMZcfhRFjSjLb1jCelNK6MkWwQd5Gknifu7Ew/formResponse";
+    // const formBody = new URLSearchParams({
+    //   "entry.1780199336": formData.email,
+    //   "entry.1378719052": formData.fullName,
+    //   "entry.1634956136": formData.numberOfPeople,
+    //   "entry.1928734284": formData.invitedBy,
+    // });
 
     try {
       await fetch(formUrl, {
@@ -71,6 +74,10 @@ const Form = () => {
       });
 
       if (emailResponse.ok) {
+        // setSuccessMessage(
+        //   "Thank you for your submission! A confirmation email has been sent."
+        // );
+        // setIsFormSubmitted(true);
         window.location.href = "/rsvp-response";
       } else {
         const errorData = await emailResponse.json();
@@ -78,12 +85,10 @@ const Form = () => {
           errorData.message || "Failed to submit form. Please check your data."
         );
       }
+      // window.location.href = "/rsvp-response";
     } catch (error) {
       console.error("Error submitting form", error);
       setErrorMessage("An unexpected error occurred. Please check your data.");
-    } finally {
-      isSubmittingRef.current = false; // allow again if retry is needed
-      setIsSubmitting(false);
     }
   };
 
@@ -131,11 +136,9 @@ const Form = () => {
           onChange={handleChange}
           className={styles.input}
           placeholder="2"
-          min={1}
           required
         />
       </div>
-
       <div className={styles.formContainer}>
         <label htmlFor="invitedBy" className={styles.label}>
           How did you know about this event?
@@ -159,9 +162,8 @@ const Form = () => {
           <option value="Others">Others</option>
         </select>
       </div>
-
-      <button type="submit" className={styles.button} disabled={isSubmitting}>
-        {isSubmitting ? "Submitting..." : "Submit"}
+      <button type="submit" className={styles.button}>
+        Submit
       </button>
 
       {errorMessage && <p className={styles.errorMessage}>{errorMessage}</p>}
