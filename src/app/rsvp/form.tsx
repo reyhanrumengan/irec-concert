@@ -132,6 +132,7 @@ const Form = () => {
           className={styles.input}
           placeholder="2"
           min={1}
+          max={15}
           required
         />
       </div>
