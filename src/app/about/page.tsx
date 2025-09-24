@@ -36,6 +36,8 @@ export default function About() {
           <div className={styles.textContainer}>
             <p className={styles.textMedium}>JOHANN SEBASTIAN BACH</p>
             <p className={styles.textMedium}>WOLFGANG AMADEUS MOZART</p>
+            <p className={styles.textMedium}>BEDŘICH SMETANA</p>
+
             <p className={styles.textMedium}>
               INDONESIAN TRADITIONAL MUSIC (Arr. Calvin Abdiel)
             </p>
