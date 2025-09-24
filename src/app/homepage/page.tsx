@@ -38,7 +38,7 @@ export default function Homepage() {
             width={1920}
             height={1080}
             src={isPortrait ? "/poster-portrait.png" : "/poster-landscape.png"}
-            alt="Concert Poster"
+            alt="Concert performing Bach, Mozart, Smetana, and Indonesian Traditional Music"
             className={styles.poster}
             priority
             sizes="100vw"
