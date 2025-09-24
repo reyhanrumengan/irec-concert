@@ -1,7 +1,6 @@
-import Header from "./header/page";
-import Homepage from "./homepage/page";
-import styles from "./page.module.css";
+// app/page.tsx
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return <Homepage />;
+  redirect("/en"); // send users to default locale
 }

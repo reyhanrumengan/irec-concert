@@ -1,0 +1,32 @@
+{
+  "homepage": {
+    "title": "Welcome",
+    "intro": "This site is in English."
+  },
+  "about": {
+    "page-title": "Event Information",
+    "subtitle": "Music Concert",
+    "concertTitle": "A Musical Pilgrimage\nFrom Europe to Asia"
+  },
+  "donation": {
+    "title": "Welcome",
+    "intro": "This site is in English."
+  },
+  "rsvp": {
+    "title": "Welcome",
+    "intro": "This site is in English."
+  },
+  "rsvp-response": {
+    "title": "Welcome",
+    "intro": "This site is in English."
+  },
+  "footer": {
+    "learn-more": "Learn more about IREC Berlin"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "donation": "Donation",
+    "rsvp-here": "RSVP Here"
+  }
+}

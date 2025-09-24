@@ -1,0 +1,8 @@
+{
+  "site": { "title": "Meine statische Seite" },
+  "home": {
+    "title": "Willkommen",
+    "intro": "Diese Seite ist auf Deutsch."
+  },
+  "nav": { "home": "Start", "about": "Über" }
+}
