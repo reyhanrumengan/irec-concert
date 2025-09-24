@@ -1,15 +1,23 @@
 import Link from "next/link";
 import styles from "./about.module.css";
+import { getDictionary } from "../dictionaries";
 
-export default function About() {
+export default async function About({
+  params,
+}: {
+  params: { lang: "en" | "de" };
+}) {
+  const dict = await getDictionary(params.lang);
+  const t = dict.about;
+
   return (
     <div className={styles.containerWidth}>
       <div className={styles.information}>
         <div>
-          <h1 className={styles.pageTitle}>Event Information</h1>
+          <h1 className={styles.pageTitle}>{t["page-title"]}</h1>
 
           <div className={styles.concertTitle}>
-            <p className={styles.textSmall}>Music Concert</p>
+            <p className={styles.textSmall}>{t["subtitle"]}</p>
             <p style={{ color: "var(--color-primary)" }}>
               A Musical Pilgrimage
             </p>

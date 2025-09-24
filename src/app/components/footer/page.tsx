@@ -5,7 +5,12 @@ import {
   IconBrandYoutubeFilled,
 } from "@tabler/icons-react";
 
-export default function Footer() {
+type FooterProps = {
+  dict: any;
+};
+
+export default function Footer({ dict }: FooterProps) {
+  const t = dict.footer;
   return (
     <>
       <div className={styles.containerWidth}>
@@ -52,7 +57,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className={styles.learnAboutIRECLink}
             >
-              Learn more about IREC Berlin
+              {t["learn-more"]}
             </Link>
           </div>
         </div>

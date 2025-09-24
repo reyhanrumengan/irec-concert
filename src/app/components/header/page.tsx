@@ -6,9 +6,22 @@ import Link from "next/link";
 import MenuBurger from "../menuBurger/page";
 import { Button } from "@mantine/core";
 import { usePathname } from "next/navigation";
+import LocaleSwitcher from "../LocaleSwitcher";
 
-export default function Header() {
-  const pathname = usePathname();
+type HeaderProps = {
+  dict: any;
+};
+
+export default function Header({ dict }: HeaderProps) {
+  const pathname = usePathname() || "/";
+  const LOCALES = ["en", "de"];
+  // Extract the first segment
+  const currentLocale = pathname.split("/")[1];
+  const localePrefix = LOCALES.includes(currentLocale)
+    ? `/${currentLocale}`
+    : "/en";
+
+  const t = dict.navigation;
 
   const hideRSVPButton = pathname !== "/rsvp" && pathname !== "/rsvp-response";
 
@@ -71,11 +84,14 @@ export default function Header() {
           )}
           <div style={{ flex: "1 1 0px" }}></div>
 
-          <Link className={styles.navigationItem} href="/">
-            Home
+          <Link className={styles.navigationItem} href={`${localePrefix}/`}>
+            {t["home"]}
           </Link>
-          <Link className={styles.navigationItem} href="/about">
-            About
+          <Link
+            className={styles.navigationItem}
+            href={`${localePrefix}/about`}
+          >
+            {t["about"]}
           </Link>
           {/* <Link className={styles.navigationItem} href="/program">
             Program
@@ -86,9 +102,13 @@ export default function Header() {
           {/* <Link className={styles.navigationItem} href="/musicians">
             Musicians
           </Link> */}
-          <Link className={styles.navigationItem} href="/donation">
-            Donation
+          <Link
+            className={styles.navigationItem}
+            href={`${localePrefix}/donation`}
+          >
+            {t["donation"]}
           </Link>
+          <LocaleSwitcher />
 
           <div className={styles.menuBurger}>
             <MenuBurger />
