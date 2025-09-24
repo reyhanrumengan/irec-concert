@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Musical Pilgrimage From Europe to Asia - IREC Europe Concert 2026",
   description:
-    "Join us for an evening of choral masterpieces by Bach, Mozart, Smetana, and more, plus a special Indonesian traditional music arrangement",
+    "Join us for an unforgettable journey through music: J.S. Bach - Christ lag in Todes Banden, B. Smetana - From the Homeland, and a special Indonesian traditional music arrangement by Calvin Abdiel.",
   keywords: [
     "International Reformed Evangelical Church",
     "Concert",
@@ -50,7 +50,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "MusicEvent",
-              name: "Musical Pilgrimage From Europe to Asia",
+              name: "Musical Pilgrimage From Europe to Asia - IREC Europe Concert 2026",
               startDate: "2025-10-18T16:00:00+02:00",
               location: {
                 "@type": "Place",
