@@ -52,6 +52,8 @@ export default function RootLayout({
               "@type": "MusicEvent",
               name: "Musical Pilgrimage From Europe to Asia - IREC Europe Concert 2026",
               startDate: "2025-10-18T16:00:00+02:00",
+              endDate: "2025-10-18T18:00:00+02:00",
+              eventStatus: "https://schema.org/EventScheduled",
               location: {
                 "@type": "Place",
                 name: "Kaiser-Friedrich-Gedächtniskirche",
@@ -63,10 +65,14 @@ export default function RootLayout({
                   addressCountry: "DE",
                 },
               },
+              organizer: {
+                "@type": "Organization",
+                name: "IREC Berlin",
+                url: "https://irec-berlin.org",
+              },
               performer: {
                 "@type": "MusicGroup",
                 name: "IREC Europe",
-                role: "Ensemble",
                 member: [
                   {
                     "@type": "Person",
@@ -86,7 +92,7 @@ export default function RootLayout({
                   },
                   {
                     "@type": "MusicGroup",
-                    name: "IREC Europe Choir",
+                    name: "IREC Berlin Choir",
                     role: "Choir",
                   },
                 ],
