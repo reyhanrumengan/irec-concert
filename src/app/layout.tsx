@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     "IREC Europe",
     "Johann Sebastian Bach",
     "Wolfang Amadeus Mozart",
+    "Kōnosuke Matsushita",
     "Bedřich Smetana",
     "MRII Berlin",
     "IREC Berlin",
