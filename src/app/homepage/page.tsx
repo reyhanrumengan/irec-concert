@@ -40,7 +40,7 @@ export default function Homepage() {
             src={
               isPortrait ? "/website-portrait.png" : "/website-landscape.png"
             }
-            alt="Concert performing Bach, Mozart, Smetana, and Indonesian Traditional Music"
+            alt="Concert performing Bach, Mozart, Matsushita, and arrangement of Indonesian Traditional Music"
             className={styles.poster}
             priority
             sizes="100vw"

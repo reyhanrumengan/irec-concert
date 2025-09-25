@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "A Harmonic Voyage: From Europe to Asia - IREC Europe Concert 2026",
   description:
-    "Join us for an unforgettable journey through music: J.S. Bach - Christ lag in Todes Banden, B. Smetana - From the Homeland, and a special Indonesian traditional music arrangement by Calvin Abdiel.",
+    "Join us for an unforgettable journey through music: J.S. Bach - Christ lag in Todes Banden, W.A. Mozart - Sonata for Four Hands, Ko Matsushita - Cantate Domino, and a special Indonesian traditional music arrangement by Calvin Abdiel.",
   keywords: [
     "International Reformed Evangelical Church",
     "Concert",
@@ -107,7 +107,7 @@ export default function RootLayout({
               image:
                 "https://concert.irec-europe.org/images/concert-poster.jpg",
               description:
-                "Join us for an unforgettable journey through music: J.S. Bach - Christ lag in Todes Banden, B. Smetana - From the Homeland, and a special Indonesian traditional music arrangement by Calvin Abdiel.",
+                "Join us for an unforgettable journey through music: J.S. Bach - Christ lag in Todes Banden, W.A. Mozart - Sonata for Four Hands, Ko Matsushita - Cantate Domino, and a special Indonesian traditional music arrangement by Calvin Abdiel.",
             }),
           }}
         />
