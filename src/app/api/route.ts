@@ -17,16 +17,16 @@ export async function POST(req: NextRequest) {
 
     const data = {
       sender: {
-        name: "Musical Pilgrimage: From Europe to Asia",
+        name: "A Harmonic Voyage: From Europe to Asia",
         email: "irec.concert@gmail.com",
       },
       to: [{ email: email }],
-      subject: "Musical Pilgrimage: From Europe to Asia",
+      subject: "A Harmonic Voyage: From Europe to Asia",
       htmlContent: `
       <p>Dear Attendee,</p>
 
       <p>You have been successfully registered to the IREC Berlin concert: </p>
-      <strong>Musical Pilgrimage: From Europe to Asia</strong>
+      <strong>A Harmonic Voyage: From Europe to Asia</strong>
       <p>
         <strong>Date: Saturday, 18th October 2026, 16:00 (CEST)</strong>
         </br>
@@ -51,7 +51,7 @@ export async function POST(req: NextRequest) {
       <p>Liebe Teilnehmer,</p>
 
       <p>Sie haben sich erfolgreich für das Konzert des IREC Berlin angemeldet: </p>
-      <strong>Musikalische Pilgerreise: Von Europa nach Asien</strong>
+      <strong>Eine harmonische Reise: von Europa nach Asien</strong>
       <p>
         <strong>Datum: Samstag, 18. Oktober 2026, 16:00 (CEST)</strong>
         </br>

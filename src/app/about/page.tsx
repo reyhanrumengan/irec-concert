@@ -10,9 +10,7 @@ export default function About() {
 
           <div className={styles.concertTitle}>
             <p className={styles.textSmall}>Music Concert</p>
-            <p style={{ color: "var(--color-primary)" }}>
-              A Musical Pilgrimage
-            </p>
+            <p style={{ color: "var(--color-primary)" }}>A Harmonic Voyage</p>
             <p>From Europe to Asia</p>
           </div>
 
@@ -36,7 +34,7 @@ export default function About() {
           <div className={styles.textContainer}>
             <p className={styles.textMedium}>JOHANN SEBASTIAN BACH</p>
             <p className={styles.textMedium}>WOLFGANG AMADEUS MOZART</p>
-            <p className={styles.textMedium}>BEDŘICH SMETANA</p>
+            <p className={styles.textMedium}>KŌNOSUKE MATSUSHITA</p>
 
             <p className={styles.textMedium}>
               INDONESIAN TRADITIONAL MUSIC (Arr. Calvin Abdiel)

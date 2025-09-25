@@ -37,8 +37,10 @@ export default function Homepage() {
           <Image
             width={1920}
             height={1080}
-            src={isPortrait ? "/poster-portrait.png" : "/poster-landscape.png"}
-            alt="Concert performing Bach, Mozart, Smetana, and Indonesian Traditional Music"
+            src={
+              isPortrait ? "/website-portrait.png" : "/website-landscape.png"
+            }
+            alt="Concert performing Bach, Mozart, Matsushita, and arrangement of Indonesian Traditional Music"
             className={styles.poster}
             priority
             sizes="100vw"
