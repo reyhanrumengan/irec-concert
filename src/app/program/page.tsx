@@ -49,7 +49,7 @@ export default function Program() {
               Sonata in C Major for Piano Four Hands, K. 521
             </p>
             <p className={styles.composer}>
-              Wolfgang Amadeus Mozart (1756&rsquo;1791)
+              Wolfgang Amadeus Mozart (1756-1791)
             </p>
             <p className={styles.description}>
               Written in 1787, this sonata is among Mozart&rsquo;s finest works
@@ -101,6 +101,22 @@ export default function Program() {
               Dawson&rsquo;s arrangement, performed here in the version
               popularized by Anton Armstrong, captures both the joy and fervor
               of the spiritual tradition.
+            </p>
+          </div>
+
+          <div>
+            <p className={styles.pieceTitle}>
+              Medley of Indonesian Folk Songs (arr. Calvin Abdiel)
+            </p>
+            <p className={styles.composer}>
+              Traditional / arr. Calvin Abdiel (b. 1999)
+            </p>
+            <p className={styles.description}>
+              A colorful celebration of Indonesia&rsquo;s musical heritage, this
+              medley blends familiar folk melodies with inventive textures for
+              choir, angklung, and violin. The arrangement highlights the
+              warmth, rhythm, and cultural richness of Indonesian traditions in
+              a fresh, contemporary setting.
             </p>
           </div>
         </div>
