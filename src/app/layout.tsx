@@ -7,6 +7,7 @@ import Header from "./header/page";
 import styles from "./page.module.css";
 import Footer from "./footer/page";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -42,9 +43,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <ColorSchemeScript />
-        <script
+        <Script
+          id="jsonld-music-event"
           type="application/ld+json"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
@@ -110,6 +114,19 @@ export default function RootLayout({
             }),
           }}
         />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16765503652"
+          strategy="afterInteractive"
+        />
+
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-16765503652');
+  `}
+        </Script>
       </head>
       <body className={inter.className}>
         <MantineProvider>
