@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   keywords: [
     "International Reformed Evangelical Church",
     "IREC Europe",
-    "Concert",
+    "Free Concert",
     "Classical Music",
     "Johann Sebastian Bach",
     "Wolfgang Amadeus Mozart",
