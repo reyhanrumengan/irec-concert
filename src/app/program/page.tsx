@@ -46,7 +46,7 @@ export default function Program() {
 
           <div>
             <p className={styles.pieceTitle}>
-              Sonata in C Major for Piano Four Hands, K. 521
+              Sonata in C Major for Piano Four Hands, K. 521, I. Allegro
             </p>
             <p className={styles.composer}>
               Wolfgang Amadeus Mozart (1756-1791)
