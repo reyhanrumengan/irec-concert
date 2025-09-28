@@ -115,7 +115,7 @@ const Form = () => {
       </div>
       <div className={styles.formContainer}>
         <label htmlFor="fullName" className={styles.label}>
-          Your Full Name
+          Your Name
         </label>
         <input
           type="text"
