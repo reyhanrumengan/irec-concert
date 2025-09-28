@@ -20,7 +20,7 @@ const Form = () => {
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const isSubmittingRef = useRef(false); // <-- prevents instant double click
+  const isSubmittingRef = useRef(false);
 
   const handleChange = (
     e: ChangeEvent<HTMLInputElement | HTMLSelectElement>
@@ -35,9 +35,9 @@ const Form = () => {
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
 
-    if (isSubmittingRef.current) return; // block instantly
-    isSubmittingRef.current = true; // mark immediately
-    setIsSubmitting(true); // trigger re-render for UI
+    if (isSubmittingRef.current) return;
+    isSubmittingRef.current = true;
+    setIsSubmitting(true);
 
     setErrorMessage(null);
 
@@ -52,6 +52,7 @@ const Form = () => {
     });
 
     try {
+      // Send to Google Sheet
       await fetch(formUrl, {
         method: "POST",
         mode: "no-cors",
@@ -61,7 +62,7 @@ const Form = () => {
         body: formBody.toString(),
       });
 
-      // Call API route for sending confirmation email
+      // Send confirmation email
       const emailResponse = await fetch("/api", {
         method: "POST",
         headers: {
@@ -70,6 +71,14 @@ const Form = () => {
         body: JSON.stringify({ email: formData.email }),
       });
 
+      // Google Ads conversion tracking
+      if (typeof window !== "undefined") {
+        (window as any).gtag("event", "conversion", {
+          send_to: "AW-16765503652/LQjWCKOj4oYbEKSRtbo-",
+        });
+      }
+
+      // Handle email response
       if (emailResponse.ok) {
         window.location.href = "/rsvp-response";
       } else {
@@ -82,7 +91,7 @@ const Form = () => {
       console.error("Error submitting form", error);
       setErrorMessage("An unexpected error occurred. Please check your data.");
     } finally {
-      isSubmittingRef.current = false; // allow again if retry is needed
+      isSubmittingRef.current = false;
       setIsSubmitting(false);
     }
   };
