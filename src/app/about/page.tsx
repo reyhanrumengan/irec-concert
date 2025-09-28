@@ -55,7 +55,7 @@ export default function About() {
                 className={styles.textSmall}
                 style={{ fontStyle: "italic", fontWeight: "400" }}
               >
-                Harpsichord & Conductor:
+                Conductor:
               </p>
               <p className={styles.textSmall}>Billy Kristanto</p>
             </div>
