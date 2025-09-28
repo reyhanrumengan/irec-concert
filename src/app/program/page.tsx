@@ -9,7 +9,7 @@ export default function Program() {
 
           <div>
             <p className={styles.pieceTitle}>
-              Z domoviny (From the Homeland), I. in A Dur
+              Z domoviny (From the Homeland), I. A Dur
             </p>
             <p className={styles.composer}>Bedřich Smetana (1824-1884)</p>
             <p className={styles.description}>
