@@ -106,18 +106,36 @@ export default function IrecChoir() {
           pieces by Buxtehude at the IREC Concerts in Berlin and Hamburg.
         </div>
 
-        <Image
-          width={1080}
-          height={720}
-          className={styles.artistImage}
-          src="/artist-choir.jpeg"
-          alt="Choir's Photo"
-          sizes="100vw"
-          style={{
-            width: "100%",
-            height: "auto",
-          }}
-        />
+        <div className={styles.artistImageContainer}>
+          {/* <div style={{ width: "fit-content" }}> */}
+          <Image
+            width={1080}
+            height={720}
+            className={styles.artistImage}
+            src="/artist-choir3.jpg"
+            alt="Choir's Photo"
+            sizes="100vw"
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
+          />
+          {/* </div> */}
+          {/* <div style={{ width: "fit-content" }}> */}
+          <Image
+            width={1080}
+            height={720}
+            className={styles.artistImage}
+            src="/artist-choir4.jpg"
+            alt="Choir's Photo"
+            sizes="100vw"
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
+          />
+          {/* </div> */}
+        </div>
       </div>
     </>
   );

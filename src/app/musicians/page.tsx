@@ -3,6 +3,7 @@ import styles from "./musicians.module.css";
 import TamariskaKristanto from "./musiciansDetails/tamariska-kristanto";
 import HannahJonina from "./musiciansDetails/hannah-jonina";
 import IrecChoir from "./musiciansDetails/irec-choir";
+import CalvinAbdiel from "./musiciansDetails/calvin-abdiel";
 
 export default function Musicians() {
   return (
@@ -12,6 +13,7 @@ export default function Musicians() {
           <p className={styles.pageTitle}>Artist Biography</p>
 
           <BillyKristanto />
+          <CalvinAbdiel />
           <TamariskaKristanto />
           <HannahJonina />
           <IrecChoir />
