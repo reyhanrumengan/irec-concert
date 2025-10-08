@@ -1,9 +1,9 @@
 import styles from "../musicians.module.css";
 import Image from "next/image";
 
-export default function PetraPriscilla() {
+export default function PetraPriscilla({ id }: { id: string }) {
   return (
-    <>
+    <section id={id}>
       <div className={styles.artistName}>
         <p>Petra Priscilla Tjandra</p>
         <p className={styles.artistIntrument}>Soprano</p>
@@ -45,6 +45,6 @@ export default function PetraPriscilla() {
           }}
         />
       </div>
-    </>
+    </section>
   );
 }

@@ -1,9 +1,9 @@
 import styles from "../musicians.module.css";
 import Image from "next/image";
 
-export default function TamariskaKristanto() {
+export default function TamariskaKristanto({ id }: { id: string }) {
   return (
-    <>
+    <section id={id}>
       <div className={styles.artistName}>
         <p>Tamariska Kristianto</p>
         <p className={styles.artistIntrument}>Violin</p>
@@ -35,6 +35,6 @@ export default function TamariskaKristanto() {
           }}
         />
       </div>
-    </>
+    </section>
   );
 }

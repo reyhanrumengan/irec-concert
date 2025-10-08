@@ -1,9 +1,9 @@
 import styles from "../musicians.module.css";
 import Image from "next/image";
 
-export default function CalvinAbdiel() {
+export default function CalvinAbdiel({ id }: { id: string }) {
   return (
-    <>
+    <section id={id}>
       <div className={styles.artistName}>
         <p>Calvin Abdiel</p>
         <p className={styles.artistIntrument}>Piano</p>
@@ -105,6 +105,6 @@ export default function CalvinAbdiel() {
           }}
         />
       </div>
-    </>
+    </section>
   );
 }

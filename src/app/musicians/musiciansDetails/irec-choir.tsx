@@ -1,9 +1,9 @@
 import styles from "../musicians.module.css";
 import Image from "next/image";
 
-export default function IrecChoir() {
+export default function IrecChoir({ id }: { id: string }) {
   return (
-    <>
+    <section id={id}>
       <p className={styles.artistName}>IREC Europe Choir</p>
       <div className={styles.artistDescription}>
         {/* <div>
@@ -137,6 +137,6 @@ export default function IrecChoir() {
           {/* </div> */}
         </div>
       </div>
-    </>
+    </section>
   );
 }

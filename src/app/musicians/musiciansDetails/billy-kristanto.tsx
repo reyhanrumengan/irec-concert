@@ -1,10 +1,9 @@
 import styles from "../musicians.module.css";
 import Image from "next/image";
 
-export default function BillyKristanto() {
+export default function BillyKristanto({ id }: { id: string }) {
   return (
-    <>
-      {" "}
+    <section id={id}>
       <div className={styles.artistName}>
         <p>Billy Kristanto</p>
         <p className={styles.artistIntrument}>Harpsichord & Conductor</p>
@@ -64,6 +63,6 @@ export default function BillyKristanto() {
           }}
         />
       </div>
-    </>
+    </section>
   );
 }

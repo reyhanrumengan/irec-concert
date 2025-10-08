@@ -1,9 +1,9 @@
 import styles from "../musicians.module.css";
 import Image from "next/image";
 
-export default function HannahJonina() {
+export default function HannahJonina({ id }: { id: string }) {
   return (
-    <>
+    <section id={id}>
       <div className={styles.artistName}>
         <p>Hannah Jonina Ivy</p>
         <p className={styles.artistIntrument}>Violin</p>
@@ -30,6 +30,6 @@ export default function HannahJonina() {
           }}
         />
       </div>
-    </>
+    </section>
   );
 }
