@@ -112,7 +112,7 @@ export default function IrecChoir() {
             width={1080}
             height={720}
             className={styles.artistImage}
-            src="/artist-choir3.jpg"
+            src="/artist-choir3.png"
             alt="Choir's Photo"
             sizes="100vw"
             style={{
@@ -126,7 +126,7 @@ export default function IrecChoir() {
             width={1080}
             height={720}
             className={styles.artistImage}
-            src="/artist-choir4.jpg"
+            src="/artist-choir4.png"
             alt="Choir's Photo"
             sizes="100vw"
             style={{
