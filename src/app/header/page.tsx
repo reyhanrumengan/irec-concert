@@ -83,9 +83,9 @@ export default function Header() {
           {/* <Link className={styles.navigationItem} href="/program-book">
             Program Book
           </Link> */}
-          {/* <Link className={styles.navigationItem} href="/musicians">
+          <Link className={styles.navigationItem} href="/musicians">
             Musicians
-          </Link> */}
+          </Link>
           <Link className={styles.navigationItem} href="/donation">
             Donation
           </Link>

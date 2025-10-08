@@ -90,16 +90,22 @@ export default function IrecChoir() {
           homes.
         </div>
         {/* <div>
-            Im Jahr 2023 hatte der Chor des IREC Europe die Gelegenheit,
-            während Stephen Tongs Gospel-Rally Schuberts Psalm 23 aufzuführen
-            und so die Botschaft des Wortes Gottes durch die Kraft der Musik
-            zu vermitteln.
-          </div> */}
+          Im Jahr 2023 hatte der IREC Europe Choir die Ehre, Schuberts „Psalm
+          23” während Stephen Tongs Gospel Rally aufzuführen und so die
+          Botschaft des Wortes Gottes durch die Schönheit und Kraft der Musik zu
+          verbreiten.
+        </div> */}
         <div>
-          In 2023, the IREC Europe Choir had the opportunity to perform
-          Schubert&apos;s Psalm 23 during Stephen Tong&apos;s Gospel Rally,
-          sharing the message of God&apos;s Word through the power of music.
+          In 2023, the IREC Europe Choir had the privilege of performing
+          Schubert&apos;s <i>Psalm 23</i> during Stephen Tong&apos;s Gospel
+          Rally, sharing the message of God&apos;s Word through the beauty and
+          power of music.
         </div>
+        <div>
+          In August 2024 and March 2025, the IREC Europe Choir performed two
+          pieces by Buxtehude at the IREC Concerts in Berlin and Hamburg.
+        </div>
+
         <Image
           width={1080}
           height={720}
