@@ -15,7 +15,7 @@ export default function About() {
           </div>
 
           <div className={styles.textContainer}>
-            <p className={styles.textBig}>18 October 2026</p>
+            <p className={styles.textBig}>18 October 2025</p>
             <p className={styles.textSmall}>Saturday, 16:00 CEST</p>
           </div>
           <div style={{ color: "var(--color-primary)" }}>
@@ -34,10 +34,12 @@ export default function About() {
           <div className={styles.textContainer}>
             <p className={styles.textMedium}>JOHANN SEBASTIAN BACH</p>
             <p className={styles.textMedium}>WOLFGANG AMADEUS MOZART</p>
-            <p className={styles.textMedium}>KŌNOSUKE MATSUSHITA</p>
+            <p className={styles.textMedium}>Bedřich Smetana</p>
+            <p className={styles.textMedium}>Claudio Monteverdi</p>
+            <p className={styles.textMedium}>Ko Matsushita</p>
 
-            <p className={styles.textMedium}>
-              INDONESIAN TRADITIONAL MUSIC (Arr. Calvin Abdiel)
+            <p className={styles.textMedium} style={{ textTransform: "none" }}>
+              MEDLEY INDONESIAN FOLK SONGS (Arr. Calvin Abdiel)
             </p>
           </div>
 

@@ -21,7 +21,7 @@ export default function Program() {
           </div>
 
           <div>
-            <p className={styles.pieceTitle}>Cantate Domino</p>
+            <p className={styles.pieceTitle}>Cantate Domino - Psalm 98</p>
             <p className={styles.composer}>Claudio Monteverdi (1567-1643)</p>
             <p className={styles.description}>
               One of Monteverdi&rsquo;s joyful sacred motets, this work
@@ -33,10 +33,10 @@ export default function Program() {
           </div>
 
           <div>
-            <p className={styles.pieceTitle}>Cantate Domino in B Major</p>
+            <p className={styles.pieceTitle}>Cantate Domino in Bb - Psalm 96</p>
             <p className={styles.composer}>Ko Matsushita (b. 1962)</p>
             <p className={styles.description}>
-              A modern choral setting of the same sacred text, this work
+              A modern choral setting of the similar sacred text, this work
               combines shimmering harmonies and dynamic contrasts with
               contemporary rhythmic vitality. Matsushita&rsquo;s interpretation
               bridges tradition and modernity, bringing a fresh perspective to
