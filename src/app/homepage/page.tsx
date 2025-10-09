@@ -38,7 +38,9 @@ export default function Homepage() {
             width={1920}
             height={1080}
             src={
-              isPortrait ? "/website-portrait.png" : "/website-landscape.png"
+              isPortrait
+                ? "/website-portrait-pilgrimage.png"
+                : "/website-landscape-pilgrimage.png"
             }
             alt="Concert performing Bach, Mozart, Matsushita, and arrangement of Indonesian Traditional Music"
             className={styles.poster}
