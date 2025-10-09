@@ -13,7 +13,7 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "A Harmonic Voyage: From Europe to Asia - IREC Europe Concert 2026",
+  title: "A Musical Pilgrimage: From Europe to Asia - IREC Europe Concert 2026",
   description:
     "Join us for an unforgettable journey through music: J.S. Bach - Christ lag in Todes Banden, W.A. Mozart - Sonata for Four Hands, Ko Matsushita - Cantate Domino, and a special Indonesian traditional music arrangement by Calvin Abdiel.",
   keywords: [
@@ -53,7 +53,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "MusicEvent",
-              name: "A Harmonic Voyage: From Europe to Asia - IREC Europe Concert 2026",
+              name: "A Musical Pilgrimage: From Europe to Asia - IREC Europe Concert 2026",
               startDate: "2025-10-18T16:00:00+02:00",
               endDate: "2025-10-18T18:00:00+02:00",
               eventStatus: "https://schema.org/EventScheduled",
