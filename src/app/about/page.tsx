@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./about.module.css";
+import { IconExternalLink } from "@tabler/icons-react";
 
 export default function About() {
   return (
@@ -25,8 +26,23 @@ export default function About() {
           </div>
 
           <div className={styles.textContainer}>
-            <p className={styles.textBig}>Kaiser-Friedrich-Gedächniskirche</p>
-            <p className={styles.textSmall}>Händelallee 20, 10557 Berlin</p>
+            <a
+              href="https://maps.app.goo.gl/hWd4zLJH2D29WgUJ8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.mapLink}
+            >
+              <div
+                style={{ display: "flex", flexDirection: "row", gap: "6px" }}
+              >
+                <p className={styles.textBig}>
+                  Kaiser-Friedrich-Gedächniskirche
+                </p>
+                <IconExternalLink />
+              </div>
+
+              <p className={styles.textSmall}>Händelallee 20, 10557 Berlin</p>
+            </a>
           </div>
 
           <div style={{ color: "var(--color-primary)" }}>

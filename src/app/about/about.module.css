@@ -47,6 +47,7 @@
 
 .textContainer {
   margin: 10px 0;
+  width: fit-content;
 }
 
 .leitung {
@@ -59,6 +60,15 @@
 
 .link:hover {
   color: var(--text-hover);
+}
+
+.mapLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.mapLink:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 850px) {
