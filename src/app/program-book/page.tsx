@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function ProgramBook() {
   const programBookImages = [];
 
-  for (let i = 1; i <= 12; i++) {
+  for (let i = 1; i <= 8; i++) {
     programBookImages.push({
       src: `/program-book/programBook${i}.png`,
       alt: `Program Book - Page ${i}`,
