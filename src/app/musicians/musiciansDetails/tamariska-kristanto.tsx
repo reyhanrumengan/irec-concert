@@ -10,16 +10,29 @@ export default function TamariskaKristanto({ id }: { id: string }) {
       </div>
       <div className={styles.artistDescription}>
         <div>
-          Tamariska Kristianto is an Indonesian violinist who began studying the
-          violin in 2008. She has participated in numerous masterclasses and
-          received several prestigious awards, including first place at the 2014
-          violin competition in Semarang. In 2016, she was the soloist in the
-          &ldquo;Simfoni Pemuda&rdquo; concert at Aula Simfonia Jakarta and has
-          given solo concerts in 2015 and 2023. Tamariska has also been active
-          in various musical ensembles, performing with orchestras and chamber
-          groups in different formations such as quartets, trios, duos, and
-          quintets. She graduated from the University of Music, Drama, and Media
-          Hanover (HMTM Hannover).
+          Tamariska Kristianto is an Indonesian violinist and violin teacher at
+          the Leo Borchard Music School in Berlin. She teaches children with
+          great passion, combining musical precision with playful creativity to
+          inspire a love of music from an early age.
+        </div>
+        <div>
+          Since 2008, she has devoted herself to the violin and has gained
+          valuable experience through masterclasses with renowned musicians such
+          as Ulf Schneider, Cho-Liang Lin, Gia Jashvili, Francesco Parrino,
+          Jahja Ling, and Hao Li Lin. She has received several awards, including
+          first prize at the 2014 Violin Competition in Semarang.
+        </div>
+        <div>
+          As a soloist, she performed at the Simfoni Pemuda (Youth Symphony
+          Concert) in the Aula Simfonia Jakarta in 2016 and gave solo recitals
+          in 2015 and 2023. She also performs regularly in various chamber music
+          formations, including quartets, trios, duos, and quintets.
+        </div>
+        <div>
+          After completing her studies at Hochschule für Musik, Theater und
+          Medien Hannover, Tamariska has been actively involved at IREC Berlin,
+          where she serves as both pianist and violinist and leads the
+          children&rsquo;s ensemble.
         </div>
 
         <Image
