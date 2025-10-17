@@ -102,8 +102,9 @@ export default function IrecChoir({ id }: { id: string }) {
           power of music.
         </div>
         <div>
-          In August 2024 and March 2025, the IREC Europe Choir performed two
-          pieces by Buxtehude at the IREC Concerts in Berlin and Hamburg.
+          Most recently, the IREC Berlin Choir performed D. Buxtehude&apos;s
+          Membra Jesu Nostri (BuxWV 75) in two concerts—first in Berlin in the
+          fall of 2024, and then in Hamburg in the spring of 2025.
         </div>
 
         <div className={styles.artistImageContainer}>

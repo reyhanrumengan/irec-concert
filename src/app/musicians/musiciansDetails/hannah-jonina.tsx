@@ -15,8 +15,8 @@ export default function HannahJonina({ id }: { id: string }) {
         participated in numerous masterclasses and received private lessons from
         various teachers. She is not only an active performer, frequently
         playing in orchestras and ensembles, but also passionate about teaching.
-        Hannah is also active in IREC Europe, where she mainly contributes as a
-        choir member and musician.
+        Hannah is also active in IREC Europe, where she primarily participates
+        as a choir member and musician.
         <Image
           width={1080}
           height={720}
