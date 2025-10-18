@@ -2,7 +2,7 @@ import styles from "./program-book.module.css";
 import Image from "next/image";
 
 export default function ProgramBook() {
-  const programBookImages = [];
+  const programBookImages: { src: string; alt: string }[] = [];
 
   for (let i = 1; i <= 13; i++) {
     programBookImages.push({
@@ -12,7 +12,7 @@ export default function ProgramBook() {
   }
 
   const programBook = programBookImages.map((image, index) => (
-    <div key={index} className={styles.pageContainer}>
+    <div key={image.src} className={styles.pageContainer}>
       <Image
         width={760}
         height={760}
