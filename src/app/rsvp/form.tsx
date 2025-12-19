@@ -72,11 +72,11 @@ const Form = () => {
       });
 
       // Google Ads conversion tracking
-      if (typeof window !== "undefined") {
-        (window as any).gtag("event", "conversion", {
-          send_to: "AW-16765503652/LQjWCKOj4oYbEKSRtbo-",
-        });
-      }
+      // if (typeof window !== "undefined") {
+      //   (window as any).gtag("event", "conversion", {
+      //     send_to: "AW-16765503652/LQjWCKOj4oYbEKSRtbo-",
+      //   });
+      // }
 
       // Handle email response
       if (emailResponse.ok) {
