@@ -3,14 +3,19 @@
 import Image from "next/image";
 import styles from "./header.module.css";
 import Link from "next/link";
-import MenuBurger from "../menuBurger/page";
+import MenuBurger from "../_menuBurger/MenuBurger";
 import { Button } from "@mantine/core";
 import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
+import LanguageSwitcher from "../LanguageSwitcher";
 
 export default function Header() {
-  const pathname = usePathname();
+  const pathname = usePathname(); // e.g., /en/about
+  const locale = pathname.split("/")[1]; // "en" or "de"
 
   const hideRSVPButton = pathname !== "/rsvp" && pathname !== "/rsvp-response";
+
+  const t = useTranslations("header");
 
   return (
     <div className={styles.headerMobileContainer}>
@@ -64,35 +69,42 @@ export default function Header() {
                     label: styles.buttonLabel,
                   }}
                 >
-                  RSVP HERE
+                  {t("rsvp")}
                 </Button>
               </Link>
             </div>
           )}
           <div style={{ flex: "1 1 0px" }}></div>
 
-          <Link className={styles.navigationItem} href="/">
-            Home
+          <Link className={styles.navigationItem} href={`/${locale}`}>
+            {t("home")}
           </Link>
-          <Link className={styles.navigationItem} href="/about">
-            About
+          <Link className={styles.navigationItem} href={`/${locale}/about`}>
+            {t("about")}
           </Link>
-          <Link className={styles.navigationItem} href="/program">
-            Program
+          <Link className={styles.navigationItem} href={`/${locale}/program`}>
+            {t("program")}
           </Link>
-          <Link className={styles.navigationItem} href="/program-book">
-            Program Book
+          <Link
+            className={styles.navigationItem}
+            href={`/${locale}/program-book`}
+          >
+            {t("programBook")}
           </Link>
-          <Link className={styles.navigationItem} href="/musicians">
-            Musicians
+          <Link className={styles.navigationItem} href={`/${locale}/musicians`}>
+            {t("musicians")}
           </Link>
-          <Link className={styles.navigationItem} href="/donation">
-            Donation
+          <Link className={styles.navigationItem} href={`/${locale}/donation`}>
+            {t("donation")}
           </Link>
 
-          <div className={styles.menuBurger}>
-            <MenuBurger />
+          <div>
+            <LanguageSwitcher />
           </div>
+
+          {/* <div className={styles.menuBurger}>
+            <MenuBurger />
+          </div> */}
         </div>
       </div>
     </div>
